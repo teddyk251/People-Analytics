@@ -1,0 +1,91 @@
+
+
+1. This is the current db that exists that one of our guy worked to export the iCog slack data from json
+to postgresql
+
+---------connecting to the cloud DB-------
+import psycopg2
+hostname = 'network-analysis.cnwpsqcpdqqw.us-west-2.rds.amazonaws.com'
+username = ''
+password = ''
+database = 'icog_slack'
+port = '5432'
+conn = psycopg2.connect(host=hostname,port = port, user=username, password=password, dbname=database )
+conn.autocommit = True
+cursor = conn.cursor()cursor.execute("select * from slack_user;")
+
+To work on the aws machine directly, it seems you need to access request from Hilen.
+This db has already been populated with the slack data.
+
+
+2. This is the current table definitins, which we might need to modify i think
+
+Table Properties
+----------------------
+channel:
+   id - char
+   name - char
+   created - timestamp
+   is_general - boolean
+slack_user:
+   id - char
+   team_id - char
+   name - char
+user_channel
+   user_id - char
+   channel_id - char
+message:
+   id - int - autoincrement
+   user_id - char
+   text - text
+   type - char
+   ts - timestamp
+topic:
+   id - int - autoincrement
+   words - text
+sentiment:
+   id - int - autoincrement
+   value - float
+msg_semantic:
+   id - int - autoincrement
+   topic_id - int
+   sentiment_id - int
+   msg_id - int (edited)
+
+ 
+3. This is the sql table creation code. i didn't review the code personally,
+which one of our guys at icog did, but he is no longer around in icog.
+
+CREATE TABLE channel(
+   id         CHAR(50) PRIMARY KEY  NOT NULL,
+   name         CHAR(250)      NOT NULL,
+   created  timestamp    NOT NULL,
+   is_general    boolean      NOT NULL
+);CREATE TABLE slack_user (
+   id  CHAR(50) PRIMARY KEY NOT NULL,
+   team_id      CHAR(250) NOT NULL,
+   name      CHAR(250) NOT NULL
+);CREATE TABLE user_channel (
+   user_id   CHAR(50) REFERENCES slack_user (id) ON UPDATE CASCADE ON DELETE CASCADE,
+   channel_id CHAR(50) REFERENCES channel (id) ON UPDATE CASCADE ON DELETE CASCADE,
+   CONSTRAINT user_channel_pkey PRIMARY KEY (user_id, channel_id)
+);CREATE TABLE message(
+   id        serial PRIMARY KEY,
+   user_id         CHAR(250)      NOT NULL,
+   text         text      NOT NULL,
+   type         CHAR(250)        NOT NULL,
+   ts  timestamp    NOT NULL
+);CREATE TABLE topic(
+   id        serial PRIMARY KEY,
+   words     text      NOT NULL
+);CREATE TABLE sentiment(
+   id        serial PRIMARY KEY,
+   value     float      NOT NULL
+);CREATE TABLE msg_semantic(
+   id        serial PRIMARY KEY,
+   msg_id   int REFERENCES message(id) ON UPDATE CASCADE ON DELETE CASCADE,
+   topic_id   int REFERENCES topic(id) ON UPDATE CASCADE,
+   sentiment_id   int REFERENCES sentiment(id) ON UPDATE CASCADE
+);
+
+
