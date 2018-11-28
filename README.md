@@ -9,7 +9,28 @@ The core python module is called `wundt`, after Wilhelm Wundt:
 > In the mid 1880s, Wundt trained two psychologists, Hugo Münsterberg and James McKeen Cattell,
 > who had a major influence on the emergence of I/O psychology.
 
+
+## Getting Started
+
+Set up a virtualenv and install requirements:
+
+```
+mkvirtualenv --python=/usr/bin/python3.6 people-analytics
+pip install -r requirements.txt
+```
+
+Run the reporting script:
+```
+python -m wundt.report --path 
+```
+
+Currently this just loads the data in pandas and into a networkx graph, and prints some information.
+
+Eventually it should also generate a bunch of graphs and visuals showing different aspects as described below.
+
 ## Normalisation of data
+
+> This is an architectural guide, the current code doesn't match this yet...
 
 The project aims to ingest data from multiple data sources (hereafter called an "ActionSource"), and these could be quite different.
 
@@ -45,6 +66,8 @@ These actions in addition have minor processing to do record linkage with users/
 - **targets** - the canonical users/entities this action is directed at. Each target has a weight associated.
 
 ## Data Exploration
+
+> This is an architectural guide to help guide implementation, the current code doesn't do all of this yet...
 
 ### Action Frequency
 
