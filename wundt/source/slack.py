@@ -21,7 +21,6 @@ def load_users(slack_dir):
 
 
 def load_channels(slack_dir):
-    print(slack_dir)
     with open(get_path(slack_dir, 'channels.json')) as f:
         data = json.load(f)
         
@@ -30,7 +29,6 @@ def load_channels(slack_dir):
 
 def get_channel_directories(slack_dir):
     channel_directories = [x[0] for x in os.walk(slack_dir)][1:]
-    print(channel_directories)
     return channel_directories
 
 
@@ -89,10 +87,8 @@ def load_messages(slack_dir, channels_df):
     messages = []
 
     for path in channel_directories:
-        print(path)
         channel_name = os.path.basename(path)
         files = glob.glob(path + '/*.json')
-        print(channel_name)
         channel_info = channels_df.loc[channels_df['name'] == channel_name]
         channel_id = channel_info.id.values[0]
         for fn in files:
@@ -154,7 +150,6 @@ def import_slack_archive(slack_dir, dump_info=False):
     # (though new entities can be found through the messages themselves, e.g. files and shared links)
     users_df = load_users(slack_dir)
     channels_df = load_channels(slack_dir)
-    print(channels_df)
     
     # Now load in the messages
     msg_keys, msg_types, msg_example, messages = load_messages(slack_dir, channels_df)

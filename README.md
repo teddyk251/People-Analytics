@@ -28,6 +28,20 @@ Currently this just loads the data in pandas and into a networkx graph, and prin
 
 Eventually it should also generate a bunch of graphs and visuals showing different aspects as described below.
 
+## Project Structure
+
+- `data/` - is a stub for download and placing exports from various services. Each organization should have it's own subdirectory
+  e.g. place the iCog exports of gitlab and slack into `data/iCog`. Then each data source has a directory under that. Using
+  the gitlab and slack data from iCog, you'd have:
+    - `data/iCog/slack/iCog Slack export Apr 27 2015 - Sep 3 2018`
+    - `data/iCog/gitlab/`
+
+- `notebooks/` - for sharing exploratory jupyter note books, these should only added if they are not extremely large!
+- `reports/` - this is where generated reports will get saved.
+- `wundt/` - the python package that does all the work.
+- `wundt/source/` - this python package contains a module for each action source. Current there is only one for slack.
+
+
 ## Normalisation of data
 
 > This is an architectural guide, the current code doesn't match this yet...

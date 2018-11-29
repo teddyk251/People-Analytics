@@ -1,11 +1,7 @@
 import os
 
 
-def get_path(slack_dir, fn):
-    return os.path.join(slack_dir, fn)
-
-
-class ActionData(object):
+class ActionData:
 
     def __init__(self):
         pass
