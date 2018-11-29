@@ -8,6 +8,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 from wundt.source.slack import *
+from wundt.source.gitlab import *
 from wundt.graph import build_action_graph
 
 
@@ -15,7 +16,7 @@ def do_report(data_directories):
     # TODO: # Eventually this should automatically inspect the available data and source modules.
     # But for now we just hard code it
     for directory in data_directories:
-        if directory == "slack":
+        if os.path.basename(directory) == "slack":
             print("Importing slack data")
             slack_directories = [os.path.join(directory, item) for item in os.listdir(directory) if os.path.isdir(os.path.join(directory, item))]
             print("Found slack directories", slack_directories)
@@ -32,15 +33,17 @@ def do_report(data_directories):
             print(m_df.describe())
             print(m_df.subtype.value_counts())
 
-            G = build_action_graph(m_df, users_df, channels_df)
-            print("Graph built")
-            print(G)
-            print(G.number_of_nodes(), G.number_of_edges())
-        if directory == "gitlab":
+        if os.path.basename(directory) == "gitlab":
             print("Importing gitlab data")
-            print("TODO: Implement me!")
+
+            actions_df, actors_df, entities_df = import_gitlab_archive(directory, dump_info=True)
+            print(actions_df)
 
 
+    #G = build_action_graph(m_df, users_df, channels_df)
+    #print("Graph built")
+    #print(G)
+    #print(G.number_of_nodes(), G.number_of_edges())
     # The visualisations are not very helpful at the moment
     #graph_visuals(G)
 
