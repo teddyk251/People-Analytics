@@ -11,14 +11,18 @@ def get_repo_directories(gitlab_dir):
 
 
 def load_repo_commits(repo_dir):
-    files = glob.glob(repo_dir + '/commits_*_master_*.json')
+    files = glob.glob(repo_dir + '/commits_*.json')
     # exports are *_1.json *_2.json etc, sort to make sure they are loaded into the frame in order
     files.sort()
-    commit_data = []
+    commits_data = {}
+    # store commits by hash id, because we are merging from multiple branches and there
+    # may be duplicates
     for commit_file in files:
+        print("loading commits from", commit_file)
         with open(commit_file) as f:
-            commit_data.extend(json.load(f))
-    return commit_data
+            for commit in json.load(f):
+                commits_data[commit['id']] = commit
+    return commits_data.values()
 
 
 def parse_commit(c):
