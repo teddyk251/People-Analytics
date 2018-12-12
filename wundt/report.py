@@ -37,7 +37,7 @@ def do_report(data_directories):
             print("Importing gitlab data")
 
             actions_df, actors_df, entities_df = import_gitlab_archive(directory, dump_info=True)
-            print(actions_df)
+            print(actions_df.describe())
 
 
     #G = build_action_graph(m_df, users_df, channels_df)

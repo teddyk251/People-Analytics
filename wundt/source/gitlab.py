@@ -11,9 +11,8 @@ def get_repo_directories(gitlab_dir):
 
 
 def load_repo_commits(repo_dir):
+    # exports are *_1.json *_2.json etc
     files = glob.glob(repo_dir + '/commits_*.json')
-    # exports are *_1.json *_2.json etc, sort to make sure they are loaded into the frame in order
-    files.sort()
     commits_data = {}
     # store commits by hash id, because we are merging from multiple branches and there
     # may be duplicates
@@ -25,19 +24,40 @@ def load_repo_commits(repo_dir):
     return commits_data.values()
 
 
+def load_file_changes(repo_dir):
+    files = glob.glob(repo_dir + '/commitsfiles_*.json')
+    assert len(files) == 1
+    with open(files[0]) as f:
+        file_change_data = json.load(f)
+    return file_change_data
+
+
 def parse_commit(c):
-    ## When we have details of files modified, these should become the message targets
+    # We won't currently track a file getting renamed, just treat each filename
+    # as a unique target
+    targets = [f['new_path'] for f in c['files']]
+    targets.append(c['repo'])
 
     actions = [{
         'id': c['id'],
-        'type': 'commit',
-        'subtype': 'commit',
+        'source-type': 'gitlab',
+        'source-content': {
+            'type': 'commit',
+            # change to add/remove/edit
+            'subtype': 'commit',
+            'message': c['message'],
+            'repo': c['repo'],
+            'author_email': c['author_email'],
+            'author_name': c['author_name'],
+            'files': c['files']
+        },
         'ts': pd.Timestamp(c['authored_date']),
-        'channel_id': c['repo'],
-        'channel_name': c['repo'],
-        'text': c['message'],
-        'author_email': c['author_email'],
-        'author_name': c['author_name'],
+        'source-actor': c['author_email'],
+        'source-targets': targets,
+
+        # These should come from post-import record linking
+        #'targets': c['repo'],
+        #'actor': c['author_email'],
     }]
 
     return actions
@@ -57,8 +77,11 @@ def load_commits(gitlab_dir):
         if repo_name in ignore_directories:
             continue
         commits = load_repo_commits(os.path.join(directory))
+        file_changes = load_file_changes(os.path.join(directory))
         for c in commits:
             c['repo'] = repo_name
+            c['files'] = file_changes[c['id']]
+
             commit_data.extend(parse_commit(c))
 
     return commit_data
@@ -69,24 +92,28 @@ def extract_actors_and_entities(commit_data):
     entities = {}
 
     for c in commit_data:
-        actors[c['author_email']] = {"id":c['author_email'], "name":c['author_name']}
-        ## When we have details of files modified, these should become entities
-        entities[c['channel_id']] = {"id":c['channel_id']}
+        actors[c['actor']] = {"id":c['actor'], "name":c['source-content']['author_name']}
+
+    for c in commit_data:
+        for target in c['source-targets']:
+            # gitlab doesn't explicitly have actors that can be targets,
+            # but another action source may need this differentiation
+            if target not in actors:
+                entities[target] = {"id": target}
 
     return list(actors.values()), list(entities.values())
         
 
 def import_gitlab_archive(gitlab_dir, dump_info=False):
     commit_data = load_commits(gitlab_dir)
-    print(len(commit_data))
+    print("Number of commits loaded", len(commit_data))
 
     actors, entities = extract_actors_and_entities(commit_data)
-    pprint(actors)
-    pprint(entities)
 
     # Optionally show some summary of what we found in the raw messages
     if dump_info:
-        pass
+        pprint(actors)
+        pprint(entities)
 
     # Apply these functions to each message
     per_message_augmentors = []
