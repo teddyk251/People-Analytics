@@ -92,7 +92,7 @@ def extract_actors_and_entities(commit_data):
     entities = {}
 
     for c in commit_data:
-        actors[c['actor']] = {"id":c['actor'], "name":c['source-content']['author_name']}
+        actors[c['source-actor']] = {"id":c['source-actor'], "name":c['source-content']['author_name']}
 
     for c in commit_data:
         for target in c['source-targets']:
@@ -121,6 +121,13 @@ def import_gitlab_archive(gitlab_dir, dump_info=False):
     # Apply these functions to the the whole dataset (they still update individual messages,
     # but use messages with neighbouring context)
     all_message_augmentors = []
+
+    for ma in per_message_augmentors:
+        for msg in commit_data:
+            ma(msg)
+
+    for ma in all_message_augmentors:
+        ma(commit_data)
 
     commits_df = pd.DataFrame(commit_data)
     actors_df = pd.DataFrame(actors)

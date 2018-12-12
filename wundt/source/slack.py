@@ -45,37 +45,47 @@ def scan_message(msg, msg_keys, msg_types, msg_examples):
 
 
 def parse_message(msg, channel_id, channel_name, idx):
-    messages = []
+    actions = []
 
     msg_type = msg['type']
     msg_subtype = msg.get('subtype', 'chat')
 
-    messages.append({
+    actions.append({
         'id': idx,
-        'type': msg_type,
-        'subtype': msg_subtype,
+        'source-type': 'slack',
+        'source-content': {
+            'type': msg_type,
+            'subtype': msg_subtype,
+            'channel_id': channel_id,
+            'channel_name': channel_name,
+            'text': msg.get('text', None),
+            'user': msg.get('user', None)
+        },
         'ts': pd.Timestamp(float(msg['ts']),unit='s'),
-        'channel_id': channel_id,
-        'channel_name': channel_name,
-        'text': msg.get('text', None),
-        'user': msg.get('user', None)
+        'source-actor': msg.get('user', None),
+        'source-targets': [channel_id],
     })
     if 'reactions' in msg:
         reaction_idx = idx
         for reaction in msg['reactions']:
             for user in reaction['users']:
                 reaction_idx += 1
-                messages.append({
-                    'id': reaction_idx,
-                    'parent_id': idx,
-                    'type': 'reaction',
-                    'subtype': reaction['name'],
-                    'user': user,
+                actions.append({
+                    'id': idx,
+                    'source-type': 'slack',
+                    'source-content': {
+                        'parent_id': idx,
+                        'type': 'reaction',
+                        'subtype': reaction['name'],
+                        'channel_id': channel_id,
+                        'channel_name': channel_name,
+                        'user': user
+                    },
                     'ts': pd.Timestamp(float(msg['ts']),unit='s'),
-                    'channel_id': channel_id,
-                    'channel_name': channel_name,
+                    'source-actor': user,
+                    'source-targets': [channel_id, msg.get('user')],
                 })
-    return messages
+    return actions
 
 
 def load_messages(slack_dir, channels_df):
@@ -120,16 +130,16 @@ def parse_file_comment_text(text):
         file_url = m[3]
         comment = m[4]
 
-    return from_user, to_user, comment
+    return from_user, to_user, file_url, comment
 
 
 def parse_file_comment(msg):
-    if msg['subtype'] == 'file_comment':
-        ### TODO target should be the file and the file owner
-        a,b,c = parse_file_comment_text(msg['text'])
-        msg['user'] = a 
-        msg['target'] = b
-        msg['text'] = c
+    if msg['source-content']['subtype'] == 'file_comment':
+        from_user, to_user, file_url, comment = parse_file_comment_text(msg['source-content']['text'])
+        msg['source-content']['user'] = from_user 
+        msg['source-content']['text'] = comment 
+
+        msg['source-targets'].extend([to_user, file_url]) 
 
 
 def emoji_convert(msg):
@@ -148,7 +158,7 @@ def temporal_targets(messages):
 def import_slack_archive(slack_dir, dump_info=False):
     # Load users and channels, there are both "entities" that messages can target
     # (though new entities can be found through the messages themselves, e.g. files and shared links)
-    users_df = load_users(slack_dir)
+    actors_df = load_users(slack_dir)
     channels_df = load_channels(slack_dir)
     
     # Now load in the messages
@@ -170,6 +180,13 @@ def import_slack_archive(slack_dir, dump_info=False):
     # but use messages with neighbouring context)
     all_message_augmentors = [temporal_targets]
 
-    messages_df = pd.DataFrame(messages)
+    for ma in per_message_augmentors:
+        for msg in messages:
+            ma(msg)
 
-    return users_df, channels_df, messages_df
+    for ma in all_message_augmentors:
+        ma(messages)
+
+    actions_df = pd.DataFrame(messages)
+
+    return actions_df, actors_df, channels_df
