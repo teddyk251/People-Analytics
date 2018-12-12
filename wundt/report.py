@@ -25,19 +25,18 @@ def do_report(data_directories):
                 return
             SLACK_FILE_DIR = slack_directories[0]
 
-            users_df, channels_df, m_df = import_slack_archive(SLACK_FILE_DIR, dump_info=False)
-
-            print(users_df.loc[:, users_df.columns.isin(['name', 'id'])])
-
-            print(m_df)
-            print(m_df.describe())
-            print(m_df.subtype.value_counts())
-
-        if os.path.basename(directory) == "gitlab":
+            actions_df, actors_df, entities_df = import_slack_archive(SLACK_FILE_DIR, dump_info=False)
+        elif os.path.basename(directory) == "gitlab":
             print("Importing gitlab data")
 
             actions_df, actors_df, entities_df = import_gitlab_archive(directory, dump_info=True)
-            print(actions_df)
+        else:
+            continue
+        print(actors_df.loc[:, actors_df.columns.isin(['name', 'id'])])
+
+        print(actions_df)
+        # pandas can't describe unhashable columns like source-content and source-targets
+        print(actions_df.loc[:, ~actions_df.columns.isin(['source-content', 'source-targets'])].describe())
 
 
     #G = build_action_graph(m_df, users_df, channels_df)
