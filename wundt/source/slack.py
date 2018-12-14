@@ -8,6 +8,8 @@ import networkx as nx
 import pandas as pd
 from pprint import pprint
 
+from wundt.actors import ActorDetails, COLUMN_ROLE as C
+
 
 def get_path(slack_dir, fn):
     return os.path.join(slack_dir, fn)
@@ -159,10 +161,23 @@ def import_slack_archive(slack_dir, dump_info=False):
     # Load users and channels, there are both "entities" that messages can target
     # (though new entities can be found through the messages themselves, e.g. files and shared links)
     actors_df = load_users(slack_dir)
+    actor_details = ActorDetails('slack', actors_df,
+        [C.IGNORE, C.IGNORE, C.SOURCE_ID, C.IGNORE, C.IGNORE, C.IGNORE, C.IGNORE, C.IGNORE, C.IGNORE, C.IGNORE,
+        C.USERNAME,
+        C.IGNORE,
+        C.FULL_NAME,
+        C.IGNORE,
+        C.IGNORE,
+        C.IGNORE,
+        C.IGNORE,
+        C.IGNORE,
+        ]
+        )
     channels_df = load_channels(slack_dir)
     
     # Now load in the messages
     msg_keys, msg_types, msg_example, messages = load_messages(slack_dir, channels_df)
+    print("Number of slack actions loaded", len(messages))
 
     # Optionally show some summary of what we found in the raw messages
     if dump_info:
@@ -189,4 +204,4 @@ def import_slack_archive(slack_dir, dump_info=False):
 
     actions_df = pd.DataFrame(messages)
 
-    return actions_df, actors_df, channels_df
+    return actions_df, actor_details, channels_df

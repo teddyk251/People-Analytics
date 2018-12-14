@@ -4,6 +4,7 @@ import json
 from pprint import pprint
 
 import pandas as pd
+from wundt.actors import ActorDetails, COLUMN_ROLE as C
 
 
 def get_repo_directories(gitlab_dir):
@@ -17,7 +18,6 @@ def load_repo_commits(repo_dir):
     # store commits by hash id, because we are merging from multiple branches and there
     # may be duplicates
     for commit_file in files:
-        print("loading commits from", commit_file)
         with open(commit_file) as f:
             for commit in json.load(f):
                 commits_data[commit['id']] = commit
@@ -92,7 +92,11 @@ def extract_actors_and_entities(commit_data):
     entities = {}
 
     for c in commit_data:
-        actors[c['source-actor']] = {"id":c['source-actor'], "name":c['source-content']['author_name']}
+        actors[c['source-actor']] = {
+                "id": c['source-actor'],
+                "email": c['source-actor'],
+                "name":c['source-content']['author_name']
+            }
 
     for c in commit_data:
         for target in c['source-targets']:
@@ -133,5 +137,11 @@ def import_gitlab_archive(gitlab_dir, dump_info=False):
     actors_df = pd.DataFrame(actors)
     entities_df = pd.DataFrame(entities)
 
+    actor_details = ActorDetails('gitlab', actors_df, [
+        C.EMAIL,
+        C.SOURCE_ID,
+        C.FULL_NAME
+    ]
+    )
 
-    return commits_df, actors_df, entities_df
+    return commits_df, actor_details, entities_df
