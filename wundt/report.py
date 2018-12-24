@@ -57,6 +57,8 @@ def do_report(data_directories):
     
     print(all_actors.df)
 
+    # sending a report to CSV
+    all_actors.df.to_csv("reports/Canonical.csv", sep='\t', encoding='utf-8')
     # The canonical id can then be placed in the actions, and the original actor identity removed
     # Only admins will have access to the mapping to original identity
 

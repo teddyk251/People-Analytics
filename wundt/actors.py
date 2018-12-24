@@ -37,7 +37,8 @@ def dedupe_and_normalise(actor_details):
     df = actor_details.df
 
     indexer = recordlinkage.Index()
-    indexer.full()
+    #user should be indexed with name to avoid tagging two Slack users as one
+    indexer.block('name')
 
     candidate_links = indexer.index(df, df)
 
