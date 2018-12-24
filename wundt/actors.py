@@ -2,6 +2,9 @@ import recordlinkage
 import pandas as pd
 import numpy as np
 
+import hashlib
+import random
+import string
 
 class COLUMN_ROLE:
     """ Each column is assigned a semantic role which is used for record linkage between sources """
@@ -31,6 +34,21 @@ def new_canon_details():
 
 
 C = COLUMN_ROLE
+
+def create_hash_id_column(canon_df):
+    tmplist = list(set(canon_df['Full Name']))
+    print("LIST VALUE: ", tmplist)
+    
+    #Adding further character to  the content
+    mapping1 = {i : ''.join(random.choice(string.hexdigits) for i in range(3)) + str(i) + (''.join(random.choice(string.hexdigits) for i in range(3))) for i in tmplist}
+    
+    d2 = canon_df.copy()
+    d2['newname'] = [mapping1[i] for i in d2['Full Name']]
+    d2.to_csv("three.csv", sep='\t', encoding='utf-8')
+    d2['hash'] = [hashlib.sha512(str.encode(str(i))).hexdigest() for i in d2['newname']]
+    d3 = d2[['Full Name','hash','Username 1','Email 1']].rename(columns={'hash':'Full NameHash'})
+    d3.to_csv("two.csv", sep='\t', encoding='utf-8')
+    return d3
 
 def dedupe_and_normalise(actor_details):
     deets = actor_details
