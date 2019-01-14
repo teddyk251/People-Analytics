@@ -41,7 +41,7 @@ def create_hash_id_column(canon_df):
     col_names =  ['Full Name', 'Username 1', 'Email 1', 'Email 2']
     for i in col_names:
         canon_df[i] = [hashlib.sha512(str.encode(str(j))).hexdigest() for j in canon_df[i]]   
-    print("Canonical set of actors: ", all_actors.df)
+    print("Canonical set of actors: ", canon_df)
     return canon_df
 
 def dedupe_and_normalise(actor_details):
