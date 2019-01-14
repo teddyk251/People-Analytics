@@ -53,14 +53,6 @@ def do_report(data_directories):
     # it also returns a list of all canonical actor ids
     all_actors, normalised_actors_by_source = link_all(actors_by_source)
 
-    #normalised_actors_by_source.to_csv("reports/Normalised.csv", sep='\t', encoding='utf-8')
-
-    #print(all_actors.df)
-
-    #print("Normalised set of actors: ")
-
-    #print(normalised_actors_by_source['gitlab'])
-
     all_actors.df = create_hash_id_column(all_actors.df)
 
     all_actors.df.to_csv("reports/Canonical.csv", sep='\t', encoding='utf-8')

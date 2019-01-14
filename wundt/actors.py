@@ -34,7 +34,6 @@ def new_canon_details():
     canon_details = ActorDetails('canon', canon_df, col_types)
     return canon_details
 
-
 C = COLUMN_ROLE
 
 def create_hash_id_column(canon_df):
@@ -120,7 +119,6 @@ def dedupe_and_normalise(actor_details):
 
         if any(row):
             ndf.loc[new_idx] = row
-    print("YEMETAQUT NORMALIZED: ", normalised_details.df, ":: ALEKE")        
     return normalised_details
 
 
@@ -241,8 +239,6 @@ def canon_link(canonical_details, source_normalised_details):
         cd.df.loc[c_idx] = nd.df.iloc[i] 
         nd.df.at[i, 'canonical_idx'] = c_idx
 
-    print("THIS KEBAD CANONICAL IDX: ", nd.df, " BEQA!")
-    #print(cd.df)
     return canonical_details
 
 
