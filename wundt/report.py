@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 from wundt.source.slack import *
 from wundt.source.gitlab import *
-from wundt.actors import link_all
+from wundt.actors import link_all, create_hash_id_column
 from wundt.graph import build_action_graph
 
 
@@ -53,12 +53,22 @@ def do_report(data_directories):
     # it also returns a list of all canonical actor ids
     all_actors, normalised_actors_by_source = link_all(actors_by_source)
 
-    print("Canonical set of actors:")
-    
-    print(all_actors.df)
+    #normalised_actors_by_source.to_csv("reports/Normalised.csv", sep='\t', encoding='utf-8')
+
+    #print(all_actors.df)
+
+    #print("Normalised set of actors: ")
+
+    #print(normalised_actors_by_source['gitlab'])
+
+    all_actors.df = create_hash_id_column(all_actors.df)
+
+    all_actors.df.to_csv("reports/Canonical.csv", sep='\t', encoding='utf-8')
+
+    #print(canonical_df)
 
     # sending a report to CSV
-    all_actors.df.to_csv("reports/Canonical.csv", sep='\t', encoding='utf-8')
+    #canonical_df.to_csv("reports/Canonical.csv", sep='\t', encoding='utf-8')
     # The canonical id can then be placed in the actions, and the original actor identity removed
     # Only admins will have access to the mapping to original identity
 
