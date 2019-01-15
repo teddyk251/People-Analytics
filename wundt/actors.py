@@ -1,7 +1,12 @@
 import recordlinkage
 import pandas as pd
 import numpy as np
+from pandas.util import hash_pandas_object
 
+import hashlib
+import random
+import string
+import math
 
 class COLUMN_ROLE:
     """ Each column is assigned a semantic role which is used for record linkage between sources """
@@ -29,15 +34,22 @@ def new_canon_details():
     canon_details = ActorDetails('canon', canon_df, col_types)
     return canon_details
 
-
 C = COLUMN_ROLE
+
+def create_hash_id_column(canon_df):
+    col_names =  ['Full Name', 'Username 1', 'Email 1', 'Email 2']
+    for i in col_names:
+        canon_df[i] = [hashlib.sha512(str.encode(str(j))).hexdigest() for j in canon_df[i]]   
+    print("Canonical set of actors: ", canon_df)
+    return canon_df
 
 def dedupe_and_normalise(actor_details):
     deets = actor_details
     df = actor_details.df
 
     indexer = recordlinkage.Index()
-    indexer.full()
+    #user should be indexed with name to avoid tagging two Slack users as one
+    indexer.block('name')
 
     candidate_links = indexer.index(df, df)
 
@@ -227,8 +239,6 @@ def canon_link(canonical_details, source_normalised_details):
         cd.df.loc[c_idx] = nd.df.iloc[i] 
         nd.df.at[i, 'canonical_idx'] = c_idx
 
-    #print(nd.df)
-    #print(cd.df)
     return canonical_details
 
 
