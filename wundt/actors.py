@@ -36,13 +36,37 @@ def new_canon_details():
 
 C = COLUMN_ROLE
 
-def create_hash_id_column(canon_df):
-    col_names =  ['Full Name', 'Username 1', 'Email 1', 'Email 2']
+D = {'key': 'value'}
+
+def create_hash_id_column(col_names, canon_df):
     for i in col_names:
-        canon_df[i] = [hashlib.sha512(str.encode(str(j))).hexdigest() for j in canon_df[i]]   
-    print("Canonical set of actors: ", canon_df)
+        k = 0
+        for j in canon_df[i].values:
+            value = canon_df[i].values[k]
+            canon_df[i].values[k] = hashlib.sha512(str.encode(str(j))).hexdigest()
+            key = canon_df[i].values[k]
+            D[key] = value
+            k += 1
+        #print("ALL DIC VALUES: ", D.get("U04JL900N"))
     return canon_df
 
+def find_values(col_names, canon_df):
+    for i in col_names:
+        k = 0
+        print("MENEWESA")
+        for j in canon_df[i].values:
+            key = canon_df[i].values[k]
+            #print("KEY:: ", key)
+            #print("BELEZIH: ", D.get('U04JL900N'))
+            listOfItems = D.items()
+            #print("ITEMOCHU", listOfItems)
+            for val in listOfItems:
+                if val[1] == key:
+                    #print("YEHE? ", val)
+                    canon_df[i].values[k] = val
+            k += 1    
+    return canon_df
+            
 def dedupe_and_normalise(actor_details):
     deets = actor_details
     df = actor_details.df
