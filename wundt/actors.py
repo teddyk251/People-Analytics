@@ -38,6 +38,7 @@ C = COLUMN_ROLE
 
 D = {'key': 'value'}
 
+# hashing function
 def create_hash_id_column(col_names, canon_df):
     for i in col_names:
         k = 0
@@ -47,22 +48,17 @@ def create_hash_id_column(col_names, canon_df):
             key = canon_df[i].values[k]
             D[key] = value
             k += 1
-        #print("ALL DIC VALUES: ", D.get("U04JL900N"))
     return canon_df
 
-def find_values(col_names, canon_df):
+# get the value of the hashed data
+def get_values(col_names, canon_df):
     for i in col_names:
         k = 0
-        print("MENEWESA")
         for j in canon_df[i].values:
             key = canon_df[i].values[k]
-            #print("KEY:: ", key)
-            #print("BELEZIH: ", D.get('U04JL900N'))
             listOfItems = D.items()
-            #print("ITEMOCHU", listOfItems)
             for val in listOfItems:
                 if val[1] == key:
-                    #print("YEHE? ", val)
                     canon_df[i].values[k] = val
             k += 1    
     return canon_df
@@ -124,8 +120,10 @@ def dedupe_and_normalise(actor_details):
                 continue
             for ct_idx, ct in enumerate(deets.column_types):
                 column_name = df.columns[ct_idx]
+                #print("VAL_FIRST: ", df.iloc[sub_idx][column_name])
                 if ct == C.FULL_NAME:
                     row[0] = df.iloc[sub_idx][column_name]
+                    #print("VAL: ", df.iloc[sub_idx][column_name])
                 elif ct == C.FIRST_NAME:
                     row[1] = df.iloc[sub_idx][column_name]
                 elif ct == C.LAST_NAME:

@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 from wundt.source.slack import *
 from wundt.source.gitlab import *
-from wundt.actors import link_all, create_hash_id_column
+from wundt.actors import link_all, create_hash_id_column, D
 from wundt.graph import build_action_graph
 
 
@@ -33,10 +33,6 @@ def do_report(data_directories):
             SLACK_FILE_DIR = slack_directories[0]
 
             actions_df, actor_details, entities_df = import_slack_archive(SLACK_FILE_DIR, dump_info=False)
-            # print("CHECK THIS***")
-            # print("actions_df: ", actions_df)
-            # print("actors_details: ", actor_details)
-            # print("entities_df: ", entities_df)
             action_df_list.append(actions_df)
             entities_df_by_source['slack'] = entities_df
             actors_by_source['slack'] = actor_details
@@ -50,7 +46,7 @@ def do_report(data_directories):
             continue
 
     all_actions_df = pd.concat(action_df_list)
-    all_actions_df.to_csv("reports/before_link.csv", sep='\t', encoding='utf-8')
+    #all_actions_df.to_csv("reports/before_link.csv", sep='\t', encoding='utf-8')
             
     # Link the actors from different sources
     # this should create a new column 'canonical_id' in the source dataframes
@@ -60,6 +56,14 @@ def do_report(data_directories):
     #all_actors.df = create_hash_id_column(all_actors.df)
 
     all_actors.df.to_csv("reports/Canonical.csv", sep='\t', encoding='utf-8')
+
+    ### Saving the dictionary to a file
+    # fil = open("reports/DICT.txt", "w+")
+
+    # for k, v in D.items():
+    #     fil.write("KEY: %s\r\t" % k)
+    #     fil.write("VALUE: %s\n" % v)
+    # fil.close()
 
     #print(canonical_df)
 

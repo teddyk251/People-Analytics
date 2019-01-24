@@ -10,7 +10,7 @@ import pandas as pd
 import hashlib
 from pprint import pprint
 
-from wundt.actors import ActorDetails, COLUMN_ROLE as C, create_hash_id_column, D, find_values
+from wundt.actors import ActorDetails, COLUMN_ROLE as C, create_hash_id_column, D, get_values
 
 def get_path(slack_dir, fn):
     return os.path.join(slack_dir, fn)
@@ -167,9 +167,7 @@ def import_slack_archive(slack_dir, dump_info=False):
     #for idx, row in actors_df.iterrows():
     actors_df = create_hash_id_column(col_names, actors_df)       
     
-    print("ACTOR_DF_TYPE: ", type(actors_df))
-    print(actors_df.iloc[0])
-    actors_df.to_csv("reports/users.csv", sep='\t', encoding='utf-8')
+    #actors_df.to_csv("reports/users.csv", sep='\t', encoding='utf-8')
     actor_details = ActorDetails('slack', actors_df,
         [C.IGNORE, C.IGNORE, C.SOURCE_ID, C.IGNORE, C.IGNORE, C.IGNORE, C.IGNORE, C.IGNORE, C.IGNORE, C.IGNORE,
         C.USERNAME,
@@ -183,13 +181,11 @@ def import_slack_archive(slack_dir, dump_info=False):
         C.IGNORE,
         ]
         )
-    actor_details.df.to_csv("reports/details.csv", sep='\t', encoding='utf-8')
+    #actor_details.df.to_csv("reports/details.csv", sep='\t', encoding='utf-8')
     channels_df = load_channels(slack_dir)
     
     # Now load in the messages
     msg_keys, msg_types, msg_example, messages = load_messages(slack_dir, channels_df)
-    print("msg_keys:::: ", msg_keys)
-    #msg_keys.df.to_csv("reports/msg_keys.csv", sep='\t', encoding='utf-8')
     print("Number of slack actions loaded", len(messages))
 
     f = open('reports/messages.txt', 'w')
@@ -231,8 +227,8 @@ def import_slack_archive(slack_dir, dump_info=False):
 
     #actors_df = create_hash_id_column(col_names, actors_df)  
 
-    actions_df = find_values(col_names, actions_df)
+    actions_df = get_values(col_names, actions_df)
 
-    actions_df.to_csv("reports/slack_act.csv", sep='\t', encoding='utf-8')
+    #actions_df.to_csv("reports/slack_act.csv", sep='\t', encoding='utf-8')
 
     return actions_df, actor_details, channels_df
