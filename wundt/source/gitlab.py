@@ -4,7 +4,7 @@ import json
 from pprint import pprint
 
 import pandas as pd
-from wundt.actors import ActorDetails, COLUMN_ROLE as C
+from wundt.actors import ActorDetails, COLUMN_ROLE as C, create_hash_id_column, D, get_keys, get_values
 
 
 def get_repo_directories(gitlab_dir):
@@ -133,10 +133,18 @@ def import_gitlab_archive(gitlab_dir, dump_info=False):
     for ma in all_message_augmentors:
         ma(commit_data)
 
-    commits_df = pd.DataFrame(commit_data)
     actors_df = pd.DataFrame(actors)
-    entities_df = pd.DataFrame(entities)
+    
+    # Hashing Git action data
+    col_names = ['email', 'id', 'name']
+    actors_df = create_hash_id_column(col_names, actors_df)
+    
+    commits_df = pd.DataFrame(commit_data)
+    col_names = ['source-actor']
 
+    # Hashing source-actor data
+    commits_df = get_keys(col_names, commits_df)
+    entities_df = pd.DataFrame(entities)
     actor_details = ActorDetails('gitlab', actors_df, [
         C.EMAIL,
         C.SOURCE_ID,
