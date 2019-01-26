@@ -10,7 +10,7 @@ import pandas as pd
 import hashlib
 from pprint import pprint
 
-from wundt.actors import ActorDetails, COLUMN_ROLE as C, create_hash_id_column, D, get_values
+from wundt.actors import ActorDetails, COLUMN_ROLE as C, create_hash_id_column, D, get_keys, get_values
 
 def get_path(slack_dir, fn):
     return os.path.join(slack_dir, fn)
@@ -159,20 +159,16 @@ def temporal_targets(messages):
 
 
 def import_slack_archive(slack_dir, dump_info=False):
-    # Load users and channels, there are both "entities" that messages can target
-    # (though new entities can be found through the messages themselves, e.g. files and shared links)
     col_names =  ['id', 'name', 'real_name']
     actors_df = load_users(slack_dir)
-    #canon_df[i] = [hashlib.sha512(str.encode(str(j))).hexdigest() for j in canon_df[i]]
-    #for idx, row in actors_df.iterrows():
+    
+    # Hashing slack actors data
     actors_df = create_hash_id_column(col_names, actors_df)       
     
-    #actors_df.to_csv("reports/users.csv", sep='\t', encoding='utf-8')
     actor_details = ActorDetails('slack', actors_df,
         [C.IGNORE, C.IGNORE, C.SOURCE_ID, C.IGNORE, C.IGNORE, C.IGNORE, C.IGNORE, C.IGNORE, C.IGNORE, C.IGNORE,
         C.USERNAME,
         C.IGNORE,
-        #C.ID,
         C.FULL_NAME,
         C.IGNORE,
         C.IGNORE,
@@ -181,22 +177,11 @@ def import_slack_archive(slack_dir, dump_info=False):
         C.IGNORE,
         ]
         )
-    #actor_details.df.to_csv("reports/details.csv", sep='\t', encoding='utf-8')
     channels_df = load_channels(slack_dir)
     
     # Now load in the messages
     msg_keys, msg_types, msg_example, messages = load_messages(slack_dir, channels_df)
     print("Number of slack actions loaded", len(messages))
-
-    f = open('reports/messages.txt', 'w')
-    f.write("START: ")
-    f.write(str(msg_example))
-    # f.write("EXAMPLES: ")
-    # f.write(str(msg_example))
-    # f.write("MESSAGES: ")
-    # f.write(str(messages))
-    # f.write("ALEQE")
-    f.close()
 
     # Optionally show some summary of what we found in the raw messages
     if dump_info:
@@ -225,10 +210,7 @@ def import_slack_archive(slack_dir, dump_info=False):
 
     col_names = ["source-actor"]
 
-    #actors_df = create_hash_id_column(col_names, actors_df)  
-
-    actions_df = get_values(col_names, actions_df)
-
-    #actions_df.to_csv("reports/slack_act.csv", sep='\t', encoding='utf-8')
+    # Hashing source-actor data
+    actions_df = get_keys(col_names, actions_df)
 
     return actions_df, actor_details, channels_df

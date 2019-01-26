@@ -4,7 +4,7 @@ import json
 from pprint import pprint
 
 import pandas as pd
-from wundt.actors import ActorDetails, COLUMN_ROLE as C, create_hash_id_column, D, get_values
+from wundt.actors import ActorDetails, COLUMN_ROLE as C, create_hash_id_column, D, get_keys, get_values
 
 
 def get_repo_directories(gitlab_dir):
@@ -105,8 +105,6 @@ def extract_actors_and_entities(commit_data):
             if target not in actors:
                 entities[target] = {"id": target}
 
-    #print("ACTORS: ", actors.values())
-
     return list(actors.values()), list(entities.values())
         
 
@@ -136,16 +134,17 @@ def import_gitlab_archive(gitlab_dir, dump_info=False):
         ma(commit_data)
 
     actors_df = pd.DataFrame(actors)
+    
+    # Hashing Git action data
     col_names = ['email', 'id', 'name']
     actors_df = create_hash_id_column(col_names, actors_df)
-    #actors_df.to_csv("reports/Git.csv", sep='\t', encoding='utf-8')
-
+    
     commits_df = pd.DataFrame(commit_data)
     col_names = ['source-actor']
-    commits_df = get_values(col_names, commits_df)
-    
+
+    # Hashing source-actor data
+    commits_df = get_keys(col_names, commits_df)
     entities_df = pd.DataFrame(entities)
-    #entities_df.to_csv("reports/Entities.csv", sep='\t', encoding='utf-8')
     actor_details = ActorDetails('gitlab', actors_df, [
         C.EMAIL,
         C.SOURCE_ID,
