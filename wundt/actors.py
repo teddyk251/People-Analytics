@@ -37,44 +37,41 @@ def new_canon_details():
 
 C = COLUMN_ROLE
 
-D = {'key': 'value'}
-
-# hashing function
-def create_hash_id_column(col_names, df):
+def create_hash_id_column(data, col_names, df):
+    """ hashing function """
     for i in col_names:
         k = 0
         for j in df[i].values:
             value = df[i].values[k]
             df[i].values[k] = hashlib.sha512(str.encode(str(j))).hexdigest()
             key = df[i].values[k]
-            D[key] = value
+            data[key] = value
             k += 1
-    return df
+    return data, df
 
-# get the the hashed value of data
-def get_keys(col_names, df):
+def get_keys(data, col_names, df):
+    """ get the the hashed value of data """
     for i in col_names:
-        start_time = time.time()
         for x in range(0, len(df[i].values)):
-            for k, v in D.items():
+            for k, v in data.items():
                 if v == df[i].values[x]:
                     df[i].values[x] = k
                     break
-        print("--- Hashing task computed in %s seconds ---" % (time.time() - start_time))
- 
+        
     return df
 
-# get the value of the hashed data
-def get_values(col_names, df):
+def get_values(data, col_names, df):
+    """ get the value of the hashed data """
     for i in col_names:
         for j in range(0, len(df[i].values)):
             if not pd.isnull(df[i])[j]:
                 value = df[i].values[j]
-                df[i].values[j] = D[value]
+                df[i].values[j] = data[value]
 
     return df
             
-def dedupe_and_normalise(source, actor_details):
+def dedupe_and_normalise(data, source, actor_details):
+    start_time = time.time()
     deets = actor_details
     df = actor_details.df
     
@@ -84,10 +81,10 @@ def dedupe_and_normalise(source, actor_details):
     else:    
         col_name = ['email', 'id', 'name']
     
-    df = get_values(col_name, df)
+    df = get_values(data, col_name, df)
 
     indexer = recordlinkage.Index()
-    #user should be indexed with name to avoid tagging two Slack users as one
+    # user should be indexed with name to avoid tagging two Slack users as one
     indexer.block('name')
 
     candidate_links = indexer.index(df, df)
@@ -166,17 +163,18 @@ def dedupe_and_normalise(source, actor_details):
         col_name = ["Full Name", "Username 1"]
     else:
         col_name = ["Full Name", "Email 1", "Email 2"]
-    normalised_details.df = get_keys(col_name, normalised_details.df)
-    
+    normalised_details.df = get_keys(data, col_name, normalised_details.df)
+    print("--- Normalization task (with temporary table) computed in %s seconds ---" % (time.time() - start_time))
     return normalised_details
 
 
-def canon_link(source, canonical_details, source_normalised_details):
+def canon_link(data, source, canonical_details, source_normalised_details):
+    start_time = time.time()
     # Give original action data for canonical
     col_name = ['Full Name', 'Username 1']
-    canonical_details.df = get_values(col_name, canonical_details.df)
+    canonical_details.df = get_values(data, col_name, canonical_details.df)
     col_name = ['Full Name', 'Email 1', 'Email 2']
-    source_normalised_details.df = get_values(col_name, source_normalised_details.df)
+    source_normalised_details.df = get_values(data, col_name, source_normalised_details.df)
     
     cd = canonical_details
     nd = source_normalised_details
@@ -294,18 +292,19 @@ def canon_link(source, canonical_details, source_normalised_details):
         cd.df.loc[c_idx] = nd.df.iloc[i] 
         nd.df.at[i, 'canonical_idx'] = c_idx
     col_name = ['Full Name', 'Username 1', 'Email 1', 'Email 2']
-    canonical_details.df = get_keys(col_name, canonical_details.df)
+    canonical_details.df = get_keys(data, col_name, canonical_details.df)
+    print("--- Canonical linkage task (with temporary table) computed in %s seconds ---" % (time.time() - start_time))
     return canonical_details
 
 
-def link_all(actors_by_source):
+def link_all(data, actors_by_source):
     canon_details = None
     normalised_by_source = {}
 
     for source in actors_by_source:
         # dedupe
         print("Deduping", source)
-        normalised_details = dedupe_and_normalise(source, actors_by_source[source])
+        normalised_details = dedupe_and_normalise(data, source, actors_by_source[source])
         # Save normalized data 
         normalised_details.df.to_csv("reports/Normalised_" + source + ".csv", sep='\t', encoding='utf-8')
         normalised_by_source[source] = normalised_details
@@ -318,6 +317,6 @@ def link_all(actors_by_source):
             #canon_details.df.to_csv("reports/DETAILS.csv", sep='\t', encoding='utf-8')
             canon_details.df = normalised_details.df.copy(deep=True)
         else:
-            canon_link(source, canon_details, normalised_details)
+            canon_link(data, source, canon_details, normalised_details)
 
     return canon_details, normalised_by_source

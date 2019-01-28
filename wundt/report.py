@@ -11,13 +11,16 @@ import matplotlib.pyplot as plt
 
 from wundt.source.slack import *
 from wundt.source.gitlab import *
-from wundt.actors import link_all, create_hash_id_column, D
+from wundt.actors import link_all, create_hash_id_column
 from wundt.graph import build_action_graph
 
 
 def do_report(data_directories):
     # TODO: # Eventually this should automatically inspect the available data and source modules.
     # But for now we just hard code it
+
+    # key, value pair for actor data (populated with the hashed lookup table)
+    data = {'key': 'value'}
 
     action_df_list = []
     actors_by_source = {}
@@ -32,13 +35,13 @@ def do_report(data_directories):
                 return
             SLACK_FILE_DIR = slack_directories[0]
 
-            actions_df, actor_details, entities_df = import_slack_archive(SLACK_FILE_DIR, dump_info=False)
+            actions_df, actor_details, entities_df = import_slack_archive(data, SLACK_FILE_DIR, dump_info=False)
             action_df_list.append(actions_df)
             entities_df_by_source['slack'] = entities_df
             actors_by_source['slack'] = actor_details
         elif os.path.basename(directory) == "gitlab":
             print("Importing gitlab data")
-            actions_df, actor_details, entities_df = import_gitlab_archive(directory, dump_info=False)
+            actions_df, actor_details, entities_df = import_gitlab_archive(data, directory, dump_info=False)
             action_df_list.append(actions_df)
             entities_df_by_source['gitlab'] = entities_df
             actors_by_source['gitlab'] = actor_details
@@ -46,29 +49,15 @@ def do_report(data_directories):
             continue
 
     all_actions_df = pd.concat(action_df_list)
-    #all_actions_df.to_csv("reports/before_link.csv", sep='\t', encoding='utf-8')
             
     # Link the actors from different sources
     # this should create a new column 'canonical_id' in the source dataframes
     # it also returns a list of all canonical actor ids
-    all_actors, normalised_actors_by_source = link_all(actors_by_source)
-
-    #all_actors.df = create_hash_id_column(all_actors.df)
+    all_actors, normalised_actors_by_source = link_all(data, actors_by_source)
 
     all_actors.df.to_csv("reports/Canonical.csv", sep='\t', encoding='utf-8')
 
-    ### Saving the dictionary to a file
-    # fil = open("reports/DICT.txt", "w+")
-
-    # for k, v in D.items():
-    #     fil.write("KEY: %s\r\t" % k)
-    #     fil.write("VALUE: %s\n" % v)
-    # fil.close()
-
-    #print(canonical_df)
-
-    # sending a report to CSV
-    #canonical_df.to_csv("reports/Canonical.csv", sep='\t', encoding='utf-8')
+    print("Generated tables of normalized and canonical results are saved under \"reports\" directory")
     # The canonical id can then be placed in the actions, and the original actor identity removed
     # Only admins will have access to the mapping to original identity
 
