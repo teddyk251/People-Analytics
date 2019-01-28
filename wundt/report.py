@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 from wundt.source.slack import *
 from wundt.source.gitlab import *
-from wundt.actors import link_all, create_hash_id_column
+from wundt.actors import link_all
 from wundt.graph import build_action_graph
 
 
