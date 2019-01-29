@@ -37,8 +37,9 @@ def new_canon_details():
 
 C = COLUMN_ROLE
 
-def create_hash_id_column(data, col_types, df):
+def create_hash_id_column(col_types, df):
     """ hashing function """
+    data = {}
     for i in col_types:#df.columns:
         for j in range(0, len(df[i].values)):
             if not pd.isnull(df[i])[j]:

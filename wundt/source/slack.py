@@ -158,7 +158,8 @@ def temporal_targets(messages):
     pass
 
 
-def import_slack_archive(data, slack_dir, dump_info=False):
+def import_slack_archive(slack_dir, dump_info=False):
+    slack_hashed_data = {}
     col_names =  ['id', 'name', 'real_name']
     actors_df = load_users(slack_dir)
     actor_details = ActorDetails('slack', actors_df,
@@ -175,7 +176,7 @@ def import_slack_archive(data, slack_dir, dump_info=False):
         )
     
     # Hashing actors data
-    data, actors_df = create_hash_id_column(data, col_names, actors_df)      
+    slack_hashed_data, actors_df = create_hash_id_column(col_names, actors_df)      
     channels_df = load_channels(slack_dir)
 
     
@@ -211,6 +212,9 @@ def import_slack_archive(data, slack_dir, dump_info=False):
     col_names = ["source-actor"]
 
     # Hashing source-actor data
-    actions_df = get_keys(data, col_names, actions_df)
 
-    return actions_df, actor_details, channels_df
+    data, actions_df = create_hash_id_column(col_names, actions_df) 
+
+    slack_hashed_data.update(data)
+
+    return slack_hashed_data, actions_df, actor_details, channels_df

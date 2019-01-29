@@ -20,7 +20,7 @@ def do_report(data_directories):
     # But for now we just hard code it
 
     # key, value pair for actor data (populated with the hashed lookup table)
-    data = {'key': 'value'}
+    data = {}
 
     action_df_list = []
     actors_by_source = {}
@@ -35,13 +35,15 @@ def do_report(data_directories):
                 return
             SLACK_FILE_DIR = slack_directories[0]
 
-            actions_df, actor_details, entities_df = import_slack_archive(data, SLACK_FILE_DIR, dump_info=False)
+            slack_hash_data, actions_df, actor_details, entities_df = import_slack_archive(SLACK_FILE_DIR, dump_info=False)
+            data.update(slack_hash_data)
             action_df_list.append(actions_df)
             entities_df_by_source['slack'] = entities_df
             actors_by_source['slack'] = actor_details
         elif os.path.basename(directory) == "gitlab":
             print("Importing gitlab data")
-            actions_df, actor_details, entities_df = import_gitlab_archive(data, directory, dump_info=False)
+            git_hashed_data, actions_df, actor_details, entities_df = import_gitlab_archive(directory, dump_info=False)
+            data.update(git_hashed_data)
             action_df_list.append(actions_df)
             entities_df_by_source['gitlab'] = entities_df
             actors_by_source['gitlab'] = actor_details
