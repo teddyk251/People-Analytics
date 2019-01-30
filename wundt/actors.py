@@ -37,37 +37,48 @@ def new_canon_details():
 
 C = COLUMN_ROLE
 
-def create_hash_id_column(col_types, df):
+def hash_data(actor_details):
     """ hashing function """
+    df = actor_details.df
     data = {}
-    for i in col_types:#df.columns:
-        for j in range(0, len(df[i].values)):
-            if not pd.isnull(df[i])[j]:
-                value = df[i].values[j]
-                df[i].values[j] = hashlib.sha512(str.encode(str(value))).hexdigest()
-                key = df[i].values[j]
-                data[key] = value
+    idx = 0
+    for i in df.columns:
+        if actor_details.column_types[idx] != 0:
+            for j in range(0, len(df[i].values)):
+                if not pd.isnull(df[i])[j]:
+                    value = df[i].values[j]
+                    df[i].values[j] = hashlib.sha512(str.encode(str(value))).hexdigest()
+                    key = df[i].values[j]
+                    data[key] = value
+        idx += 1
 
     return data, df
 
-def get_keys(data, col_types, df):
+def get_keys(data, actor_details):
     """ get the the hashed value of data """
-    for i in col_types:
-        for j in range(0, len(df[i].values)):
-            for k, v in data.items():
-                if v == df[i].values[j]:
-                    df[i].values[j] = k
-                    break
-        
+    df = actor_details.df
+    idx = 0
+    for i in df.columns:
+        if actor_details.column_types[idx] != 0:
+            for j in range(0, len(df[i].values)):
+                for k, v in data.items():
+                    if v == df[i].values[j]:
+                        df[i].values[j] = k
+                        break
+        idx += 1
     return df
 
-def get_values(data, col_types, df):
+def get_values(data, actor_details):
     """ get the value of the hashed data """
-    for i in col_types:#df.columns:
-        for j in range(0, len(df[i].values)):
-            if not pd.isnull(df[i])[j]:
-                value = df[i].values[j]
-                df[i].values[j] = data[value]
+    df = actor_details.df
+    idx = 0
+    for i in df.columns:
+        if actor_details.column_types[idx] != 0:
+            for j in range(0, len(df[i].values)):
+                if not pd.isnull(df[i])[j]:
+                    value = df[i].values[j]
+                    df[i].values[j] = data[value]
+        idx += 1
 
     return df
             
@@ -76,14 +87,9 @@ def dedupe_and_normalise(data, actor_details):
     deets = actor_details
     df = actor_details.df
     col_names = []
-
-    # Give the original actor data for normalization
-    if actor_details.source_label == "slack":
-        col_names = ['id', 'name', 'real_name']
-    else:    
-        col_names = ['email', 'id', 'name']
     
-    df = get_values(data, col_names, df)
+    # Give the original actor data for normalization    
+    df = get_values(data, deets)
 
     indexer = recordlinkage.Index()
     # user should be indexed with name to avoid tagging two Slack users as one
@@ -159,12 +165,7 @@ def dedupe_and_normalise(data, actor_details):
             ndf.loc[new_idx] = row
     
     # Return hashed action data
-    if actor_details.source_label == "slack":
-        col_names = ["Full Name", "Username 1"]
-    else:
-        col_names = ["Full Name", "Email 1", "Email 2"]
-    
-    normalised_details.df = get_keys(data, col_names, normalised_details.df)
+    normalised_details.df = get_keys(data, normalised_details)
     print("--- Normalization task (with temporary table) computed in %s seconds ---" % (time.time() - start_time))
     return normalised_details
 
@@ -172,13 +173,13 @@ def dedupe_and_normalise(data, actor_details):
 def canon_link(data, canonical_details, source_normalised_details):
     start_time = time.time()
     # Give original action data for canonical
-    col_names = ['Full Name', 'Username 1']
-    canonical_details.df = get_values(data, col_names, canonical_details.df)
-    col_names = ['Full Name', 'Email 1', 'Email 2']
-    source_normalised_details.df = get_values(data, col_names, source_normalised_details.df)
     
     cd = canonical_details
     nd = source_normalised_details
+
+    # Used the original actor data for linkage
+    cd.df = get_values(data, canonical_details)
+    nd.df = get_values(data, source_normalised_details)
 
     indexer = recordlinkage.Index()
     indexer.full()
@@ -292,8 +293,9 @@ def canon_link(data, canonical_details, source_normalised_details):
         c_idx = len(cd.df)
         cd.df.loc[c_idx] = nd.df.iloc[i] 
         nd.df.at[i, 'canonical_idx'] = c_idx
-    col_names = ['Full Name', 'Username 1', 'Email 1', 'Email 2']
-    canonical_details.df = get_keys(data, col_names, canonical_details.df)
+    
+    # Return the hashed action data
+    canonical_details.df = get_keys(data, canonical_details)
     print("--- Canonical linkage task (with temporary table) computed in %s seconds ---" % (time.time() - start_time))
     return canonical_details
 

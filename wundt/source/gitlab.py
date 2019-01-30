@@ -4,7 +4,7 @@ import json
 from pprint import pprint
 
 import pandas as pd
-from wundt.actors import ActorDetails, COLUMN_ROLE as C, create_hash_id_column, get_keys
+from wundt.actors import ActorDetails, COLUMN_ROLE as C, hash_data
 
 
 def get_repo_directories(gitlab_dir):
@@ -136,17 +136,8 @@ def import_gitlab_archive(gitlab_dir, dump_info=False):
 
     actors_df = pd.DataFrame(actors)
     
-    # Hashing Git action data
-    col_names = ['email', 'id', 'name']
-    git_hashed_data, actors_df = create_hash_id_column(col_names, actors_df)
-    
     commits_df = pd.DataFrame(commit_data)
     col_names = ['source-actor']
-
-    # Hashing source-actor data
-    #commits_df = get_keys(data, col_names, commits_df)
-    data, commits_df = create_hash_id_column(col_names, commits_df)
-    git_hashed_data.update(data)
 
     entities_df = pd.DataFrame(entities)
     actor_details = ActorDetails('gitlab', actors_df, [
@@ -155,5 +146,13 @@ def import_gitlab_archive(gitlab_dir, dump_info=False):
         C.FULL_NAME
     ]
     )
+
+    commits_details = ActorDetails('gitlab', commits_df, [C.IGNORE, C.SOURCE_ID, C.IGNORE, C.IGNORE, C.IGNORE, C.IGNORE,])
+    # Hashing Git action data
+    git_hashed_data, actors_df = hash_data(actor_details)
+
+    # Hashing source-actor data
+    data, commits_df = hash_data(commits_details)
+    git_hashed_data.update(data)
 
     return git_hashed_data, commits_df, actor_details, entities_df
