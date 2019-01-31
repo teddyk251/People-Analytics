@@ -10,7 +10,7 @@ import pandas as pd
 import hashlib
 from pprint import pprint
 
-from wundt.actors import ActorDetails, COLUMN_ROLE as C, create_hash_id_column, D, get_keys, get_values
+from wundt.actors import ActorDetails, COLUMN_ROLE as C, hash_data
 
 def get_path(slack_dir, fn):
     return os.path.join(slack_dir, fn)
@@ -159,12 +159,8 @@ def temporal_targets(messages):
 
 
 def import_slack_archive(slack_dir, dump_info=False):
-    col_names =  ['id', 'name', 'real_name']
+    slack_hashed_data = {}
     actors_df = load_users(slack_dir)
-    
-    # Hashing slack actors data
-    actors_df = create_hash_id_column(col_names, actors_df)       
-    
     actor_details = ActorDetails('slack', actors_df,
         [C.IGNORE, C.IGNORE, C.SOURCE_ID, C.IGNORE, C.IGNORE, C.IGNORE, C.IGNORE, C.IGNORE, C.IGNORE, C.IGNORE,
         C.USERNAME,
@@ -177,7 +173,11 @@ def import_slack_archive(slack_dir, dump_info=False):
         C.IGNORE,
         ]
         )
+
+    # Hashing actors data
+    slack_hashed_data, actors_df = hash_data(actor_details)      
     channels_df = load_channels(slack_dir)
+
     
     # Now load in the messages
     msg_keys, msg_types, msg_example, messages = load_messages(slack_dir, channels_df)
@@ -208,9 +208,11 @@ def import_slack_archive(slack_dir, dump_info=False):
 
     actions_df = pd.DataFrame(messages)
 
-    col_names = ["source-actor"]
+    actions_details = ActorDetails('slack', actions_df, [C.IGNORE, C.SOURCE_ID, C.IGNORE, C.IGNORE, C.IGNORE, C.IGNORE,])
 
     # Hashing source-actor data
-    actions_df = get_keys(col_names, actions_df)
+    data, actions_df = hash_data(actions_details) 
 
-    return actions_df, actor_details, channels_df
+    slack_hashed_data.update(data)
+
+    return slack_hashed_data, actions_df, actor_details, channels_df
