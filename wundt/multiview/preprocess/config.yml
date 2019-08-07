@@ -1,0 +1,316 @@
+static-graphs:
+  undirected:
+    graph_type: weighted
+    directed: false
+    weight_type: int
+  directed: 
+    graph_type: weighted
+    directed: true
+    weight_type: int
+  sentiment_directed: 
+    graph_type: weighted
+    directed: true
+    weight_type: list
+  sentiment_undirected: 
+    graph_type: weighted
+    directed: false
+    weight_type: list
+  message_category:
+    graph_type: multiplex
+    weight_type: list
+    directed: true
+    relations:
+      - Leadership
+      - Monitoring
+      - Morale
+      - Seeking Help
+      - Seeking Input
+      - Responding
+  topic_category:
+    graph_type: multiplex
+    weight_type: list
+    directed: true
+    relations:
+      - Text Preprocessing
+      - Topic Analysis
+      - Prediction Experiments
+      - Avatar development
+      - Android development
+      - Chatbot development
+      - Tools Usage
+      - Components Integration
+      - Network Analytics
+      - Plant Disease
+      - Atomspace Visualizer
+      - GHOST
+      - Model Extraction
+      - DNN for Multitask Learning
+      - Speech Generation and Modification
+      - Face Analysis Toolkit development
+  
+  connected:
+    graph_type: unweighted
+    directed: false
+  mention: 
+    graph_type: weighted
+    directed: true
+    weight_type: int
+  reaction: 
+    graph_type: weighted
+    directed: true
+    weight_type: int
+  reaction_multiplex: 
+    graph_type: multiplex
+    directed: true
+    weight_type: int
+    relations:
+      - thumb-up
+      - thumb-down
+  has_common_topic:
+    graph_type: unweighted
+    directed: false
+    threshold: 10
+  has_common_message_category:
+    graph_type: unweighted
+    directed: false
+    threshold: 10
+  co_reacted:
+    graph_type: weighted
+    directed: false
+    weight_type: int
+  same_reaction:
+    graph_type: weighted
+    directed: false
+    weight_type: int
+  neighbor_post:
+    graph_type: weighted
+    directed: false
+    weight_type: int
+  reply:
+    graph_type: weighted
+    directed: true
+    weight_type: int
+  response_rate:
+    graph_type: weighted
+    directed: false
+    weight_type: list
+    a: -6
+    b: 0.1
+    time_unit: minute
+
+
+temporal-graphs:
+  undirected:
+    graph_type: temporal_weighted
+    directed: false
+    weight_type: int
+  directed: 
+    graph_type: temporal_weighted
+    directed: true
+    weight_type: int
+  sentiment_directed: 
+    graph_type: temporal_weighted
+    directed: true
+    weight_type: list
+  sentiment_undirected: 
+    graph_type: temporal_weighted
+    directed: false
+    weight_type: list
+  message_category:
+    graph_type: temporal_multiplex
+    weight_type: list
+    directed: true
+    relations:
+      - Leadership
+      - Monitoring
+      - Morale
+      - Seeking Help
+      - Seeking Input
+      - Responding
+  topic_category:
+    graph_type: temporal_multiplex
+    weight_type: list
+    directed: true
+    relations:
+      - Text Preprocessing
+      - Topic Analysis
+      - Prediction Experiments
+      - Avatar development
+      - Android development
+      - Chatbot development
+      - Tools Usage
+      - Components Integration
+      - Network Analytics
+      - Plant Disease
+      - Atomspace Visualizer
+      - GHOST
+      - Model Extraction
+      - DNN for Multitask Learning
+      - Speech Generation and Modification
+      - Face Analysis Toolkit development
+  
+  connected:
+    graph_type: temporal_unweighted
+    directed: false
+  mention: 
+    graph_type: temporal_weighted
+    directed: true
+    weight_type: int
+  reaction: 
+    graph_type: temporal_weighted
+    directed: true
+    weight_type: int
+  reaction_multiplex: 
+    graph_type: temporal_multiplex
+    directed: true
+    weight_type: int
+    relations:
+      - thumb-up
+      - thumb-down
+  has_common_topic:
+    graph_type: temporal_unweighted
+    directed: false
+    threshold: 10
+  has_common_message_category:
+    graph_type: temporal_unweighted
+    directed: false
+    threshold: 10
+  co_reacted:
+    graph_type: temporal_weighted
+    directed: false
+    weight_type: int
+  same_reaction:
+    graph_type: temporal_weighted
+    directed: false
+    weight_type: int
+  neighbor_post:
+    graph_type: temporal_weighted
+    directed: false
+    weight_type: int
+  reply:
+    graph_type: temporal_weighted
+    directed: true
+    weight_type: int
+  response_rate:
+    graph_type: temporal_weighted
+    directed: false
+    weight_type: list
+    a: -6
+    b: 0.1
+    time_unit: minute
+  
+
+users:
+  default:
+    display: username
+    access_by: user_index
+    node_name: user_index
+  hashcode:
+    column: user_hashcode
+  fake_name:
+    column: label_name
+  username:
+    column: real_name
+  channel:
+    column: group
+  user_index:
+    column: false
+channels:
+  hersheys:
+    num_topics: 3
+  telehealth:
+    num_topics: 5
+  singnet:
+    num_topics: 2
+  bio:
+    num_topics: 3
+  hansonrobotics:
+    num_topics: 3
+  
+topic_types:
+  hersheys:
+    Text Preprocessing:
+      short_name: text_pre
+      index_by_channel: 0
+      topic_index: 0
+    Topic Analysis:
+      short_name: topic_anly
+      index_by_channel: 1
+      topic_index: 1
+    Prediction Experiments:
+      short_name: pred_exp
+      index_by_channel: 2
+      topic_index: 2
+  telehealth:
+    Avatar development:
+      short_name: avatar_dev
+      index_by_channel: 0
+      topic_index: 3
+    Android development:
+      short_name: android_dev
+      index_by_channel: 1
+      topic_index: 4
+    Chatbot development:
+      short_name: chatbot_dev
+      index_by_channel: 2
+      topic_index: 5
+    Tools Usage:
+      short_name: tools_usage
+      index_by_channel: 3
+      topic_index: 6
+    Components Integration:
+      short_name: com_int
+      index_by_channel: 4
+      topic_index: 7
+  singnet:
+    Network Analytics:
+      short_name: net_anly
+      index_by_channel: 0
+      topic_index: 8
+    Plant Disease:
+      short_name: plant_ds
+      index_by_channel: 1
+      topic_index: 9
+  bio:
+    Atomspace Visualizer:
+      short_name: as_viz
+      index_by_channel: 0
+      topic_index: 10
+    GHOST:
+      short_name: ghost
+      index_by_channel: 1
+      topic_index: 11
+    Model Extraction:
+      short_name: model_extra
+      index_by_channel: 2
+      topic_index: 12
+  hansonrobotics:
+    DNN for Multitask Learning:
+      short_name: dnn_mtl
+      index_by_channel: 0
+      topic_index: 13
+    Speech Generation and Modification:
+      short_name: speech_gm
+      index_by_channel: 1
+      topic_index: 14
+    Face Analysis Toolkit development:
+      short_name: fat_dev
+      index_by_channel: 2
+      topic_index: 15
+message_types:
+  - Direct Mention
+  - Subsequent Message
+  - Time Interval
+
+dataset:
+  pa_file_path: reports/People Analytics.xlsx
+  actions_file_path: reports/Actions.csv
+  slack_users_file_path: data/iCog/slack/iCog Slack export Apr 27 2015 - Sep 3 2018/users.json
+  # load_if_dataset_exists: True
+  output_dir: reports/multi-view
+  graph_save_format: 
+    - edgelist
+    - json
+
+temporal:
+  snapshot_length_units: 2592000 # 30 days
