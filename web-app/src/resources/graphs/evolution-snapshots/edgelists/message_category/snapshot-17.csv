@@ -1,0 +1,2707 @@
+source,target,relation,weight
+72,31,Leadership,{'weight': 27.78634872726239}
+72,31,Responding,{'weight': 14.040353628220881}
+72,31,Seeking Help,{'weight': 11.567672604298583}
+72,31,Morale,{'weight': 7.163204996900967}
+72,31,Seeking Input,{'weight': 1.7200492415468043}
+72,31,Monitoring,{'weight': 1.7223708017703845}
+72,1,Morale,{'weight': 0.6336913225737218}
+72,1,Leadership,{'weight': 0.233122009623613}
+72,1,Responding,{'weight': 0.08576079462509835}
+72,1,Seeking Help,{'weight': 0.03154963320110002}
+72,1,Seeking Input,{'weight': 0.011606461431184656}
+72,1,Monitoring,{'weight': 0.00426977854528211}
+72,11,Morale,{'weight': 1.1734215592301336}
+72,11,Leadership,{'weight': 2.387268512868559}
+72,11,Responding,{'weight': 3.4914137030410206}
+72,11,Seeking Help,{'weight': 2.139769109297263}
+72,11,Seeking Input,{'weight': 0.13600778608176192}
+72,11,Monitoring,{'weight': 0.6721193294812607}
+72,29,Seeking Help,{'weight': 3.4914137030410215}
+72,29,Leadership,{'weight': 3.6387749180395352}
+72,29,Responding,{'weight': 2.3955526471437745}
+72,29,Morale,{'weight': 0.31549633201100025}
+72,29,Seeking Input,{'weight': 0.11606461431184656}
+72,29,Monitoring,{'weight': 0.04269778545282111}
+72,20,Leadership,{'weight': 0.9525741268224331}
+72,20,Responding,{'weight': 0.9525741268224333}
+72,20,Seeking Help,{'weight': 0.7510017503999202}
+72,20,Morale,{'weight': 0.29622127602581305}
+72,20,Seeking Input,{'weight': 0.03481938429355397}
+72,20,Monitoring,{'weight': 0.012809335635846332}
+72,32,Leadership,{'weight': 6.931931217683762}
+72,32,Responding,{'weight': 3.246354176936828}
+72,32,Seeking Help,{'weight': 3.7501949329451}
+72,32,Morale,{'weight': 1.817499832810841}
+72,32,Seeking Input,{'weight': 0.1857033828989545}
+72,32,Monitoring,{'weight': 0.06831645672451378}
+72,0,Responding,{'weight': 5.290579511304995}
+72,0,Seeking Help,{'weight': 3.646997194161951}
+72,0,Morale,{'weight': 2.992140902465173}
+72,0,Seeking Input,{'weight': 1.2671943989787708}
+72,0,Leadership,{'weight': 8.573102139701453}
+72,0,Monitoring,{'weight': 0.2299858533876584}
+72,10,Responding,{'weight': 0.6336913225737218}
+72,10,Seeking Help,{'weight': 0.233122009623613}
+72,10,Morale,{'weight': 0.08576079462509835}
+72,10,Seeking Input,{'weight': 0.03154963320110002}
+72,10,Leadership,{'weight': 0.011606461431184656}
+72,10,Monitoring,{'weight': 0.00426977854528211}
+72,34,Responding,{'weight': 0.9525741268224333}
+72,34,Seeking Help,{'weight': 0.5520048138723244}
+72,34,Leadership,{'weight': 1.3531434397725421}
+72,34,Morale,{'weight': 0.09464889960330006}
+72,34,Seeking Input,{'weight': 0.03481938429355397}
+72,34,Monitoring,{'weight': 0.012809335635846332}
+72,28,Responding,{'weight': 1.0999353418209479}
+72,28,Seeking Help,{'weight': 0.4046435988738097}
+72,28,Leadership,{'weight': 1.3531434397725421}
+72,28,Morale,{'weight': 0.09464889960330006}
+72,28,Seeking Input,{'weight': 0.03481938429355397}
+72,28,Monitoring,{'weight': 0.012809335635846332}
+72,30,Responding,{'weight': 2.1423445491921806}
+72,30,Seeking Help,{'weight': 2.1939802707212617}
+72,30,Leadership,{'weight': 4.5872747589382685}
+72,30,Morale,{'weight': 0.917638021383622}
+72,30,Seeking Input,{'weight': 0.11606461431184656}
+72,30,Monitoring,{'weight': 0.04269778545282111}
+72,46,Leadership,{'weight': 7.767194916679997}
+72,46,Responding,{'weight': 3.479476186560441}
+72,46,Seeking Help,{'weight': 4.069220653751877}
+72,46,Morale,{'weight': 1.3400578302138353}
+72,46,Seeking Input,{'weight': 0.27146417752405283}
+72,46,Monitoring,{'weight': 0.07258623526979589}
+72,62,Leadership,{'weight': 3.496227522095522}
+72,62,Responding,{'weight': 1.5077057752291458}
+72,62,Seeking Help,{'weight': 2.334147719391939}
+72,62,Morale,{'weight': 1.1418719260290335}
+72,62,Seeking Input,{'weight': 0.3186370181871877}
+72,62,Monitoring,{'weight': 0.20141003906717145}
+72,6,Leadership,{'weight': 2.7678872999185002}
+72,6,Responding,{'weight': 1.0182488331195505}
+72,6,Seeking Help,{'weight': 0.9767345010741152}
+72,6,Morale,{'weight': 0.1577481660055001}
+72,6,Seeking Input,{'weight': 0.05803230715592328}
+72,6,Monitoring,{'weight': 0.02134889272641055}
+72,74,Leadership,{'weight': 0.6336913225737218}
+72,74,Responding,{'weight': 0.233122009623613}
+72,74,Seeking Help,{'weight': 0.08576079462509835}
+72,74,Morale,{'weight': 0.03154963320110002}
+72,74,Seeking Input,{'weight': 0.011606461431184656}
+72,74,Monitoring,{'weight': 0.00426977854528211}
+72,37,Leadership,{'weight': 0.6336913225737218}
+72,37,Responding,{'weight': 0.233122009623613}
+72,37,Seeking Help,{'weight': 0.08576079462509835}
+72,37,Morale,{'weight': 0.03154963320110002}
+72,37,Seeking Input,{'weight': 0.011606461431184656}
+72,37,Monitoring,{'weight': 0.00426977854528211}
+72,13,Leadership,{'weight': 0.6336913225737218}
+72,13,Responding,{'weight': 0.23312200962361304}
+72,13,Seeking Help,{'weight': 0.08576079462509835}
+72,13,Morale,{'weight': 0.03154963320110002}
+72,13,Seeking Input,{'weight': 0.011606461431184656}
+72,13,Monitoring,{'weight': 0.00426977854528211}
+72,17,Leadership,{'weight': 0.6336913225737218}
+72,17,Responding,{'weight': 0.233122009623613}
+72,17,Seeking Help,{'weight': 0.08576079462509835}
+72,17,Morale,{'weight': 0.03154963320110002}
+72,17,Seeking Input,{'weight': 0.011606461431184656}
+72,17,Monitoring,{'weight': 0.00426977854528211}
+72,3,Morale,{'weight': 1.658252820776557}
+72,3,Leadership,{'weight': 3.245737780596911}
+72,3,Responding,{'weight': 2.3713922728920926}
+72,3,Seeking Help,{'weight': 0.49617301807297387}
+72,3,Seeking Input,{'weight': 0.16700602464339093}
+72,3,Monitoring,{'weight': 0.06143808301807479}
+72,78,Leadership,{'weight': 0.6336913225737218}
+72,78,Responding,{'weight': 0.233122009623613}
+72,78,Seeking Help,{'weight': 0.08576079462509835}
+72,78,Morale,{'weight': 0.03154963320110002}
+72,78,Seeking Input,{'weight': 0.011606461431184656}
+72,78,Monitoring,{'weight': 0.00426977854528211}
+72,4,Leadership,{'weight': 0.6336913225737218}
+72,4,Responding,{'weight': 0.233122009623613}
+72,4,Seeking Help,{'weight': 0.08576079462509835}
+72,4,Morale,{'weight': 0.03154963320110002}
+72,4,Seeking Input,{'weight': 0.011606461431184656}
+72,4,Monitoring,{'weight': 0.00426977854528211}
+20,0,Seeking Help,{'weight': 52.80873977697827}
+20,0,Leadership,{'weight': 77.59700132915474}
+20,0,Responding,{'weight': 65.0735066452846}
+20,0,Morale,{'weight': 26.62293058993302}
+20,0,Seeking Input,{'weight': 19.110778219043357}
+20,0,Monitoring,{'weight': 6.7870434396062125}
+20,29,Seeking Help,{'weight': 2.3057175665949754}
+20,29,Leadership,{'weight': 1.8236572375650502}
+20,29,Responding,{'weight': 1.5045789406947576}
+20,29,Morale,{'weight': 0.24350896063059843}
+20,29,Seeking Input,{'weight': 0.0895819403570233}
+20,29,Monitoring,{'weight': 0.03295535415759521}
+20,30,Responding,{'weight': 0.7194521171988202}
+20,30,Seeking Help,{'weight': 0.8668133321973348}
+20,30,Leadership,{'weight': 0.31888280424871135}
+20,30,Morale,{'weight': 0.06309926640220004}
+20,30,Seeking Input,{'weight': 0.023212922862369312}
+20,30,Monitoring,{'weight': 0.00853955709056422}
+20,31,Leadership,{'weight': 0.6336913225737218}
+20,31,Responding,{'weight': 0.23312200962361296}
+20,31,Seeking Help,{'weight': 0.08576079462509835}
+20,31,Morale,{'weight': 0.03154963320110002}
+20,31,Seeking Input,{'weight': 0.011606461431184656}
+20,31,Monitoring,{'weight': 0.00426977854528211}
+20,17,Seeking Help,{'weight': 0.7626082118311048}
+20,17,Leadership,{'weight': 1.7336266643946696}
+20,17,Responding,{'weight': 0.6377656084974227}
+20,17,Morale,{'weight': 0.16046652245848303}
+20,17,Seeking Input,{'weight': 0.6611740239813733}
+20,17,Monitoring,{'weight': 0.04435896883694635}
+20,32,Leadership,{'weight': 1.2673826451474437}
+20,32,Responding,{'weight': 0.46624401924722597}
+20,32,Seeking Help,{'weight': 0.1715215892501967}
+20,32,Morale,{'weight': 0.06309926640220004}
+20,32,Seeking Input,{'weight': 0.023212922862369312}
+20,32,Monitoring,{'weight': 0.00853955709056422}
+20,46,Leadership,{'weight': 52.47945502912478}
+20,46,Responding,{'weight': 31.11973555490758}
+20,46,Seeking Help,{'weight': 34.30739881850235}
+20,46,Morale,{'weight': 11.330930876902624}
+20,46,Seeking Input,{'weight': 6.455349152318206}
+20,46,Monitoring,{'weight': 2.3071305682445553}
+20,34,Responding,{'weight': 13.154077515812084}
+20,34,Seeking Help,{'weight': 11.75319227033813}
+20,34,Leadership,{'weight': 17.935167064568617}
+20,34,Morale,{'weight': 3.8290784832810827}
+20,34,Seeking Input,{'weight': 3.026168039770281}
+20,34,Monitoring,{'weight': 0.3023166262298239}
+20,19,Leadership,{'weight': 16.58807808248627}
+20,19,Morale,{'weight': 5.300057550106482}
+20,19,Seeking Input,{'weight': 2.3874858525262117}
+20,19,Monitoring,{'weight': 1.7348938815604966}
+20,19,Responding,{'weight': 11.423487345457243}
+20,19,Seeking Help,{'weight': 11.565997287863302}
+20,10,Leadership,{'weight': 6.290850636160623}
+20,10,Responding,{'weight': 3.0248386287444}
+20,10,Seeking Help,{'weight': 4.41820682123642}
+20,10,Morale,{'weight': 1.3085081970127352}
+20,10,Seeking Input,{'weight': 0.8077882440414912}
+20,10,Monitoring,{'weight': 0.14980747280432996}
+20,6,Leadership,{'weight': 5.384203536486972}
+20,6,Responding,{'weight': 2.064927819036065}
+20,6,Seeking Help,{'weight': 4.067774383786609}
+20,6,Morale,{'weight': 0.5727787158862954}
+20,6,Seeking Input,{'weight': 0.8128552032877681}
+20,6,Monitoring,{'weight': 0.09746034151629045}
+20,47,Leadership,{'weight': 5.45578978391622}
+20,47,Responding,{'weight': 3.984802014516251}
+20,47,Seeking Help,{'weight': 5.063504605241327}
+20,47,Morale,{'weight': 1.561172254455111}
+20,47,Seeking Input,{'weight': 1.5055788604702414}
+20,47,Monitoring,{'weight': 0.429152481400848}
+20,77,Leadership,{'weight': 0.6336913225737218}
+20,77,Responding,{'weight': 0.233122009623613}
+20,77,Seeking Help,{'weight': 0.08576079462509835}
+20,77,Morale,{'weight': 0.03154963320110002}
+20,77,Seeking Input,{'weight': 0.011606461431184656}
+20,77,Monitoring,{'weight': 0.00426977854528211}
+20,63,Leadership,{'weight': 0.6336913225737218}
+20,63,Responding,{'weight': 0.233122009623613}
+20,63,Seeking Help,{'weight': 0.08576079462509835}
+20,63,Morale,{'weight': 0.03154963320110002}
+20,63,Seeking Input,{'weight': 0.011606461431184656}
+20,63,Monitoring,{'weight': 0.00426977854528211}
+0,20,Responding,{'weight': 123.35983783334275}
+0,20,Seeking Help,{'weight': 53.54067077292195}
+0,20,Leadership,{'weight': 156.4607785570406}
+0,20,Morale,{'weight': 51.39838612175716}
+0,20,Seeking Input,{'weight': 30.053464269879417}
+0,20,Monitoring,{'weight': 7.186862445058961}
+0,29,Responding,{'weight': 12.164789101917465}
+0,29,Seeking Help,{'weight': 9.100768004329407}
+0,29,Leadership,{'weight': 13.85947822260593}
+0,29,Morale,{'weight': 4.860193442987969}
+0,29,Seeking Input,{'weight': 3.6835135638894783}
+0,29,Monitoring,{'weight': 0.3312576642697671}
+0,30,Seeking Input,{'weight': 1.01343479871036}
+0,30,Leadership,{'weight': 11.635776871317429}
+0,30,Responding,{'weight': 9.856283109967748}
+0,30,Seeking Help,{'weight': 4.892826171872119}
+0,30,Morale,{'weight': 4.457709451797418}
+0,30,Monitoring,{'weight': 0.14396959633493006}
+0,17,Seeking Input,{'weight': 6.996888022531454}
+0,17,Responding,{'weight': 29.098865798538704}
+0,17,Seeking Help,{'weight': 15.84786602121531}
+0,17,Morale,{'weight': 6.543559827987627}
+0,17,Leadership,{'weight': 28.487053946012434}
+0,17,Monitoring,{'weight': 2.025766383714478}
+0,1,Seeking Input,{'weight': 0.6569042454360912}
+0,1,Responding,{'weight': 1.0999353418209479}
+0,1,Seeking Help,{'weight': 0.40464359887380974}
+0,1,Morale,{'weight': 0.09464889960330006}
+0,1,Leadership,{'weight': 0.7310585786300049}
+0,1,Monitoring,{'weight': 0.012809335635846332}
+0,32,Leadership,{'weight': 23.173661287351916}
+0,32,Responding,{'weight': 22.29875796505664}
+0,32,Seeking Help,{'weight': 10.042053626374985}
+0,32,Morale,{'weight': 8.249185274497428}
+0,32,Seeking Input,{'weight': 3.8372260349042286}
+0,32,Monitoring,{'weight': 0.39911581181481726}
+0,31,Leadership,{'weight': 113.67661168926736}
+0,31,Responding,{'weight': 84.76952513257888}
+0,31,Seeking Help,{'weight': 44.94432416340672}
+0,31,Morale,{'weight': 30.22267832678715}
+0,31,Seeking Input,{'weight': 16.885148747466058}
+0,31,Monitoring,{'weight': 3.5017119404944204}
+0,10,Seeking Input,{'weight': 3.925703042668594}
+0,10,Leadership,{'weight': 41.7566292199897}
+0,10,Responding,{'weight': 33.90956208133529}
+0,10,Seeking Help,{'weight': 17.197994951778213}
+0,10,Morale,{'weight': 9.87045242054773}
+0,10,Monitoring,{'weight': 3.3396582836805693}
+0,11,Seeking Input,{'weight': 1.2192769536781551}
+0,11,Leadership,{'weight': 10.30843556838342}
+0,11,Responding,{'weight': 12.455768301040186}
+0,11,Seeking Help,{'weight': 5.708146699098438}
+0,11,Morale,{'weight': 2.911337700071347}
+0,11,Monitoring,{'weight': 0.3970347777284582}
+0,37,Seeking Input,{'weight': 1.500511901223964}
+0,37,Leadership,{'weight': 9.007102214550041}
+0,37,Responding,{'weight': 5.878539299351515}
+0,37,Seeking Help,{'weight': 1.6031277618116755}
+0,37,Morale,{'weight': 2.6848645596476466}
+0,37,Monitoring,{'weight': 0.3258542634151576}
+0,62,Responding,{'weight': 45.514184023451826}
+0,62,Seeking Help,{'weight': 19.366388177117187}
+0,62,Leadership,{'weight': 59.16857573470289}
+0,62,Morale,{'weight': 10.764138760690976}
+0,62,Seeking Input,{'weight': 6.928168623089816}
+0,62,Monitoring,{'weight': 1.2585446809474528}
+0,25,Responding,{'weight': 0.6336913225737218}
+0,25,Seeking Help,{'weight': 0.233122009623613}
+0,25,Leadership,{'weight': 0.08576079462509835}
+0,25,Morale,{'weight': 0.03154963320110002}
+0,25,Seeking Input,{'weight': 0.011606461431184656}
+0,25,Monitoring,{'weight': 0.00426977854528211}
+0,72,Morale,{'weight': 2.11222226280787}
+0,72,Seeking Input,{'weight': 1.0293037922339197}
+0,72,Monitoring,{'weight': 0.23129848888414617}
+0,72,Leadership,{'weight': 6.637208787686734}
+0,72,Responding,{'weight': 4.193906566446248}
+0,72,Seeking Help,{'weight': 1.796060101941083}
+0,63,Leadership,{'weight': 14.727103443764765}
+0,63,Responding,{'weight': 18.649349375769333}
+0,63,Seeking Help,{'weight': 8.620472082851606}
+0,63,Morale,{'weight': 5.188463170790834}
+0,63,Seeking Input,{'weight': 3.4751632533507815}
+0,63,Monitoring,{'weight': 1.3394486734726938}
+0,6,Leadership,{'weight': 18.18764069659072}
+0,6,Responding,{'weight': 16.274220734307576}
+0,6,Seeking Help,{'weight': 9.06211580191373}
+0,6,Morale,{'weight': 6.547971851710172}
+0,6,Seeking Input,{'weight': 5.347957338963302}
+0,6,Monitoring,{'weight': 0.5800935765145052}
+0,46,Leadership,{'weight': 112.30554535044598}
+0,46,Responding,{'weight': 91.94738886733921}
+0,46,Seeking Help,{'weight': 52.38588090176134}
+0,46,Morale,{'weight': 38.464151784493886}
+0,46,Seeking Input,{'weight': 27.264666673196096}
+0,46,Monitoring,{'weight': 4.632366422764129}
+0,69,Leadership,{'weight': 10.097268350148237}
+0,69,Responding,{'weight': 6.775207926099584}
+0,69,Seeking Help,{'weight': 3.3478094929980577}
+0,69,Morale,{'weight': 1.5636236190745187}
+0,69,Seeking Input,{'weight': 1.110549022252212}
+0,69,Monitoring,{'weight': 0.10554158942739111}
+0,34,Seeking Input,{'weight': 9.082534137468745}
+0,34,Morale,{'weight': 16.33078253417334}
+0,34,Monitoring,{'weight': 2.841132295446574}
+0,34,Leadership,{'weight': 54.23968472981598}
+0,34,Responding,{'weight': 45.27131393581693}
+0,34,Seeking Help,{'weight': 20.234552367278557}
+0,61,Leadership,{'weight': 6.5239726457842355}
+0,61,Responding,{'weight': 5.850252063112616}
+0,61,Seeking Help,{'weight': 2.1106731276445125}
+0,61,Morale,{'weight': 1.3201146584439198}
+0,61,Seeking Input,{'weight': 1.040910253665104}
+0,61,Monitoring,{'weight': 0.15407725134961206}
+0,73,Seeking Help,{'weight': 2.341341485719776}
+0,73,Leadership,{'weight': 3.344052488042507}
+0,73,Responding,{'weight': 3.0366332286669135}
+0,73,Morale,{'weight': 1.1192103978061352}
+0,73,Seeking Input,{'weight': 0.11606461431184656}
+0,73,Monitoring,{'weight': 0.04269778545282111}
+0,33,Seeking Help,{'weight': 2.8202823343455643}
+0,33,Leadership,{'weight': 4.08250032562193}
+0,33,Responding,{'weight': 3.704449624336653}
+0,33,Morale,{'weight': 0.33137257198746695}
+0,33,Seeking Input,{'weight': 0.9828779465091813}
+0,33,Monitoring,{'weight': 0.07851719719920323}
+0,28,Responding,{'weight': 2.1382702632684794}
+0,28,Seeking Input,{'weight': 0.9248456393532581}
+0,28,Seeking Help,{'weight': 1.2414061438988284}
+0,28,Monitoring,{'weight': 0.0571683044727927}
+0,28,Leadership,{'weight': 2.4646852430246744}
+0,28,Morale,{'weight': 0.17362440598196685}
+0,16,Leadership,{'weight': 5.489907502881985}
+0,16,Seeking Help,{'weight': 1.3869512319004098}
+0,16,Responding,{'weight': 4.571262956533987}
+0,16,Morale,{'weight': 0.43607651092965244}
+0,16,Seeking Input,{'weight': 2.048688215234112}
+0,16,Monitoring,{'weight': 0.06711358251985211}
+0,74,Leadership,{'weight': 7.499616778910972}
+0,74,Responding,{'weight': 6.597991416550336}
+0,74,Seeking Help,{'weight': 4.040525796050279}
+0,74,Morale,{'weight': 2.6265864664302003}
+0,74,Seeking Input,{'weight': 2.0209670818951895}
+0,74,Monitoring,{'weight': 0.21431246016302513}
+0,7,Seeking Help,{'weight': 0.6652409557748219}
+0,7,Leadership,{'weight': 0.466244019247226}
+0,7,Responding,{'weight': 0.1715215892501967}
+0,7,Morale,{'weight': 0.043156094632284675}
+0,7,Seeking Input,{'weight': 0.6452977840049066}
+0,7,Monitoring,{'weight': 0.00853955709056422}
+0,77,Leadership,{'weight': 119.06508993864522}
+0,77,Responding,{'weight': 112.35834253069258}
+0,77,Seeking Help,{'weight': 59.73310324551377}
+0,77,Morale,{'weight': 29.63391545434835}
+0,77,Seeking Input,{'weight': 19.1215808022239}
+0,77,Monitoring,{'weight': 7.087968028576749}
+0,4,Leadership,{'weight': 104.89862120633789}
+0,4,Responding,{'weight': 88.77928233173508}
+0,4,Seeking Help,{'weight': 47.59979513972381}
+0,4,Morale,{'weight': 31.09589187998461}
+0,4,Seeking Input,{'weight': 20.420042708400356}
+0,4,Monitoring,{'weight': 7.206366733818774}
+0,5,Monitoring,{'weight': 2.610962553762486}
+0,5,Leadership,{'weight': 36.23204332141315}
+0,5,Responding,{'weight': 32.64401669139628}
+0,5,Seeking Help,{'weight': 16.035769945587628}
+0,5,Morale,{'weight': 9.628721719111056}
+0,5,Seeking Input,{'weight': 10.848485768729466}
+0,84,Leadership,{'weight': 3.4988029619904393}
+0,84,Responding,{'weight': 2.002372593143084}
+0,84,Seeking Help,{'weight': 1.813497046099134}
+0,84,Morale,{'weight': 1.4682869057852286}
+0,84,Seeking Input,{'weight': 0.09712146999475936}
+0,84,Monitoring,{'weight': 0.11991902298735524}
+0,93,Responding,{'weight': 0.6336913225737218}
+0,93,Leadership,{'weight': 0.233122009623613}
+0,93,Seeking Help,{'weight': 0.08576079462509835}
+0,93,Morale,{'weight': 0.03154963320110002}
+0,93,Seeking Input,{'weight': 0.011606461431184656}
+0,93,Monitoring,{'weight': 0.00426977854528211}
+0,56,Leadership,{'weight': 5.17097212256976}
+0,56,Responding,{'weight': 4.338140946910374}
+0,56,Seeking Help,{'weight': 1.9964821802224497}
+0,56,Morale,{'weight': 0.4244700494984679}
+0,56,Seeking Input,{'weight': 1.014427579710281}
+0,56,Monitoring,{'weight': 0.05550712108866745}
+0,48,Seeking Input,{'weight': 1.3337516626420975}
+0,48,Leadership,{'weight': 0.6735850202438048}
+0,48,Responding,{'weight': 1.15564534927373}
+0,48,Seeking Help,{'weight': 2.1972952437469786}
+0,48,Morale,{'weight': 0.6067673699357937}
+0,48,Monitoring,{'weight': 0.03295535415759521}
+0,45,Responding,{'weight': 0.6336913225737218}
+0,45,Leadership,{'weight': 0.233122009623613}
+0,45,Seeking Help,{'weight': 0.08576079462509835}
+0,45,Morale,{'weight': 0.03154963320110002}
+0,45,Seeking Input,{'weight': 0.011606461431184656}
+0,45,Monitoring,{'weight': 0.00426977854528211}
+0,8,Leadership,{'weight': 17.82669951978736}
+0,8,Seeking Help,{'weight': 11.952053644437914}
+0,8,Responding,{'weight': 14.721951215530622}
+0,8,Morale,{'weight': 5.346263912859849}
+0,8,Seeking Input,{'weight': 5.588558948030882}
+0,8,Monitoring,{'weight': 0.5644727593533876}
+0,3,Morale,{'weight': 21.15485237715914}
+0,3,Leadership,{'weight': 83.22721884260099}
+0,3,Responding,{'weight': 68.92130972977334}
+0,3,Seeking Help,{'weight': 45.99506683709222}
+0,3,Seeking Input,{'weight': 18.426890100271038}
+0,3,Monitoring,{'weight': 2.274662113103538}
+0,19,Leadership,{'weight': 17.908235757800433}
+0,19,Responding,{'weight': 13.615156881188227}
+0,19,Seeking Help,{'weight': 6.609385568207871}
+0,19,Morale,{'weight': 6.486092095732177}
+0,19,Seeking Input,{'weight': 3.9916870646563707}
+0,19,Monitoring,{'weight': 1.3894426324149256}
+0,47,Seeking Input,{'weight': 2.549453256649856}
+0,47,Leadership,{'weight': 9.452183551603156}
+0,47,Responding,{'weight': 9.360661486534239}
+0,47,Seeking Help,{'weight': 3.0531469931947965}
+0,47,Morale,{'weight': 2.3604998205597068}
+0,47,Monitoring,{'weight': 0.22405489145825108}
+0,79,Responding,{'weight': 27.85142632516118}
+0,79,Leadership,{'weight': 28.798552164236213}
+0,79,Seeking Help,{'weight': 12.446786217299039}
+0,79,Morale,{'weight': 9.59346030719303}
+0,79,Seeking Input,{'weight': 6.905229460855478}
+0,79,Monitoring,{'weight': 1.4045455252550705}
+0,78,Leadership,{'weight': 4.080388226800874}
+0,78,Responding,{'weight': 6.609733440409334}
+0,78,Seeking Help,{'weight': 2.230012667927468}
+0,78,Morale,{'weight': 1.392920416297368}
+0,78,Seeking Input,{'weight': 3.35922695501384}
+0,78,Monitoring,{'weight': 0.3277182935511165}
+0,102,Leadership,{'weight': 0.6336913225737218}
+0,102,Seeking Help,{'weight': 0.233122009623613}
+0,102,Responding,{'weight': 0.08576079462509835}
+0,102,Morale,{'weight': 0.03154963320110002}
+0,102,Seeking Input,{'weight': 0.011606461431184656}
+0,102,Monitoring,{'weight': 0.00426977854528211}
+0,104,Responding,{'weight': 1.2673826451474437}
+0,104,Leadership,{'weight': 0.466244019247226}
+0,104,Seeking Help,{'weight': 0.1715215892501967}
+0,104,Morale,{'weight': 0.06309926640220004}
+0,104,Seeking Input,{'weight': 0.023212922862369312}
+0,104,Monitoring,{'weight': 0.00853955709056422}
+62,0,Leadership,{'weight': 41.548194132288735}
+62,0,Responding,{'weight': 32.23265701655909}
+62,0,Seeking Help,{'weight': 11.191766484342473}
+62,0,Morale,{'weight': 10.166096106521268}
+62,0,Seeking Input,{'weight': 3.4739392868725067}
+62,0,Monitoring,{'weight': 2.3873469734160158}
+62,25,Leadership,{'weight': 1.2673826451474437}
+62,25,Responding,{'weight': 0.466244019247226}
+62,25,Seeking Help,{'weight': 0.1715215892501967}
+62,25,Morale,{'weight': 0.06309926640220004}
+62,25,Seeking Input,{'weight': 0.023212922862369312}
+62,25,Monitoring,{'weight': 0.00853955709056422}
+62,11,Leadership,{'weight': 9.06612719502854}
+62,11,Responding,{'weight': 6.370564327225774}
+62,11,Seeking Help,{'weight': 1.4710913921501563}
+62,11,Morale,{'weight': 1.4490315477013034}
+62,11,Seeking Input,{'weight': 1.476298950908767}
+62,11,Monitoring,{'weight': 0.16688658698545836}
+62,32,Responding,{'weight': 13.143670785037905}
+62,32,Leadership,{'weight': 11.093211557062777}
+62,32,Seeking Help,{'weight': 4.663429900284569}
+62,32,Morale,{'weight': 2.743033285850089}
+62,32,Seeking Input,{'weight': 2.0754312758336204}
+62,32,Monitoring,{'weight': 0.28122319593104367}
+62,31,Responding,{'weight': 20.40325712928797}
+62,31,Leadership,{'weight': 24.87920356225952}
+62,31,Seeking Help,{'weight': 6.895845848759889}
+62,31,Morale,{'weight': 7.756439632335481}
+62,31,Seeking Input,{'weight': 8.501595279201124}
+62,31,Monitoring,{'weight': 2.5636585481560408}
+62,29,Responding,{'weight': 1.333057351444561}
+62,29,Leadership,{'weight': 2.1341959773447785}
+62,29,Seeking Help,{'weight': 0.3430431785003934}
+62,29,Morale,{'weight': 0.12619853280440008}
+62,29,Seeking Input,{'weight': 0.046425845724738624}
+62,29,Monitoring,{'weight': 0.01707911418112844}
+62,6,Responding,{'weight': 4.548887261427222}
+62,6,Seeking Input,{'weight': 1.1011884017882079}
+62,6,Seeking Help,{'weight': 1.1771472972661967}
+62,6,Morale,{'weight': 2.5608329886567587}
+62,6,Monitoring,{'weight': 0.9483974337371585}
+62,6,Leadership,{'weight': 2.6635466171244566}
+62,63,Leadership,{'weight': 0.6336913225737218}
+62,63,Seeking Help,{'weight': 0.233122009623613}
+62,63,Morale,{'weight': 0.08576079462509835}
+62,63,Seeking Input,{'weight': 0.03154963320110002}
+62,63,Responding,{'weight': 0.011606461431184656}
+62,63,Monitoring,{'weight': 0.00426977854528211}
+62,72,Responding,{'weight': 1.9051482536448667}
+62,72,Leadership,{'weight': 2.052509468643381}
+62,72,Seeking Help,{'weight': 0.5535036599011081}
+62,72,Morale,{'weight': 0.1494114556667694}
+62,72,Seeking Input,{'weight': 1.3138084908721823}
+62,72,Monitoring,{'weight': 0.02561867127169266}
+62,46,Leadership,{'weight': 0.6336913225737218}
+62,46,Responding,{'weight': 0.233122009623613}
+62,46,Seeking Help,{'weight': 0.08576079462509835}
+62,46,Morale,{'weight': 0.03154963320110002}
+62,46,Seeking Input,{'weight': 0.011606461431184656}
+62,46,Monitoring,{'weight': 0.00426977854528211}
+62,30,Leadership,{'weight': 1.2673826451474437}
+62,30,Morale,{'weight': 0.264671642824713}
+62,30,Responding,{'weight': 0.31888280424871135}
+62,30,Seeking Help,{'weight': 0.11731042782619837}
+62,30,Seeking Input,{'weight': 0.023212922862369312}
+62,30,Monitoring,{'weight': 0.00853955709056422}
+62,17,Leadership,{'weight': 1.9010739677211657}
+62,17,Morale,{'weight': 0.29622127602581305}
+62,17,Responding,{'weight': 0.5520048138723244}
+62,17,Seeking Help,{'weight': 0.20307122245129672}
+62,17,Seeking Input,{'weight': 0.03481938429355397}
+62,17,Monitoring,{'weight': 0.012809335635846332}
+62,69,Responding,{'weight': 1.0999353418209479}
+62,69,Morale,{'weight': 0.29622127602581305}
+62,69,Seeking Input,{'weight': 0.10897371748746766}
+62,69,Leadership,{'weight': 1.2989322783485437}
+62,69,Seeking Help,{'weight': 0.18312805068138135}
+62,69,Monitoring,{'weight': 0.012809335635846332}
+62,61,Responding,{'weight': 0.6336913225737218}
+62,61,Morale,{'weight': 0.233122009623613}
+62,61,Leadership,{'weight': 0.08576079462509835}
+62,61,Seeking Help,{'weight': 0.03154963320110002}
+62,61,Seeking Input,{'weight': 0.011606461431184656}
+62,61,Monitoring,{'weight': 0.00426977854528211}
+62,20,Leadership,{'weight': 2.1341959773447785}
+62,20,Responding,{'weight': 0.7851268234959374}
+62,20,Seeking Help,{'weight': 0.28883201707639505}
+62,20,Morale,{'weight': 0.10625536103448471}
+62,20,Seeking Input,{'weight': 0.6685107068672758}
+62,20,Monitoring,{'weight': 0.01707911418112844}
+62,33,Leadership,{'weight': 1.9010739677211657}
+62,33,Responding,{'weight': 0.699366028870839}
+62,33,Seeking Help,{'weight': 0.25728238387529506}
+62,33,Morale,{'weight': 0.09464889960330006}
+62,33,Seeking Input,{'weight': 0.03481938429355397}
+62,33,Monitoring,{'weight': 0.012809335635846332}
+31,0,Monitoring,{'weight': 8.307476331554474}
+31,0,Morale,{'weight': 21.08564834380344}
+31,0,Seeking Input,{'weight': 16.396887740823594}
+31,0,Leadership,{'weight': 49.220279235163424}
+31,0,Responding,{'weight': 45.61753862660626}
+31,0,Seeking Help,{'weight': 35.37216972204894}
+31,29,Monitoring,{'weight': 1.5831292931602006}
+31,29,Morale,{'weight': 4.052189900746289}
+31,29,Seeking Input,{'weight': 1.3380863352104828}
+31,29,Leadership,{'weight': 5.419106763763526}
+31,29,Responding,{'weight': 5.568694870769324}
+31,29,Seeking Help,{'weight': 7.038792836350175}
+31,11,Leadership,{'weight': 5.533011021450754}
+31,11,Responding,{'weight': 5.093412475855577}
+31,11,Seeking Help,{'weight': 2.700117987638571}
+31,11,Morale,{'weight': 0.7123546151855502}
+31,11,Seeking Input,{'weight': 2.7524669392082988}
+31,11,Monitoring,{'weight': 0.20863696066124784}
+31,28,Leadership,{'weight': 2.5463717517260718}
+31,28,Responding,{'weight': 1.566179361068174}
+31,28,Seeking Help,{'weight': 0.3473129570456755}
+31,28,Morale,{'weight': 0.35932054242801315}
+31,28,Seeking Input,{'weight': 0.13218664034983696}
+31,28,Monitoring,{'weight': 0.04862874738222847}
+31,6,Responding,{'weight': 1.0741543331939136}
+31,6,Seeking Help,{'weight': 1.9982983072193827}
+31,6,Leadership,{'weight': 0.5335604881311926}
+31,6,Morale,{'weight': 0.8057643064633896}
+31,6,Seeking Input,{'weight': 1.5353240390646108}
+31,6,Monitoring,{'weight': 0.05289852592751057}
+31,30,Responding,{'weight': 5.556276520376639}
+31,30,Seeking Help,{'weight': 3.372399654475173}
+31,30,Leadership,{'weight': 2.8998618114272188}
+31,30,Morale,{'weight': 3.260893328725134}
+31,30,Seeking Input,{'weight': 2.3184341714353542}
+31,30,Monitoring,{'weight': 0.5921345135604805}
+31,72,Seeking Help,{'weight': 12.714993845497677}
+31,72,Leadership,{'weight': 14.451164605307223}
+31,72,Responding,{'weight': 14.851963539936687}
+31,72,Morale,{'weight': 7.619369104029392}
+31,72,Seeking Input,{'weight': 7.409454997510599}
+31,72,Monitoring,{'weight': 2.9530539077184366}
+31,32,Seeking Help,{'weight': 13.822461362826107}
+31,32,Morale,{'weight': 6.894759687089743}
+31,32,Leadership,{'weight': 14.436877551854096}
+31,32,Responding,{'weight': 15.900458652850135}
+31,32,Seeking Input,{'weight': 8.30022585720779}
+31,32,Monitoring,{'weight': 1.6452168881721518}
+31,20,Seeking Input,{'weight': 1.1115418032521327}
+31,20,Seeking Help,{'weight': 1.10420512036623}
+31,20,Leadership,{'weight': 0.23462085565239674}
+31,20,Responding,{'weight': 0.7626082118311049}
+31,20,Morale,{'weight': 0.6884538786371912}
+31,20,Monitoring,{'weight': 0.09857013026094469}
+31,46,Leadership,{'weight': 4.16649756931361}
+31,46,Responding,{'weight': 4.9692641837194325}
+31,46,Seeking Help,{'weight': 4.085006553233794}
+31,46,Morale,{'weight': 2.9282371012317268}
+31,46,Seeking Input,{'weight': 2.3633611711313085}
+31,46,Monitoring,{'weight': 0.4876334213701285}
+31,34,Responding,{'weight': 1.7651762975957699}
+31,34,Seeking Help,{'weight': 0.6493720699286074}
+31,34,Leadership,{'weight': 1.4704538675987406}
+31,34,Morale,{'weight': 0.7399466836082066}
+31,34,Seeking Input,{'weight': 0.043358941384118194}
+31,34,Monitoring,{'weight': 0.3316921398845577}
+31,62,Morale,{'weight': 4.80196553553312}
+31,62,Leadership,{'weight': 18.330436161219833}
+31,62,Responding,{'weight': 14.1914649858703}
+31,62,Seeking Help,{'weight': 5.578175200805123}
+31,62,Seeking Input,{'weight': 8.172048501081198}
+31,62,Monitoring,{'weight': 2.9259096154904327}
+31,35,Seeking Input,{'weight': 1.5005046547710568}
+31,35,Responding,{'weight': 0.4778504806784107}
+31,35,Seeking Help,{'weight': 0.1757913677954788}
+31,35,Leadership,{'weight': 0.06736904494748215}
+31,35,Morale,{'weight': 0.6768474172060065}
+31,35,Monitoring,{'weight': 0.10163703460156512}
+31,74,Seeking Help,{'weight': 1.5978719108273398}
+31,74,Leadership,{'weight': 0.6420353870427048}
+31,74,Responding,{'weight': 1.0698845546486317}
+31,74,Morale,{'weight': 0.13046831134968218}
+31,74,Seeking Input,{'weight': 1.3022020294409977}
+31,74,Monitoring,{'weight': 0.25753780669064397}
+31,69,Leadership,{'weight': 1.5246650290227386}
+31,69,Responding,{'weight': 1.819387459019768}
+31,69,Seeking Help,{'weight': 1.0156733932246333}
+31,69,Morale,{'weight': 0.11786182246566937}
+31,69,Seeking Input,{'weight': 0.5010634035407799}
+31,69,Monitoring,{'weight': 0.02134889272641055}
+31,1,Leadership,{'weight': 0.6336913225737218}
+31,1,Responding,{'weight': 0.233122009623613}
+31,1,Seeking Help,{'weight': 0.08576079462509835}
+31,1,Morale,{'weight': 0.03154963320110002}
+31,1,Seeking Input,{'weight': 0.011606461431184656}
+31,1,Monitoring,{'weight': 0.00426977854528211}
+31,73,Leadership,{'weight': 0.9525741268224333}
+31,73,Responding,{'weight': 0.35043243744981134}
+31,73,Seeking Help,{'weight': 0.7310585786300049}
+31,73,Morale,{'weight': 0.06736904494748215}
+31,73,Seeking Input,{'weight': 0.6569042454360912}
+31,73,Monitoring,{'weight': 0.2416615667141772}
+31,17,Seeking Input,{'weight': 0.6495675625501887}
+31,17,Leadership,{'weight': 0.699366028870839}
+31,17,Responding,{'weight': 0.8052129118239185}
+31,17,Seeking Help,{'weight': 0.14886006102729837}
+31,17,Morale,{'weight': 0.05476255606346933}
+31,17,Monitoring,{'weight': 0.642230879664286}
+31,37,Responding,{'weight': 0.9059024950361709}
+31,37,Seeking Help,{'weight': 0.9653834624582794}
+31,37,Morale,{'weight': 2.2515064051709768}
+31,37,Seeking Input,{'weight': 1.4503677792707594}
+31,37,Monitoring,{'weight': 0.31204493993876437}
+31,37,Leadership,{'weight': 0.11479491812504894}
+31,61,Seeking Help,{'weight': 0.6768474172060066}
+31,61,Responding,{'weight': 0.8983629653984349}
+31,61,Leadership,{'weight': 0.25728238387529506}
+31,61,Morale,{'weight': 0.6768474172060065}
+31,61,Seeking Input,{'weight': 0.4778504806784107}
+31,61,Monitoring,{'weight': 0.012809335635846332}
+31,16,Leadership,{'weight': 0.6336913225737218}
+31,16,Responding,{'weight': 0.233122009623613}
+31,16,Seeking Help,{'weight': 0.08576079462509835}
+31,16,Morale,{'weight': 0.03154963320110002}
+31,16,Seeking Input,{'weight': 0.011606461431184656}
+31,16,Monitoring,{'weight': 0.00426977854528211}
+31,25,Morale,{'weight': 0.6967905889759219}
+31,25,Seeking Input,{'weight': 0.2563349324859823}
+31,25,Monitoring,{'weight': 0.09430035171566258}
+31,25,Leadership,{'weight': 0.20307122245129672}
+31,25,Responding,{'weight': 1.2789891065786283}
+31,25,Seeking Help,{'weight': 0.4705137977925081}
+31,4,Morale,{'weight': 4.503292894887898}
+31,4,Seeking Input,{'weight': 5.364986769335993}
+31,4,Monitoring,{'weight': 1.1269309915502934}
+31,4,Leadership,{'weight': 11.361539725640508}
+31,4,Responding,{'weight': 13.98193953022196}
+31,4,Seeking Help,{'weight': 9.66131008836335}
+31,52,Seeking Input,{'weight': 0.6336913225737218}
+31,52,Monitoring,{'weight': 0.23312200962361296}
+31,52,Leadership,{'weight': 0.08576079462509835}
+31,52,Responding,{'weight': 0.03154963320110002}
+31,52,Seeking Help,{'weight': 0.011606461431184656}
+31,52,Morale,{'weight': 0.00426977854528211}
+31,3,Leadership,{'weight': 10.573415210087}
+31,3,Responding,{'weight': 10.070960793850226}
+31,3,Seeking Help,{'weight': 7.7656654794178985}
+31,3,Morale,{'weight': 4.46742329737892}
+31,3,Seeking Input,{'weight': 2.7145980357350235}
+31,3,Monitoring,{'weight': 0.40793718353093705}
+31,10,Seeking Help,{'weight': 0.6336913225737218}
+31,10,Seeking Input,{'weight': 0.00426977854528211}
+31,10,Leadership,{'weight': 0.233122009623613}
+31,10,Responding,{'weight': 0.08576079462509835}
+31,10,Morale,{'weight': 0.011606461431184656}
+31,10,Monitoring,{'weight': 0.03154963320110002}
+31,77,Seeking Help,{'weight': 3.4545776276222737}
+31,77,Leadership,{'weight': 4.864755737398828}
+31,77,Responding,{'weight': 3.7601596317894352}
+31,77,Morale,{'weight': 1.2856650278100548}
+31,77,Seeking Input,{'weight': 1.4200712060369192}
+31,77,Monitoring,{'weight': 0.2147707693424888}
+31,79,Seeking Help,{'weight': 1.2172457696471464}
+31,79,Responding,{'weight': 2.3673179869683914}
+31,79,Morale,{'weight': 0.1720729838896677}
+31,79,Leadership,{'weight': 0.8683121782261186}
+31,79,Seeking Input,{'weight': 0.3537021885422653}
+31,79,Monitoring,{'weight': 0.02134889272641055}
+31,8,Leadership,{'weight': 2.1341959773447785}
+31,8,Responding,{'weight': 0.7851268234959374}
+31,8,Seeking Help,{'weight': 0.8909737064490169}
+31,8,Morale,{'weight': 0.12619853280440008}
+31,8,Seeking Input,{'weight': 0.046425845724738624}
+31,8,Monitoring,{'weight': 0.01707911418112844}
+6,62,Responding,{'weight': 4.50151396431317}
+6,62,Leadership,{'weight': 2.4029419060931922}
+6,62,Seeking Help,{'weight': 1.0665695816229146}
+6,62,Morale,{'weight': 0.2640035270399848}
+6,62,Seeking Input,{'weight': 0.726543014023199}
+6,62,Monitoring,{'weight': 0.038428006907538996}
+6,0,Responding,{'weight': 5.607165354644669}
+6,0,Leadership,{'weight': 4.090701473532846}
+6,0,Seeking Help,{'weight': 2.0411896969470336}
+6,0,Morale,{'weight': 2.4988365115335003}
+6,0,Seeking Input,{'weight': 2.371840798028106}
+6,0,Monitoring,{'weight': 0.39026616531384545}
+6,31,Leadership,{'weight': 1.185696136446046}
+6,31,Responding,{'weight': 2.1341959773447785}
+6,31,Seeking Help,{'weight': 0.4904043934989081}
+6,31,Morale,{'weight': 0.12619853280440008}
+6,31,Seeking Input,{'weight': 0.046425845724738624}
+6,31,Monitoring,{'weight': 0.01707911418112844}
+6,30,Leadership,{'weight': 0.6652409557748219}
+6,30,Responding,{'weight': 0.8668133321973348}
+6,30,Seeking Help,{'weight': 0.31888280424871135}
+6,30,Morale,{'weight': 0.11731042782619837}
+6,30,Seeking Input,{'weight': 0.023212922862369312}
+6,30,Monitoring,{'weight': 0.00853955709056422}
+6,72,Seeking Input,{'weight': 0.6452977840049066}
+6,72,Responding,{'weight': 0.8668133321973348}
+6,72,Seeking Help,{'weight': 0.3188828042487113}
+6,72,Leadership,{'weight': 0.11731042782619837}
+6,72,Morale,{'weight': 0.043156094632284675}
+6,72,Monitoring,{'weight': 0.00853955709056422}
+6,32,Seeking Input,{'weight': 0.6336913225737218}
+6,32,Responding,{'weight': 0.233122009623613}
+6,32,Seeking Help,{'weight': 0.08576079462509835}
+6,32,Leadership,{'weight': 0.03154963320110002}
+6,32,Morale,{'weight': 0.011606461431184656}
+6,32,Monitoring,{'weight': 0.00426977854528211}
+6,29,Seeking Input,{'weight': 0.6569042454360912}
+6,29,Responding,{'weight': 1.5005046547710568}
+6,29,Seeking Help,{'weight': 0.40464359887380974}
+6,29,Leadership,{'weight': 0.29622127602581305}
+6,29,Morale,{'weight': 0.12891688925738304}
+6,29,Monitoring,{'weight': 0.012809335635846332}
+6,11,Responding,{'weight': 0.6336913225737218}
+6,11,Seeking Help,{'weight': 0.233122009623613}
+6,11,Morale,{'weight': 0.08576079462509835}
+6,11,Leadership,{'weight': 0.03154963320110002}
+6,11,Seeking Input,{'weight': 0.011606461431184656}
+6,11,Monitoring,{'weight': 0.00426977854528211}
+6,28,Responding,{'weight': 0.6336913225737218}
+6,28,Seeking Help,{'weight': 0.233122009623613}
+6,28,Morale,{'weight': 0.08576079462509835}
+6,28,Leadership,{'weight': 0.03154963320110002}
+6,28,Seeking Input,{'weight': 0.011606461431184656}
+6,28,Monitoring,{'weight': 0.00426977854528211}
+6,46,Seeking Help,{'weight': 1.3207827742286482}
+6,46,Monitoring,{'weight': 0.5077389304953853}
+6,46,Leadership,{'weight': 1.4314319890839244}
+6,46,Responding,{'weight': 2.447188368672856}
+6,46,Morale,{'weight': 2.2979322508957156}
+6,46,Seeking Input,{'weight': 1.9949256866234708}
+6,34,Seeking Help,{'weight': 1.2803450360493465}
+6,34,Monitoring,{'weight': 0.26607736378120816}
+6,34,Leadership,{'weight': 1.108279406289931}
+6,34,Responding,{'weight': 2.189905984797561}
+6,34,Morale,{'weight': 1.4394556290371114}
+6,34,Seeking Input,{'weight': 0.7159365800448425}
+6,20,Responding,{'weight': 3.817828682797216}
+6,20,Leadership,{'weight': 2.3530005232144764}
+6,20,Seeking Help,{'weight': 0.9082058758962016}
+6,20,Morale,{'weight': 1.7356769050629248}
+6,20,Seeking Input,{'weight': 1.0537625286106411}
+6,20,Monitoring,{'weight': 0.13152548441853987}
+6,10,Leadership,{'weight': 0.7194521171988202}
+6,10,Responding,{'weight': 0.264671642824713}
+6,10,Seeking Help,{'weight': 0.097367256056283}
+6,10,Morale,{'weight': 0.03581941174638213}
+6,10,Seeking Input,{'weight': 0.6452977840049066}
+6,10,Monitoring,{'weight': 0.2373917881688951}
+6,19,Morale,{'weight': 1.2673826451474437}
+6,19,Monitoring,{'weight': 0.2373917881688951}
+6,19,Responding,{'weight': 0.1715215892501967}
+6,19,Seeking Help,{'weight': 0.06309926640220004}
+6,19,Seeking Input,{'weight': 0.023212922862369312}
+6,19,Leadership,{'weight': 0.2373917881688951}
+6,77,Seeking Input,{'weight': 0.6336913225737218}
+6,77,Monitoring,{'weight': 0.233122009623613}
+6,77,Leadership,{'weight': 0.08576079462509835}
+6,77,Responding,{'weight': 0.03154963320110002}
+6,77,Seeking Help,{'weight': 0.011606461431184656}
+6,77,Morale,{'weight': 0.00426977854528211}
+6,4,Seeking Help,{'weight': 0.7194521171988202}
+6,4,Morale,{'weight': 0.264671642824713}
+6,4,Seeking Input,{'weight': 0.097367256056283}
+6,4,Monitoring,{'weight': 0.03581941174638213}
+6,4,Leadership,{'weight': 0.6452977840049066}
+6,4,Responding,{'weight': 0.23739178816889506}
+32,34,Leadership,{'weight': 0.9525741268224333}
+32,34,Responding,{'weight': 0.9525741268224331}
+32,34,Seeking Help,{'weight': 0.14886006102729837}
+32,34,Morale,{'weight': 0.8983629653984349}
+32,34,Seeking Input,{'weight': 0.03481938429355397}
+32,34,Monitoring,{'weight': 0.012809335635846332}
+32,73,Leadership,{'weight': 0.8668133321973348}
+32,73,Responding,{'weight': 0.31888280424871135}
+32,73,Seeking Help,{'weight': 0.11731042782619837}
+32,73,Morale,{'weight': 0.6652409557748219}
+32,73,Seeking Input,{'weight': 0.023212922862369312}
+32,73,Monitoring,{'weight': 0.00853955709056422}
+32,31,Leadership,{'weight': 34.560078935544695}
+32,31,Responding,{'weight': 19.378721334672335}
+32,31,Seeking Help,{'weight': 18.030579588129335}
+32,31,Morale,{'weight': 10.249274184681747}
+32,31,Seeking Input,{'weight': 6.3625424358148}
+32,31,Monitoring,{'weight': 2.4188035211571024}
+32,0,Leadership,{'weight': 18.087690646509266}
+32,0,Responding,{'weight': 11.076272083036372}
+32,0,Seeking Help,{'weight': 10.120854092657389}
+32,0,Morale,{'weight': 4.294771107888837}
+32,0,Seeking Input,{'weight': 3.7893678009728062}
+32,0,Monitoring,{'weight': 1.6310442689353348}
+32,72,Leadership,{'weight': 5.451512651240686}
+32,72,Responding,{'weight': 3.4512415263850587}
+32,72,Seeking Help,{'weight': 1.0680684276516983}
+32,72,Morale,{'weight': 1.216577653862418}
+32,72,Seeking Input,{'weight': 0.7613623983167528}
+32,72,Monitoring,{'weight': 0.051237342543385335}
+32,20,Leadership,{'weight': 3.3198921137908246}
+32,20,Responding,{'weight': 1.2213200555708472}
+32,20,Seeking Help,{'weight': 2.2756667794226595}
+32,20,Morale,{'weight': 1.056111131403935}
+32,20,Seeking Input,{'weight': 0.09285169144947725}
+32,20,Monitoring,{'weight': 0.03415822836225688}
+32,62,Leadership,{'weight': 6.816119635886348}
+32,62,Responding,{'weight': 4.901752222213883}
+32,62,Seeking Help,{'weight': 2.0564619662205144}
+32,62,Morale,{'weight': 0.9338701633779789}
+32,62,Seeking Input,{'weight': 1.5897882330030406}
+32,62,Monitoring,{'weight': 0.7020077792982357}
+32,61,Seeking Help,{'weight': 1.4389042343976406}
+32,61,Leadership,{'weight': 1.586265449396155}
+32,61,Responding,{'weight': 0.5835544470734244}
+32,61,Morale,{'weight': 0.10625536103448471}
+32,61,Seeking Input,{'weight': 0.03908916283883608}
+32,61,Monitoring,{'weight': 0.24593134525945934}
+32,30,Seeking Input,{'weight': 2.1690153616383325}
+32,30,Leadership,{'weight': 2.084059101844481}
+32,30,Responding,{'weight': 0.7666824977548059}
+32,30,Seeking Help,{'weight': 1.5062732793451228}
+32,30,Morale,{'weight': 0.362590293520467}
+32,30,Monitoring,{'weight': 0.11137946589679101}
+32,22,Seeking Help,{'weight': 2.7994369331196003}
+32,22,Leadership,{'weight': 1.197159681319165}
+32,22,Responding,{'weight': 1.0624952956992135}
+32,22,Morale,{'weight': 0.7714963168093066}
+32,22,Seeking Input,{'weight': 0.06230208570120539}
+32,22,Monitoring,{'weight': 0.10710968735150891}
+32,17,Leadership,{'weight': 1.3846930729736422}
+32,17,Responding,{'weight': 0.730915662071939}
+32,17,Seeking Help,{'weight': 0.8909737064490169}
+32,17,Morale,{'weight': 0.08631218926456935}
+32,17,Seeking Input,{'weight': 0.6611740239813733}
+32,17,Monitoring,{'weight': 0.2459313452594593}
+32,16,Seeking Help,{'weight': 0.6336913225737218}
+32,16,Seeking Input,{'weight': 0.233122009623613}
+32,16,Leadership,{'weight': 0.08576079462509835}
+32,16,Responding,{'weight': 0.03154963320110002}
+32,16,Morale,{'weight': 0.011606461431184656}
+32,16,Monitoring,{'weight': 0.00426977854528211}
+32,29,Leadership,{'weight': 3.584706673173603}
+32,29,Responding,{'weight': 3.0709537943845127}
+32,29,Seeking Help,{'weight': 1.6145001095715381}
+32,29,Morale,{'weight': 0.48551907523241333}
+32,29,Seeking Input,{'weight': 0.17861248607457558}
+32,29,Monitoring,{'weight': 0.06570786156335691}
+32,25,Responding,{'weight': 0.7194521171988202}
+32,25,Leadership,{'weight': 0.466244019247226}
+32,25,Seeking Help,{'weight': 0.11731042782619837}
+32,25,Morale,{'weight': 0.6652409557748219}
+32,25,Seeking Input,{'weight': 0.023212922862369312}
+32,25,Monitoring,{'weight': 0.00853955709056422}
+32,46,Morale,{'weight': 0.8456506500032204}
+32,46,Leadership,{'weight': 2.3988676201694914}
+32,46,Responding,{'weight': 1.5045789406947578}
+32,46,Seeking Help,{'weight': 1.1556453492737297}
+32,46,Seeking Input,{'weight': 0.06963876858710794}
+32,46,Monitoring,{'weight': 0.02561867127169266}
+32,35,Morale,{'weight': 0.9299125985995349}
+32,35,Leadership,{'weight': 1.5862654493961552}
+32,35,Responding,{'weight': 0.5835544470734244}
+32,35,Seeking Help,{'weight': 0.8367625450250186}
+32,35,Seeking Input,{'weight': 0.046425845724738624}
+32,35,Monitoring,{'weight': 0.01707911418112844}
+32,74,Morale,{'weight': 0.6336913225737218}
+32,74,Leadership,{'weight': 0.233122009623613}
+32,74,Responding,{'weight': 0.08576079462509835}
+32,74,Seeking Help,{'weight': 0.03154963320110002}
+32,74,Seeking Input,{'weight': 0.011606461431184656}
+32,74,Monitoring,{'weight': 0.00426977854528211}
+32,11,Leadership,{'weight': 3.604649844943519}
+32,11,Responding,{'weight': 2.6976643360902215}
+32,11,Seeking Help,{'weight': 1.3929845613791099}
+32,11,Morale,{'weight': 0.5397302366564116}
+32,11,Seeking Input,{'weight': 0.7265430140231988}
+32,11,Monitoring,{'weight': 0.038428006907538996}
+32,6,Leadership,{'weight': 0.6652409557748219}
+32,6,Responding,{'weight': 0.466244019247226}
+32,6,Seeking Help,{'weight': 0.097367256056283}
+32,6,Morale,{'weight': 0.11731042782619837}
+32,6,Seeking Input,{'weight': 0.6452977840049066}
+32,6,Monitoring,{'weight': 0.00853955709056422}
+32,28,Seeking Help,{'weight': 0.9841237600235333}
+32,28,Leadership,{'weight': 1.1856961364460463}
+32,28,Responding,{'weight': 1.0383349214475315}
+32,28,Morale,{'weight': 0.10625536103448471}
+32,28,Seeking Input,{'weight': 0.6685107068672758}
+32,28,Monitoring,{'weight': 0.01707911418112844}
+32,37,Seeking Help,{'weight': 1.5246650290227386}
+32,37,Leadership,{'weight': 2.2199567719698767}
+32,37,Responding,{'weight': 1.0182488331195505}
+32,37,Morale,{'weight': 0.1577481660055001}
+32,37,Seeking Input,{'weight': 0.05803230715592328}
+32,37,Monitoring,{'weight': 0.02134889272641055}
+32,1,Seeking Help,{'weight': 0.7194521171988202}
+32,1,Leadership,{'weight': 0.8668133321973348}
+32,1,Responding,{'weight': 0.31888280424871135}
+32,1,Morale,{'weight': 0.06309926640220004}
+32,1,Seeking Input,{'weight': 0.023212922862369312}
+32,1,Monitoring,{'weight': 0.00853955709056422}
+32,36,Responding,{'weight': 0.6336913225737218}
+32,36,Seeking Help,{'weight': 0.233122009623613}
+32,36,Leadership,{'weight': 0.08576079462509835}
+32,36,Morale,{'weight': 0.03154963320110002}
+32,36,Seeking Input,{'weight': 0.011606461431184656}
+32,36,Monitoring,{'weight': 0.00426977854528211}
+17,0,Leadership,{'weight': 19.699667035630696}
+17,0,Responding,{'weight': 10.056238570771907}
+17,0,Seeking Help,{'weight': 5.179842061951579}
+17,0,Morale,{'weight': 4.970854144995546}
+17,0,Seeking Input,{'weight': 2.1716052944390647}
+17,0,Monitoring,{'weight': 0.9217928922112042}
+17,32,Leadership,{'weight': 2.1341959773447785}
+17,32,Responding,{'weight': 0.7851268234959374}
+17,32,Seeking Help,{'weight': 0.28883201707639505}
+17,32,Morale,{'weight': 0.07897550637866681}
+17,32,Seeking Input,{'weight': 0.6884538786371912}
+17,32,Monitoring,{'weight': 0.024415797067030984}
+17,31,Leadership,{'weight': 1.333057351444561}
+17,31,Responding,{'weight': 0.490404393498908}
+17,31,Seeking Help,{'weight': 0.1804096942283984}
+17,31,Morale,{'weight': 0.6884538786371912}
+17,31,Seeking Input,{'weight': 0.6611740239813733}
+17,31,Monitoring,{'weight': 0.6465006582095681}
+17,72,Leadership,{'weight': 1.7336266643946696}
+17,72,Responding,{'weight': 0.6377656084974226}
+17,72,Seeking Help,{'weight': 0.2346208556523967}
+17,72,Seeking Input,{'weight': 0.059032334608751444}
+17,72,Monitoring,{'weight': 0.6538373410954708}
+17,72,Morale,{'weight': 0.6811171957512887}
+17,29,Leadership,{'weight': 1.5005046547710568}
+17,29,Responding,{'weight': 0.5520048138723244}
+17,29,Seeking Help,{'weight': 0.20307122245129672}
+17,29,Seeking Input,{'weight': 0.04742587317756679}
+17,29,Monitoring,{'weight': 0.6495675625501887}
+17,29,Morale,{'weight': 0.04742587317756679}
+17,37,Monitoring,{'weight': 0.637961101119004}
+17,37,Leadership,{'weight': 0.466244019247226}
+17,37,Responding,{'weight': 0.1715215892501967}
+17,37,Seeking Help,{'weight': 0.06309926640220004}
+17,37,Morale,{'weight': 0.6452977840049066}
+17,37,Seeking Input,{'weight': 0.015876239976466765}
+17,61,Seeking Input,{'weight': 0.6569042454360912}
+17,61,Leadership,{'weight': 1.5005046547710568}
+17,61,Responding,{'weight': 0.5520048138723244}
+17,61,Seeking Help,{'weight': 0.20307122245129672}
+17,61,Morale,{'weight': 0.0747057278333847}
+17,61,Monitoring,{'weight': 0.012809335635846332}
+17,30,Morale,{'weight': 0.6336913225737218}
+17,30,Leadership,{'weight': 0.23312200962361296}
+17,30,Responding,{'weight': 0.08576079462509835}
+17,30,Seeking Help,{'weight': 0.03154963320110002}
+17,30,Seeking Input,{'weight': 0.011606461431184656}
+17,30,Monitoring,{'weight': 0.00426977854528211}
+17,12,Leadership,{'weight': 0.6336913225737218}
+17,12,Responding,{'weight': 0.233122009623613}
+17,12,Seeking Help,{'weight': 0.08576079462509835}
+17,12,Morale,{'weight': 0.03154963320110002}
+17,12,Seeking Input,{'weight': 0.011606461431184656}
+17,12,Monitoring,{'weight': 0.00426977854528211}
+17,69,Leadership,{'weight': 1.2673826451474437}
+17,69,Responding,{'weight': 0.466244019247226}
+17,69,Seeking Help,{'weight': 0.1715215892501967}
+17,69,Morale,{'weight': 0.06309926640220004}
+17,69,Seeking Input,{'weight': 0.023212922862369312}
+17,69,Monitoring,{'weight': 0.00853955709056422}
+17,63,Leadership,{'weight': 2.1657456105458786}
+17,63,Responding,{'weight': 1.4188181460696594}
+17,63,Seeking Help,{'weight': 0.5219540267000081}
+17,63,Morale,{'weight': 0.8141010168021203}
+17,63,Seeking Input,{'weight': 0.05803230715592328}
+17,63,Monitoring,{'weight': 0.02134889272641055}
+17,46,Leadership,{'weight': 12.448853013698228}
+17,46,Responding,{'weight': 6.037168566601566}
+17,46,Seeking Help,{'weight': 3.1187617692981453}
+17,46,Morale,{'weight': 1.913251521693083}
+17,46,Seeking Input,{'weight': 1.1190885793427765}
+17,46,Monitoring,{'weight': 0.3628765493662014}
+17,20,Leadership,{'weight': 1.986834762346264}
+17,20,Responding,{'weight': 0.730915662071939}
+17,20,Seeking Help,{'weight': 0.2688888453064797}
+17,20,Morale,{'weight': 0.7083970504071065}
+17,20,Seeking Input,{'weight': 0.2606047110312644}
+17,20,Monitoring,{'weight': 0.04435896883694636}
+17,5,Leadership,{'weight': 6.803157244984445}
+17,5,Responding,{'weight': 3.0506722134349498}
+17,5,Seeking Help,{'weight': 0.9749183740771818}
+17,5,Morale,{'weight': 0.35865242664328495}
+17,5,Seeking Input,{'weight': 0.761362398316753}
+17,5,Monitoring,{'weight': 0.051237342543385335}
+17,19,Leadership,{'weight': 0.7194521171988202}
+17,19,Responding,{'weight': 0.264671642824713}
+17,19,Seeking Help,{'weight': 0.097367256056283}
+17,19,Morale,{'weight': 0.6652409557748219}
+17,19,Seeking Input,{'weight': 0.2447284710547976}
+17,19,Monitoring,{'weight': 0.00853955709056422}
+17,85,Leadership,{'weight': 1.2673826451474437}
+17,85,Responding,{'weight': 0.466244019247226}
+17,85,Seeking Help,{'weight': 0.1715215892501967}
+17,85,Morale,{'weight': 0.06309926640220004}
+17,85,Seeking Input,{'weight': 0.023212922862369312}
+17,85,Monitoring,{'weight': 0.00853955709056422}
+17,16,Leadership,{'weight': 0.6336913225737218}
+17,16,Responding,{'weight': 0.23312200962361304}
+17,16,Seeking Help,{'weight': 0.08576079462509835}
+17,16,Morale,{'weight': 0.03154963320110002}
+17,16,Seeking Input,{'weight': 0.011606461431184656}
+17,16,Monitoring,{'weight': 0.00426977854528211}
+17,3,Leadership,{'weight': 6.336913225737219}
+17,3,Seeking Help,{'weight': 0.9507579998254997}
+17,3,Morale,{'weight': 0.3497643216650832}
+17,3,Monitoring,{'weight': 0.29882987118696985}
+17,3,Responding,{'weight': 1.9623433330451874}
+17,3,Seeking Input,{'weight': 0.10139124854004147}
+17,8,Leadership,{'weight': 2.5347652902948874}
+17,8,Seeking Help,{'weight': 0.4361932320749097}
+17,8,Morale,{'weight': 0.16046652245848303}
+17,8,Monitoring,{'weight': 0.27321119991527726}
+17,8,Responding,{'weight': 0.5636112753035091}
+17,8,Seeking Input,{'weight': 0.03175247995293353}
+17,79,Leadership,{'weight': 2.5347652902948874}
+17,79,Seeking Help,{'weight': 0.490404393498908}
+17,79,Morale,{'weight': 0.1804096942283984}
+17,79,Monitoring,{'weight': 0.04435896883694636}
+17,79,Responding,{'weight': 0.7109724903020237}
+17,79,Seeking Input,{'weight': 0.03908916283883608}
+17,10,Leadership,{'weight': 1.9010739677211657}
+17,10,Responding,{'weight': 0.699366028870839}
+17,10,Seeking Help,{'weight': 0.25728238387529506}
+17,10,Morale,{'weight': 0.09464889960330006}
+17,10,Seeking Input,{'weight': 0.03481938429355397}
+17,10,Monitoring,{'weight': 0.012809335635846332}
+17,4,Leadership,{'weight': 1.2989322783485437}
+17,4,Responding,{'weight': 0.4778504806784106}
+17,4,Seeking Help,{'weight': 0.8052129118239185}
+17,4,Morale,{'weight': 0.06736904494748215}
+17,4,Seeking Input,{'weight': 0.2563349324859823}
+17,4,Monitoring,{'weight': 0.09430035171566258}
+17,77,Leadership,{'weight': 5.99944317918931}
+17,77,Responding,{'weight': 2.8291566652425217}
+17,77,Seeking Help,{'weight': 1.6702101170243202}
+17,77,Morale,{'weight': 1.0076685945540027}
+17,77,Seeking Input,{'weight': 0.36079308536664423}
+17,77,Monitoring,{'weight': 0.13272835862320156}
+17,101,Leadership,{'weight': 1.2673826451474437}
+17,101,Monitoring,{'weight': 0.2373917881688951}
+17,101,Responding,{'weight': 0.31888280424871135}
+17,101,Seeking Help,{'weight': 0.11731042782619837}
+17,101,Morale,{'weight': 0.043156094632284675}
+17,101,Seeking Input,{'weight': 0.015876239976466765}
+46,32,Seeking Help,{'weight': 0.6336913225737218}
+46,32,Leadership,{'weight': 0.233122009623613}
+46,32,Responding,{'weight': 0.08576079462509835}
+46,32,Morale,{'weight': 0.03154963320110002}
+46,32,Seeking Input,{'weight': 0.011606461431184656}
+46,32,Monitoring,{'weight': 0.00426977854528211}
+46,29,Seeking Help,{'weight': 0.7194521171988202}
+46,29,Leadership,{'weight': 0.8668133321973348}
+46,29,Responding,{'weight': 0.3188828042487113}
+46,29,Morale,{'weight': 0.06309926640220004}
+46,29,Seeking Input,{'weight': 0.023212922862369312}
+46,29,Monitoring,{'weight': 0.00853955709056422}
+46,31,Seeking Help,{'weight': 1.6578516968254042}
+46,31,Leadership,{'weight': 3.0567193169948954}
+46,31,Responding,{'weight': 1.92821825994917}
+46,31,Morale,{'weight': 0.8388653617567887}
+46,31,Seeking Input,{'weight': 1.1695741104080557}
+46,31,Monitoring,{'weight': 0.3487712540656861}
+46,30,Leadership,{'weight': 0.6336913225737218}
+46,30,Responding,{'weight': 0.23312200962361296}
+46,30,Seeking Help,{'weight': 0.08576079462509835}
+46,30,Morale,{'weight': 0.03154963320110002}
+46,30,Seeking Input,{'weight': 0.011606461431184656}
+46,30,Monitoring,{'weight': 0.00426977854528211}
+46,0,Leadership,{'weight': 70.77642594472387}
+46,0,Responding,{'weight': 46.683233795557285}
+46,0,Seeking Help,{'weight': 24.093239691973412}
+46,0,Morale,{'weight': 10.499761054054}
+46,0,Seeking Input,{'weight': 11.756417412160276}
+46,0,Monitoring,{'weight': 7.190922101531389}
+46,16,Leadership,{'weight': 0.9525741268224333}
+46,16,Responding,{'weight': 0.9525741268224333}
+46,16,Seeking Help,{'weight': 0.14886006102729837}
+46,16,Morale,{'weight': 0.05476255606346933}
+46,16,Seeking Input,{'weight': 0.8784197936285194}
+46,16,Monitoring,{'weight': 0.012809335635846332}
+46,74,Leadership,{'weight': 0.8168193732551031}
+46,74,Responding,{'weight': 2.1341959773447785}
+46,74,Seeking Help,{'weight': 0.5835544470734244}
+46,74,Morale,{'weight': 0.07897550637866681}
+46,74,Seeking Input,{'weight': 0.34209572711108066}
+46,74,Monitoring,{'weight': 0.04435896883694635}
+46,69,Leadership,{'weight': 1.9682475200470666}
+46,69,Responding,{'weight': 3.17253089879231}
+46,69,Seeking Help,{'weight': 0.9113253563003376}
+46,69,Morale,{'weight': 0.42840791637564996}
+46,69,Seeking Input,{'weight': 1.4038390640425626}
+46,69,Monitoring,{'weight': 0.11564924444207314}
+46,17,Leadership,{'weight': 4.121030739691042}
+46,17,Responding,{'weight': 1.3686812705693618}
+46,17,Morale,{'weight': 0.8146524114415912}
+46,17,Monitoring,{'weight': 0.49186269051891857}
+46,17,Seeking Help,{'weight': 1.1255945621014136}
+46,17,Seeking Input,{'weight': 0.07817832567767216}
+46,4,Responding,{'weight': 12.9733169867671}
+46,4,Seeking Help,{'weight': 5.3189191426748765}
+46,4,Leadership,{'weight': 16.15630033009245}
+46,4,Morale,{'weight': 2.57004640011417}
+46,4,Seeking Input,{'weight': 4.948277937509654}
+46,4,Monitoring,{'weight': 1.0331392028417559}
+46,28,Leadership,{'weight': 0.233122009623613}
+46,28,Responding,{'weight': 0.08576079462509835}
+46,28,Seeking Help,{'weight': 0.03154963320110002}
+46,28,Morale,{'weight': 0.011606461431184656}
+46,28,Seeking Input,{'weight': 0.6336913225737218}
+46,28,Monitoring,{'weight': 0.00426977854528211}
+46,1,Morale,{'weight': 0.06309926640220004}
+46,1,Seeking Input,{'weight': 0.023212922862369312}
+46,1,Leadership,{'weight': 1.2673826451474437}
+46,1,Responding,{'weight': 0.466244019247226}
+46,1,Seeking Help,{'weight': 0.1715215892501967}
+46,1,Monitoring,{'weight': 0.00853955709056422}
+46,34,Leadership,{'weight': 23.236669356640856}
+46,34,Responding,{'weight': 12.456812955228695}
+46,34,Seeking Help,{'weight': 7.683888449289422}
+46,34,Morale,{'weight': 4.5208021130107285}
+46,34,Seeking Input,{'weight': 6.522385423157805}
+46,34,Monitoring,{'weight': 1.5794417026724932}
+46,5,Seeking Help,{'weight': 2.869328841898484}
+46,5,Leadership,{'weight': 2.6677564654759713}
+46,5,Responding,{'weight': 3.0366332286669135}
+46,5,Morale,{'weight': 0.31514778412336275}
+46,5,Seeking Input,{'weight': 0.8123038086482974}
+46,5,Monitoring,{'weight': 0.29882987118696985}
+46,6,Leadership,{'weight': 6.569756756374952}
+46,6,Responding,{'weight': 4.366375607085757}
+46,6,Seeking Help,{'weight': 2.461649605603542}
+46,6,Morale,{'weight': 1.7067289071695504}
+46,6,Seeking Input,{'weight': 2.0731040123011435}
+46,6,Monitoring,{'weight': 0.8223851114650542}
+46,33,Seeking Input,{'weight': 0.8668133321973348}
+46,33,Leadership,{'weight': 0.31888280424871135}
+46,33,Responding,{'weight': 0.7194521171988202}
+46,33,Seeking Help,{'weight': 0.06309926640220004}
+46,33,Morale,{'weight': 0.023212922862369312}
+46,33,Monitoring,{'weight': 0.00853955709056422}
+46,106,Seeking Help,{'weight': 1.0472230264257332}
+46,106,Leadership,{'weight': 1.9051482536448663}
+46,106,Responding,{'weight': 1.357217725696243}
+46,106,Morale,{'weight': 0.7515531450393911}
+46,106,Seeking Input,{'weight': 0.05496540281530285}
+46,106,Monitoring,{'weight': 0.8838924463784633}
+46,48,Leadership,{'weight': 0.7194521171988202}
+46,48,Responding,{'weight': 0.466244019247226}
+46,48,Seeking Help,{'weight': 0.7194521171988202}
+46,48,Morale,{'weight': 0.06309926640220004}
+46,48,Seeking Input,{'weight': 0.023212922862369312}
+46,48,Monitoring,{'weight': 0.00853955709056422}
+46,56,Leadership,{'weight': 0.6336913225737218}
+46,56,Responding,{'weight': 0.233122009623613}
+46,56,Seeking Help,{'weight': 0.08576079462509835}
+46,56,Morale,{'weight': 0.03154963320110002}
+46,56,Seeking Input,{'weight': 0.011606461431184656}
+46,56,Monitoring,{'weight': 0.00426977854528211}
+46,61,Morale,{'weight': 0.6652409557748219}
+46,61,Leadership,{'weight': 0.8668133321973348}
+46,61,Responding,{'weight': 0.31888280424871135}
+46,61,Seeking Help,{'weight': 0.11731042782619837}
+46,61,Seeking Input,{'weight': 0.023212922862369312}
+46,61,Monitoring,{'weight': 0.00853955709056422}
+46,20,Leadership,{'weight': 48.15913972899204}
+46,20,Responding,{'weight': 25.42117634349156}
+46,20,Seeking Help,{'weight': 17.44584290323715}
+46,20,Morale,{'weight': 7.801678009308279}
+46,20,Seeking Input,{'weight': 9.848187406604431}
+46,20,Monitoring,{'weight': 1.3239756083666416}
+46,19,Leadership,{'weight': 17.129420742769074}
+46,19,Responding,{'weight': 8.442685912589678}
+46,19,Seeking Help,{'weight': 5.335403568242306}
+46,19,Morale,{'weight': 1.0670691749516534}
+46,19,Seeking Input,{'weight': 1.8529682762518778}
+46,19,Monitoring,{'weight': 0.17245232519540957}
+46,47,Leadership,{'weight': 8.59676369537718}
+46,47,Seeking Help,{'weight': 2.153686305718731}
+46,47,Responding,{'weight': 5.8543263490363175}
+46,47,Morale,{'weight': 1.5032427091253016}
+46,47,Seeking Input,{'weight': 1.7177576708711104}
+46,47,Monitoring,{'weight': 0.17422326987136091}
+46,63,Morale,{'weight': 0.6768474172060066}
+46,63,Leadership,{'weight': 1.0999353418209479}
+46,63,Responding,{'weight': 0.40464359887380974}
+46,63,Seeking Help,{'weight': 0.14886006102729837}
+46,63,Seeking Input,{'weight': 0.02748270140765142}
+46,63,Monitoring,{'weight': 0.642230879664286}
+46,10,Seeking Help,{'weight': 1.0156733932246331}
+46,10,Leadership,{'weight': 1.2714569310711445}
+46,10,Responding,{'weight': 1.6720262440212532}
+46,10,Monitoring,{'weight': 0.04862874738222847}
+46,10,Morale,{'weight': 0.9415190600307197}
+46,10,Seeking Input,{'weight': 0.05069562427002074}
+46,77,Seeking Input,{'weight': 11.538068453136272}
+46,77,Leadership,{'weight': 32.2259596984945}
+46,77,Responding,{'weight': 26.590168206605696}
+46,77,Seeking Help,{'weight': 12.203482308483292}
+46,77,Morale,{'weight': 6.372813685900791}
+46,77,Monitoring,{'weight': 5.069507647379481}
+46,8,Leadership,{'weight': 9.221975391054105}
+46,8,Responding,{'weight': 5.878343806729933}
+46,8,Seeking Help,{'weight': 2.6616013476507034}
+46,8,Morale,{'weight': 1.36247357237521}
+46,8,Seeking Input,{'weight': 3.2777432930642765}
+46,8,Monitoring,{'weight': 0.5978625891257732}
+46,3,Leadership,{'weight': 34.30120632759483}
+46,3,Responding,{'weight': 27.2354448623991}
+46,3,Seeking Help,{'weight': 11.307090812276789}
+46,3,Morale,{'weight': 5.703933225373823}
+46,3,Seeking Input,{'weight': 6.98221465675965}
+46,3,Monitoring,{'weight': 3.470110115595827}
+46,79,Leadership,{'weight': 4.269755238290527}
+46,79,Responding,{'weight': 4.624397524091853}
+46,79,Seeking Help,{'weight': 3.1253917153495796}
+46,79,Morale,{'weight': 1.5303934988648529}
+46,79,Seeking Input,{'weight': 2.9124346430908266}
+46,79,Monitoring,{'weight': 0.5376273803123601}
+46,78,Responding,{'weight': 2.8577223804672993}
+46,78,Leadership,{'weight': 3.5530141234144375}
+46,78,Seeking Help,{'weight': 0.5550025059298919}
+46,78,Morale,{'weight': 0.20417401173023872}
+46,78,Seeking Input,{'weight': 1.5554700575863594}
+46,78,Monitoring,{'weight': 0.2746169208717724}
+46,12,Responding,{'weight': 0.8668133321973348}
+46,12,Seeking Help,{'weight': 0.31888280424871135}
+46,12,Leadership,{'weight': 0.7194521171988202}
+46,12,Morale,{'weight': 0.06309926640220004}
+46,12,Seeking Input,{'weight': 0.023212922862369312}
+46,12,Monitoring,{'weight': 0.00853955709056422}
+46,104,Leadership,{'weight': 1.9010739677211657}
+46,104,Responding,{'weight': 0.699366028870839}
+46,104,Seeking Help,{'weight': 0.25728238387529506}
+46,104,Morale,{'weight': 0.09464889960330006}
+46,104,Seeking Input,{'weight': 0.03481938429355397}
+46,104,Monitoring,{'weight': 0.012809335635846332}
+46,88,Leadership,{'weight': 0.6336913225737218}
+46,88,Responding,{'weight': 0.233122009623613}
+46,88,Seeking Help,{'weight': 0.08576079462509835}
+46,88,Morale,{'weight': 0.03154963320110002}
+46,88,Seeking Input,{'weight': 0.011606461431184656}
+46,88,Monitoring,{'weight': 0.00426977854528211}
+46,103,Leadership,{'weight': 1.2989322783485437}
+46,103,Responding,{'weight': 0.5520048138723244}
+46,103,Seeking Help,{'weight': 0.20307122245129672}
+46,103,Morale,{'weight': 0.6768474172060066}
+46,103,Seeking Input,{'weight': 0.2563349324859823}
+46,103,Monitoring,{'weight': 0.012809335635846332}
+46,105,Leadership,{'weight': 0.6336913225737218}
+46,105,Responding,{'weight': 0.233122009623613}
+46,105,Seeking Help,{'weight': 0.08576079462509835}
+46,105,Morale,{'weight': 0.03154963320110002}
+46,105,Seeking Input,{'weight': 0.011606461431184656}
+46,105,Monitoring,{'weight': 0.00426977854528211}
+46,81,Monitoring,{'weight': 0.6336913225737218}
+46,81,Responding,{'weight': 0.233122009623613}
+46,81,Leadership,{'weight': 0.08576079462509835}
+46,81,Seeking Help,{'weight': 0.03154963320110002}
+46,81,Morale,{'weight': 0.011606461431184656}
+46,81,Seeking Input,{'weight': 0.00426977854528211}
+61,32,Responding,{'weight': 0.7194521171988202}
+61,32,Leadership,{'weight': 0.466244019247226}
+61,32,Seeking Help,{'weight': 0.11731042782619837}
+61,32,Morale,{'weight': 0.043156094632284675}
+61,32,Seeking Input,{'weight': 0.6452977840049066}
+61,32,Monitoring,{'weight': 0.00853955709056422}
+61,31,Responding,{'weight': 0.7194521171988202}
+61,31,Leadership,{'weight': 0.466244019247226}
+61,31,Seeking Help,{'weight': 0.11731042782619837}
+61,31,Morale,{'weight': 0.043156094632284675}
+61,31,Seeking Input,{'weight': 0.6452977840049066}
+61,31,Monitoring,{'weight': 0.00853955709056422}
+61,0,Responding,{'weight': 4.423901741535473}
+61,0,Leadership,{'weight': 5.920332110382829}
+61,0,Seeking Help,{'weight': 2.9918039235957616}
+61,0,Morale,{'weight': 0.44169486481540043}
+61,0,Seeking Input,{'weight': 0.16249046003658518}
+61,0,Monitoring,{'weight': 0.05977689963394956}
+61,11,Responding,{'weight': 0.6336913225737218}
+61,11,Leadership,{'weight': 0.233122009623613}
+61,11,Seeking Help,{'weight': 0.08576079462509835}
+61,11,Morale,{'weight': 0.03154963320110002}
+61,11,Seeking Input,{'weight': 0.011606461431184656}
+61,11,Monitoring,{'weight': 0.00426977854528211}
+61,52,Seeking Input,{'weight': 0.6336913225737218}
+61,52,Leadership,{'weight': 0.233122009623613}
+61,52,Responding,{'weight': 0.08576079462509835}
+61,52,Seeking Help,{'weight': 0.03154963320110002}
+61,52,Morale,{'weight': 0.011606461431184656}
+61,52,Monitoring,{'weight': 0.00426977854528211}
+61,48,Responding,{'weight': 0.8668133321973348}
+61,48,Leadership,{'weight': 0.8668133321973348}
+61,48,Seeking Help,{'weight': 0.1715215892501967}
+61,48,Morale,{'weight': 0.06309926640220004}
+61,48,Seeking Input,{'weight': 0.023212922862369312}
+61,48,Monitoring,{'weight': 0.00853955709056422}
+61,10,Responding,{'weight': 0.6336913225737218}
+61,10,Leadership,{'weight': 0.233122009623613}
+61,10,Seeking Help,{'weight': 0.08576079462509835}
+61,10,Morale,{'weight': 0.03154963320110002}
+61,10,Seeking Input,{'weight': 0.011606461431184656}
+61,10,Monitoring,{'weight': 0.00426977854528211}
+61,5,Responding,{'weight': 1.566179361068174}
+61,5,Leadership,{'weight': 2.7678872999185002}
+61,5,Seeking Help,{'weight': 0.42880397312549173}
+61,5,Morale,{'weight': 0.1577481660055001}
+61,5,Seeking Input,{'weight': 0.05803230715592328}
+61,5,Monitoring,{'weight': 0.02134889272641055}
+61,16,Responding,{'weight': 0.8668133321973348}
+61,16,Leadership,{'weight': 0.8668133321973348}
+61,16,Seeking Help,{'weight': 0.1715215892501967}
+61,16,Morale,{'weight': 0.06309926640220004}
+61,16,Seeking Input,{'weight': 0.023212922862369312}
+61,16,Monitoring,{'weight': 0.00853955709056422}
+61,46,Seeking Input,{'weight': 0.6452977840049066}
+61,46,Responding,{'weight': 0.31888280424871135}
+61,46,Leadership,{'weight': 0.3188828042487113}
+61,46,Seeking Help,{'weight': 0.6652409557748219}
+61,46,Morale,{'weight': 0.043156094632284675}
+61,46,Monitoring,{'weight': 0.00853955709056422}
+61,106,Seeking Help,{'weight': 0.6336913225737218}
+61,106,Leadership,{'weight': 0.233122009623613}
+61,106,Responding,{'weight': 0.08576079462509835}
+61,106,Morale,{'weight': 0.03154963320110002}
+61,106,Seeking Input,{'weight': 0.011606461431184656}
+61,106,Monitoring,{'weight': 0.00426977854528211}
+11,0,Leadership,{'weight': 3.634700632115835}
+11,0,Responding,{'weight': 1.3371316373682618}
+11,0,Seeking Help,{'weight': 1.696186618272936}
+11,0,Morale,{'weight': 0.22084743240770013}
+11,0,Seeking Input,{'weight': 0.08124523001829259}
+11,0,Monitoring,{'weight': 0.02988844981697477}
+11,32,Leadership,{'weight': 3.48733941711732}
+11,32,Responding,{'weight': 1.8850621653168855}
+11,32,Seeking Help,{'weight': 1.2956173053228268}
+11,32,Morale,{'weight': 0.22084743240770013}
+11,32,Seeking Input,{'weight': 0.08124523001829259}
+11,32,Monitoring,{'weight': 0.02988844981697477}
+11,17,Leadership,{'weight': 0.6336913225737218}
+11,17,Responding,{'weight': 0.233122009623613}
+11,17,Seeking Help,{'weight': 0.08576079462509835}
+11,17,Morale,{'weight': 0.03154963320110002}
+11,17,Seeking Input,{'weight': 0.011606461431184656}
+11,17,Monitoring,{'weight': 0.00426977854528211}
+11,62,Seeking Help,{'weight': 2.244117146221559}
+11,62,Leadership,{'weight': 3.234131319165726}
+11,62,Responding,{'weight': 1.1897704223697472}
+11,62,Morale,{'weight': 0.22084743240770013}
+11,62,Seeking Input,{'weight': 0.08124523001829259}
+11,62,Monitoring,{'weight': 0.02988844981697477}
+11,33,Seeking Help,{'weight': 0.6336913225737218}
+11,33,Leadership,{'weight': 0.233122009623613}
+11,33,Responding,{'weight': 0.08576079462509835}
+11,33,Morale,{'weight': 0.03154963320110002}
+11,33,Seeking Input,{'weight': 0.011606461431184656}
+11,33,Monitoring,{'weight': 0.00426977854528211}
+11,30,Seeking Help,{'weight': 0.6336913225737218}
+11,30,Leadership,{'weight': 0.233122009623613}
+11,30,Responding,{'weight': 0.08576079462509835}
+11,30,Morale,{'weight': 0.03154963320110002}
+11,30,Seeking Input,{'weight': 0.011606461431184656}
+11,30,Monitoring,{'weight': 0.00426977854528211}
+11,6,Responding,{'weight': 0.6336913225737218}
+11,6,Seeking Help,{'weight': 0.233122009623613}
+11,6,Leadership,{'weight': 0.08576079462509835}
+11,6,Morale,{'weight': 0.03154963320110002}
+11,6,Seeking Input,{'weight': 0.011606461431184656}
+11,6,Monitoring,{'weight': 0.00426977854528211}
+11,1,Responding,{'weight': 0.6336913225737218}
+11,1,Seeking Help,{'weight': 0.233122009623613}
+11,1,Leadership,{'weight': 0.08576079462509835}
+11,1,Morale,{'weight': 0.03154963320110002}
+11,1,Seeking Input,{'weight': 0.011606461431184656}
+11,1,Monitoring,{'weight': 0.00426977854528211}
+11,31,Responding,{'weight': 0.6336913225737218}
+11,31,Seeking Help,{'weight': 0.233122009623613}
+11,31,Leadership,{'weight': 0.08576079462509835}
+11,31,Morale,{'weight': 0.03154963320110002}
+11,31,Seeking Input,{'weight': 0.011606461431184656}
+11,31,Monitoring,{'weight': 0.00426977854528211}
+33,62,Leadership,{'weight': 0.6336913225737218}
+33,62,Responding,{'weight': 0.23312200962361296}
+33,62,Seeking Help,{'weight': 0.08576079462509835}
+33,62,Morale,{'weight': 0.03154963320110002}
+33,62,Seeking Input,{'weight': 0.011606461431184656}
+33,62,Monitoring,{'weight': 0.00426977854528211}
+33,0,Responding,{'weight': 0.8668133321973348}
+33,0,Seeking Help,{'weight': 0.3188828042487113}
+33,0,Morale,{'weight': 0.11731042782619837}
+33,0,Leadership,{'weight': 0.6652409557748219}
+33,0,Seeking Input,{'weight': 0.023212922862369312}
+33,0,Monitoring,{'weight': 0.00853955709056422}
+33,11,Responding,{'weight': 1.0999353418209479}
+33,11,Seeking Help,{'weight': 0.4046435988738097}
+33,11,Morale,{'weight': 0.14886006102729837}
+33,11,Leadership,{'weight': 1.2989322783485437}
+33,11,Seeking Input,{'weight': 0.03481938429355397}
+33,11,Monitoring,{'weight': 0.012809335635846332}
+33,30,Leadership,{'weight': 1.2673826451474437}
+33,30,Responding,{'weight': 0.466244019247226}
+33,30,Seeking Help,{'weight': 0.1715215892501967}
+33,30,Morale,{'weight': 0.06309926640220004}
+33,30,Seeking Input,{'weight': 0.023212922862369312}
+33,30,Monitoring,{'weight': 0.00853955709056422}
+33,35,Leadership,{'weight': 0.6336913225737218}
+33,35,Responding,{'weight': 0.233122009623613}
+33,35,Seeking Help,{'weight': 0.08576079462509835}
+33,35,Morale,{'weight': 0.03154963320110002}
+33,35,Seeking Input,{'weight': 0.011606461431184656}
+33,35,Monitoring,{'weight': 0.00426977854528211}
+69,32,Leadership,{'weight': 0.6336913225737218}
+69,32,Responding,{'weight': 0.233122009623613}
+69,32,Seeking Help,{'weight': 0.08576079462509835}
+69,32,Morale,{'weight': 0.03154963320110002}
+69,32,Seeking Input,{'weight': 0.011606461431184656}
+69,32,Monitoring,{'weight': 0.00426977854528211}
+69,26,Leadership,{'weight': 0.6336913225737218}
+69,26,Responding,{'weight': 0.233122009623613}
+69,26,Seeking Help,{'weight': 0.08576079462509835}
+69,26,Morale,{'weight': 0.03154963320110002}
+69,26,Seeking Input,{'weight': 0.011606461431184656}
+69,26,Monitoring,{'weight': 0.00426977854528211}
+69,25,Leadership,{'weight': 0.6336913225737218}
+69,25,Responding,{'weight': 0.233122009623613}
+69,25,Seeking Help,{'weight': 0.08576079462509835}
+69,25,Morale,{'weight': 0.03154963320110002}
+69,25,Seeking Input,{'weight': 0.011606461431184656}
+69,25,Monitoring,{'weight': 0.00426977854528211}
+69,0,Leadership,{'weight': 3.2382056050894263}
+69,0,Responding,{'weight': 3.4914137030410206}
+69,0,Seeking Help,{'weight': 1.5918385813486398}
+69,0,Morale,{'weight': 0.8777516778437913}
+69,0,Seeking Input,{'weight': 0.7308127925684811}
+69,0,Monitoring,{'weight': 0.06997764010863902}
+69,30,Leadership,{'weight': 0.6336913225737218}
+69,30,Responding,{'weight': 0.233122009623613}
+69,30,Seeking Help,{'weight': 0.08576079462509835}
+69,30,Morale,{'weight': 0.03154963320110002}
+69,30,Seeking Input,{'weight': 0.011606461431184656}
+69,30,Monitoring,{'weight': 0.00426977854528211}
+69,1,Leadership,{'weight': 0.6336913225737218}
+69,1,Seeking Help,{'weight': 0.233122009623613}
+69,1,Monitoring,{'weight': 0.08576079462509835}
+69,1,Responding,{'weight': 0.03154963320110002}
+69,1,Morale,{'weight': 0.011606461431184656}
+69,1,Seeking Input,{'weight': 0.00426977854528211}
+69,11,Leadership,{'weight': 0.6336913225737218}
+69,11,Seeking Help,{'weight': 0.233122009623613}
+69,11,Monitoring,{'weight': 0.08576079462509835}
+69,11,Responding,{'weight': 0.03154963320110002}
+69,11,Morale,{'weight': 0.011606461431184656}
+69,11,Seeking Input,{'weight': 0.00426977854528211}
+69,46,Seeking Help,{'weight': 2.490397039368656}
+69,46,Seeking Input,{'weight': 1.6601739965285451}
+69,46,Responding,{'weight': 2.5545203235734735}
+69,46,Leadership,{'weight': 2.344663812875745}
+69,46,Morale,{'weight': 1.538374307185694}
+69,46,Monitoring,{'weight': 0.4118705204678861}
+69,4,Leadership,{'weight': 2.305717566594975}
+69,4,Responding,{'weight': 1.998298307219383}
+69,4,Seeking Help,{'weight': 0.587771649555191}
+69,4,Morale,{'weight': 0.1620179445507822}
+69,4,Seeking Input,{'weight': 0.691723629729645}
+69,4,Monitoring,{'weight': 0.2544709023500235}
+69,31,Responding,{'weight': 0.7310585786300049}
+69,31,Seeking Help,{'weight': 0.12158020637148048}
+69,31,Leadership,{'weight': 0.497793652448326}
+69,31,Morale,{'weight': 0.6768474172060066}
+69,31,Seeking Input,{'weight': 0.8784197936285194}
+69,31,Monitoring,{'weight': 0.09430035171566258}
+69,77,Seeking Input,{'weight': 3.778493733896857}
+69,77,Leadership,{'weight': 2.2530651813935285}
+69,77,Responding,{'weight': 2.9240913979619534}
+69,77,Seeking Help,{'weight': 1.9310628967406815}
+69,77,Morale,{'weight': 1.3209856209804818}
+69,77,Monitoring,{'weight': 0.7923011690264983}
+69,3,Seeking Input,{'weight': 1.6177721432875642}
+69,3,Leadership,{'weight': 3.7518754975142192}
+69,3,Responding,{'weight': 4.941924398869847}
+69,3,Seeking Help,{'weight': 2.9808014328675636}
+69,3,Morale,{'weight': 1.0498246617334592}
+69,3,Monitoring,{'weight': 0.6578018657273456}
+69,8,Leadership,{'weight': 0.6336913225737218}
+69,8,Responding,{'weight': 0.233122009623613}
+69,8,Seeking Help,{'weight': 0.08576079462509835}
+69,8,Morale,{'weight': 0.03154963320110002}
+69,8,Seeking Input,{'weight': 0.011606461431184656}
+69,8,Monitoring,{'weight': 0.00426977854528211}
+74,46,Seeking Input,{'weight': 0.02748270140765142}
+74,46,Leadership,{'weight': 0.9525741268224333}
+74,46,Responding,{'weight': 0.35043243744981134}
+74,46,Seeking Help,{'weight': 1.3531434397725421}
+74,46,Morale,{'weight': 0.0747057278333847}
+74,46,Monitoring,{'weight': 0.2416615667141772}
+74,0,Responding,{'weight': 4.312164445661758}
+74,0,Morale,{'weight': 1.0703192281428453}
+74,0,Leadership,{'weight': 5.734440481315202}
+74,0,Seeking Help,{'weight': 4.333944872640106}
+74,0,Seeking Input,{'weight': 1.5052303125826039}
+74,0,Monitoring,{'weight': 1.0439006596574827}
+74,16,Responding,{'weight': 0.08576079462509835}
+74,16,Leadership,{'weight': 0.233122009623613}
+74,16,Seeking Help,{'weight': 0.6336913225737218}
+74,16,Morale,{'weight': 0.03154963320110002}
+74,16,Seeking Input,{'weight': 0.011606461431184656}
+74,16,Monitoring,{'weight': 0.00426977854528211}
+74,11,Leadership,{'weight': 0.264671642824713}
+74,11,Responding,{'weight': 0.7194521171988202}
+74,11,Seeking Help,{'weight': 0.8668133321973348}
+74,11,Morale,{'weight': 0.043156094632284675}
+74,11,Seeking Input,{'weight': 0.015876239976466765}
+74,11,Monitoring,{'weight': 0.09003057317038046}
+74,5,Leadership,{'weight': 5.07327381146408}
+74,5,Responding,{'weight': 5.0517026511885605}
+74,5,Seeking Help,{'weight': 5.461355561738453}
+74,5,Morale,{'weight': 1.544899957728802}
+74,5,Seeking Input,{'weight': 1.5315101397855935}
+74,5,Monitoring,{'weight': 0.3372578780945089}
+74,10,Responding,{'weight': 1.7336266643946698}
+74,10,Morale,{'weight': 0.2878845656870823}
+74,10,Leadership,{'weight': 0.7825513836010203}
+74,10,Seeking Help,{'weight': 0.9841237600235332}
+74,10,Seeking Input,{'weight': 0.03175247995293353}
+74,10,Monitoring,{'weight': 0.18006114634076092}
+74,34,Seeking Help,{'weight': 1.5005046547710568}
+74,34,Monitoring,{'weight': 0.32315258279399345}
+74,34,Leadership,{'weight': 0.35043243744981134}
+74,34,Responding,{'weight': 0.7510017503999202}
+74,34,Morale,{'weight': 0.05476255606346933}
+74,34,Seeking Input,{'weight': 0.020146018521748875}
+4,46,Responding,{'weight': 7.736008047801429}
+4,46,Leadership,{'weight': 24.12735772179934}
+4,46,Seeking Help,{'weight': 5.518462406640635}
+4,46,Morale,{'weight': 3.151679671435606}
+4,46,Seeking Input,{'weight': 1.5464535289559076}
+4,46,Monitoring,{'weight': 1.9200386233670719}
+4,69,Responding,{'weight': 4.559325440053407}
+4,69,Leadership,{'weight': 12.10580983519783}
+4,69,Seeking Help,{'weight': 3.338921388019855}
+4,69,Morale,{'weight': 0.6625422972231008}
+4,69,Seeking Input,{'weight': 0.24373569005487777}
+4,69,Monitoring,{'weight': 0.08966534945092434}
+4,0,Leadership,{'weight': 76.27531516948203}
+4,0,Responding,{'weight': 40.39850126603759}
+4,0,Seeking Help,{'weight': 27.132697859530587}
+4,0,Morale,{'weight': 14.553261016768372}
+4,0,Seeking Input,{'weight': 5.834525069433218}
+4,0,Monitoring,{'weight': 2.805699618748474}
+4,28,Responding,{'weight': 0.233122009623613}
+4,28,Seeking Help,{'weight': 0.08576079462509835}
+4,28,Leadership,{'weight': 0.6336913225737218}
+4,28,Morale,{'weight': 0.03154963320110002}
+4,28,Seeking Input,{'weight': 0.011606461431184656}
+4,28,Monitoring,{'weight': 0.00426977854528211}
+4,31,Responding,{'weight': 21.491182598797625}
+4,31,Morale,{'weight': 4.4209893385945005}
+4,31,Leadership,{'weight': 28.3965864124189}
+4,31,Seeking Help,{'weight': 11.877040276695581}
+4,31,Seeking Input,{'weight': 3.727030022414823}
+4,31,Monitoring,{'weight': 1.0871713510785936}
+4,10,Seeking Help,{'weight': 14.655652936800719}
+4,10,Leadership,{'weight': 30.31076568760003}
+4,10,Responding,{'weight': 19.858861913955128}
+4,10,Morale,{'weight': 6.710086060575511}
+4,10,Seeking Input,{'weight': 5.157311713357593}
+4,10,Monitoring,{'weight': 1.3073216877110185}
+4,6,Seeking Help,{'weight': 2.706286879545084}
+4,6,Leadership,{'weight': 1.3762134460768456}
+4,6,Responding,{'weight': 1.2757267096164269}
+4,6,Morale,{'weight': 0.37092700385919775}
+4,6,Seeking Input,{'weight': 0.13645641889511909}
+4,6,Monitoring,{'weight': 0.13438954200732678}
+4,8,Leadership,{'weight': 75.3717618466253}
+4,8,Responding,{'weight': 30.089980428666326}
+4,8,Seeking Help,{'weight': 18.83270369557641}
+4,8,Morale,{'weight': 6.730217390965471}
+4,8,Seeking Input,{'weight': 2.4406069384233966}
+4,8,Monitoring,{'weight': 1.5347296997433433}
+4,63,Leadership,{'weight': 36.87726561034509}
+4,63,Responding,{'weight': 20.02453696377365}
+4,63,Seeking Help,{'weight': 14.997555955867952}
+4,63,Morale,{'weight': 6.388069924280877}
+4,63,Seeking Input,{'weight': 3.024826603205378}
+4,63,Monitoring,{'weight': 0.6877449425270975}
+4,79,Leadership,{'weight': 61.50063279727357}
+4,79,Responding,{'weight': 24.398222562201543}
+4,79,Seeking Help,{'weight': 13.49236451993303}
+4,79,Morale,{'weight': 7.042955970720969}
+4,79,Seeking Input,{'weight': 1.7645494554654682}
+4,79,Monitoring,{'weight': 1.8012746944055817}
+4,3,Leadership,{'weight': 84.49963188675974}
+4,3,Responding,{'weight': 39.95945918658856}
+4,3,Seeking Help,{'weight': 27.244809903010115}
+4,3,Morale,{'weight': 11.580710840013772}
+4,3,Seeking Input,{'weight': 4.842708616828548}
+4,3,Monitoring,{'weight': 2.8726795667995466}
+4,77,Leadership,{'weight': 47.39736139078627}
+4,77,Responding,{'weight': 25.115716127670968}
+4,77,Seeking Help,{'weight': 15.826869670719699}
+4,77,Morale,{'weight': 7.651949376045342}
+4,77,Seeking Input,{'weight': 4.2522974583415465}
+4,77,Monitoring,{'weight': 1.7558059764362624}
+4,78,Leadership,{'weight': 35.153318303504214}
+4,78,Seeking Help,{'weight': 6.4110976554436885}
+4,78,Responding,{'weight': 13.32293062347882}
+4,78,Morale,{'weight': 3.5116640371998193}
+4,78,Seeking Input,{'weight': 1.4393584421875587}
+4,78,Monitoring,{'weight': 1.1616309381859147}
+4,17,Seeking Help,{'weight': 2.447188368672856}
+4,17,Responding,{'weight': 2.78342513071532}
+4,17,Morale,{'weight': 0.32982114989516775}
+4,17,Leadership,{'weight': 3.8377718545671313}
+4,17,Seeking Input,{'weight': 0.33024347961837236}
+4,17,Monitoring,{'weight': 0.27155001653115196}
+4,45,Leadership,{'weight': 2.6205260849199856}
+4,45,Responding,{'weight': 1.566179361068174}
+4,45,Seeking Help,{'weight': 0.5761651881240064}
+4,45,Morale,{'weight': 0.1577481660055001}
+4,45,Seeking Input,{'weight': 0.05803230715592328}
+4,45,Monitoring,{'weight': 0.02134889272641055}
+4,20,Seeking Help,{'weight': 0.8367625450250186}
+4,20,Morale,{'weight': 0.9099694268296196}
+4,20,Monitoring,{'weight': 0.09857013026094469}
+4,20,Leadership,{'weight': 1.5320542879721568}
+4,20,Responding,{'weight': 0.5636112753035091}
+4,20,Seeking Input,{'weight': 0.059032334608751444}
+4,12,Leadership,{'weight': 0.6336913225737218}
+4,12,Seeking Help,{'weight': 0.233122009623613}
+4,12,Responding,{'weight': 0.08576079462509835}
+4,12,Morale,{'weight': 0.03154963320110002}
+4,12,Seeking Input,{'weight': 0.011606461431184656}
+4,12,Monitoring,{'weight': 0.00426977854528211}
+4,88,Leadership,{'weight': 1.5005046547710568}
+4,88,Responding,{'weight': 0.35043243744981134}
+4,88,Seeking Help,{'weight': 0.9525741268224333}
+4,88,Morale,{'weight': 0.0747057278333847}
+4,88,Seeking Input,{'weight': 0.02748270140765142}
+4,88,Monitoring,{'weight': 0.09430035171566258}
+4,81,Leadership,{'weight': 0.6336913225737218}
+4,81,Monitoring,{'weight': 0.233122009623613}
+4,81,Responding,{'weight': 0.08576079462509835}
+4,81,Seeking Help,{'weight': 0.03154963320110002}
+4,81,Morale,{'weight': 0.011606461431184656}
+4,81,Seeking Input,{'weight': 0.00426977854528211}
+4,72,Leadership,{'weight': 4.754722062264764}
+4,72,Responding,{'weight': 2.8992367125127343}
+4,72,Seeking Help,{'weight': 0.9192083666243998}
+4,72,Morale,{'weight': 0.2839466988099002}
+4,72,Seeking Input,{'weight': 0.1044581528806619}
+4,72,Monitoring,{'weight': 0.038428006907538996}
+4,98,Leadership,{'weight': 1.9010739677211657}
+4,98,Responding,{'weight': 0.699366028870839}
+4,98,Seeking Help,{'weight': 0.25728238387529506}
+4,98,Morale,{'weight': 0.09464889960330006}
+4,98,Seeking Input,{'weight': 0.03481938429355397}
+4,98,Monitoring,{'weight': 0.012809335635846332}
+4,103,Leadership,{'weight': 0.6336913225737218}
+4,103,Responding,{'weight': 0.233122009623613}
+4,103,Seeking Help,{'weight': 0.08576079462509835}
+4,103,Morale,{'weight': 0.03154963320110002}
+4,103,Seeking Input,{'weight': 0.011606461431184656}
+4,103,Monitoring,{'weight': 0.00426977854528211}
+28,4,Leadership,{'weight': 1.2673826451474437}
+28,4,Responding,{'weight': 0.466244019247226}
+28,4,Seeking Help,{'weight': 0.1715215892501967}
+28,4,Morale,{'weight': 0.06309926640220004}
+28,4,Seeking Input,{'weight': 0.023212922862369312}
+28,4,Monitoring,{'weight': 0.00853955709056422}
+28,0,Leadership,{'weight': 0.7194521171988202}
+28,0,Responding,{'weight': 0.8668133321973348}
+28,0,Seeking Help,{'weight': 0.06309926640220004}
+28,0,Morale,{'weight': 0.31888280424871135}
+28,0,Seeking Input,{'weight': 0.023212922862369312}
+28,0,Monitoring,{'weight': 0.00853955709056422}
+28,46,Responding,{'weight': 0.7851268234959373}
+28,46,Seeking Help,{'weight': 0.8909737064490169}
+28,46,Morale,{'weight': 0.12619853280440008}
+28,46,Monitoring,{'weight': 0.01707911418112844}
+28,46,Leadership,{'weight': 2.1341959773447785}
+28,46,Seeking Input,{'weight': 0.046425845724738624}
+28,8,Leadership,{'weight': 2.3673179869683914}
+28,8,Responding,{'weight': 1.4188181460696592}
+28,8,Seeking Help,{'weight': 0.9767345010741153}
+28,8,Morale,{'weight': 0.1577481660055001}
+28,8,Seeking Input,{'weight': 0.05803230715592328}
+28,8,Monitoring,{'weight': 0.02134889272641055}
+34,0,Leadership,{'weight': 11.44098471163467}
+34,0,Responding,{'weight': 5.9208129442949335}
+34,0,Seeking Help,{'weight': 5.592122131841201}
+34,0,Morale,{'weight': 2.2021361148329937}
+34,0,Seeking Input,{'weight': 1.9243014911666951}
+34,0,Monitoring,{'weight': 0.9196426062295113}
+34,20,Leadership,{'weight': 8.837086825458881}
+34,20,Responding,{'weight': 6.3414683455730225}
+34,20,Seeking Help,{'weight': 6.896944823110378}
+34,20,Morale,{'weight': 2.819951197430249}
+34,20,Seeking Input,{'weight': 1.2164558353990593}
+34,20,Monitoring,{'weight': 0.8880929730284111}
+34,46,Seeking Input,{'weight': 0.9049097140362505}
+34,46,Leadership,{'weight': 9.939590253044495}
+34,46,Responding,{'weight': 4.860854286508367}
+34,46,Seeking Help,{'weight': 6.003200184144863}
+34,46,Morale,{'weight': 2.555279554605536}
+34,46,Monitoring,{'weight': 0.7361660076604923}
+34,17,Leadership,{'weight': 0.6336913225737218}
+34,17,Responding,{'weight': 0.23312200962361296}
+34,17,Seeking Help,{'weight': 0.08576079462509835}
+34,17,Morale,{'weight': 0.03154963320110002}
+34,17,Seeking Input,{'weight': 0.011606461431184656}
+34,17,Monitoring,{'weight': 0.00426977854528211}
+34,47,Leadership,{'weight': 1.333057351444561}
+34,47,Responding,{'weight': 0.490404393498908}
+34,47,Seeking Help,{'weight': 1.9868347623462639}
+34,47,Morale,{'weight': 0.12619853280440008}
+34,47,Seeking Input,{'weight': 0.046425845724738624}
+34,47,Monitoring,{'weight': 0.01707911418112844}
+34,6,Leadership,{'weight': 1.333057351444561}
+34,6,Responding,{'weight': 0.490404393498908}
+34,6,Seeking Help,{'weight': 1.9868347623462639}
+34,6,Morale,{'weight': 0.12619853280440008}
+34,6,Seeking Input,{'weight': 0.046425845724738624}
+34,6,Monitoring,{'weight': 0.01707911418112844}
+34,19,Responding,{'weight': 1.566179361068174}
+34,19,Seeking Help,{'weight': 1.12409571607263}
+34,19,Leadership,{'weight': 2.0725955569713626}
+34,19,Morale,{'weight': 0.1577481660055001}
+34,19,Seeking Input,{'weight': 0.05803230715592328}
+34,19,Monitoring,{'weight': 0.02134889272641055}
+10,46,Leadership,{'weight': 5.940418198710811}
+10,46,Responding,{'weight': 3.3896411060116423}
+10,46,Seeking Help,{'weight': 1.8491209652239353}
+10,46,Morale,{'weight': 0.3702588880744695}
+10,46,Seeking Input,{'weight': 1.3950537208904743}
+10,46,Monitoring,{'weight': 0.05550712108866745}
+10,31,Leadership,{'weight': 1.2673826451474437}
+10,31,Responding,{'weight': 0.466244019247226}
+10,31,Seeking Help,{'weight': 0.1715215892501967}
+10,31,Morale,{'weight': 0.06309926640220004}
+10,31,Seeking Input,{'weight': 0.023212922862369312}
+10,31,Monitoring,{'weight': 0.00853955709056422}
+10,0,Leadership,{'weight': 19.4965958131794}
+10,0,Responding,{'weight': 8.75730629242336}
+10,0,Seeking Help,{'weight': 6.030769015464459}
+10,0,Morale,{'weight': 2.5880683961320963}
+10,0,Seeking Input,{'weight': 2.847698470253769}
+10,0,Monitoring,{'weight': 0.27956201254691837}
+10,74,Seeking Input,{'weight': 0.6452977840049066}
+10,74,Leadership,{'weight': 0.8668133321973348}
+10,74,Responding,{'weight': 0.31888280424871135}
+10,74,Seeking Help,{'weight': 0.11731042782619837}
+10,74,Morale,{'weight': 0.043156094632284675}
+10,74,Monitoring,{'weight': 0.00853955709056422}
+10,5,Leadership,{'weight': 0.6336913225737218}
+10,5,Responding,{'weight': 0.233122009623613}
+10,5,Seeking Help,{'weight': 0.08576079462509835}
+10,5,Morale,{'weight': 0.03154963320110002}
+10,5,Seeking Input,{'weight': 0.011606461431184656}
+10,5,Monitoring,{'weight': 0.00426977854528211}
+10,61,Seeking Input,{'weight': 0.6336913225737218}
+10,61,Leadership,{'weight': 0.233122009623613}
+10,61,Responding,{'weight': 0.08576079462509835}
+10,61,Seeking Help,{'weight': 0.03154963320110002}
+10,61,Morale,{'weight': 0.011606461431184656}
+10,61,Monitoring,{'weight': 0.00426977854528211}
+10,17,Morale,{'weight': 0.16046652245848306}
+10,17,Monitoring,{'weight': 0.01707911418112844}
+10,17,Responding,{'weight': 0.6377656084974226}
+10,17,Seeking Help,{'weight': 1.3846930729736422}
+10,17,Seeking Input,{'weight': 0.6685107068672758}
+10,17,Leadership,{'weight': 1.131484975022048}
+10,20,Leadership,{'weight': 9.19463560620452}
+10,20,Seeking Help,{'weight': 2.712619324395552}
+10,20,Morale,{'weight': 0.6337110204749835}
+10,20,Responding,{'weight': 5.535300628229539}
+10,20,Seeking Input,{'weight': 0.8426076283350454}
+10,20,Monitoring,{'weight': 0.08112579236036012}
+10,19,Leadership,{'weight': 2.072595556971362}
+10,19,Seeking Help,{'weight': 0.8708876181210357}
+10,19,Morale,{'weight': 0.2119593274294984}
+10,19,Responding,{'weight': 1.7651762975957699}
+10,19,Seeking Input,{'weight': 0.05803230715592328}
+10,19,Monitoring,{'weight': 0.02134889272641055}
+10,63,Morale,{'weight': 2.6422598596548332}
+10,63,Seeking Input,{'weight': 1.6087913075138953}
+10,63,Monitoring,{'weight': 0.9136185588400964}
+10,63,Leadership,{'weight': 8.942926354281708}
+10,63,Responding,{'weight': 5.422758797524579}
+10,63,Seeking Help,{'weight': 2.469645122184888}
+10,3,Morale,{'weight': 1.0504927775181874}
+10,3,Seeking Input,{'weight': 2.1806218230695174}
+10,3,Monitoring,{'weight': 0.11564924444207314}
+10,3,Leadership,{'weight': 1.0197476791483342}
+10,3,Responding,{'weight': 2.4030848226512584}
+10,3,Seeking Help,{'weight': 1.2304036531706302}
+10,77,Morale,{'weight': 1.3317211198751049}
+10,77,Seeking Input,{'weight': 1.3481865964826307}
+10,77,Monitoring,{'weight': 0.18562688455071208}
+10,77,Leadership,{'weight': 8.285217574014371}
+10,77,Responding,{'weight': 5.429596661834526}
+10,77,Seeking Help,{'weight': 1.419651163242656}
+10,4,Seeking Input,{'weight': 7.000875967493897}
+10,4,Leadership,{'weight': 46.73123798532256}
+10,4,Responding,{'weight': 29.592661239651044}
+10,4,Seeking Help,{'weight': 14.902735835402224}
+10,4,Morale,{'weight': 5.558689955455832}
+10,4,Monitoring,{'weight': 1.2137990166745127}
+10,6,Responding,{'weight': 0.8668133321973348}
+10,6,Seeking Input,{'weight': 0.24472847105479767}
+10,6,Leadership,{'weight': 0.7194521171988202}
+10,6,Seeking Help,{'weight': 0.11731042782619837}
+10,6,Morale,{'weight': 0.043156094632284675}
+10,6,Monitoring,{'weight': 0.00853955709056422}
+10,79,Seeking Input,{'weight': 0.7426650400611895}
+10,79,Leadership,{'weight': 1.1115418032521325}
+10,79,Responding,{'weight': 1.0383349214475315}
+10,79,Seeking Help,{'weight': 0.15312983957258047}
+10,79,Morale,{'weight': 0.9099694268296197}
+10,79,Monitoring,{'weight': 0.04435896883694635}
+10,78,Morale,{'weight': 1.456680444354044}
+10,78,Seeking Input,{'weight': 0.3143672396419056}
+10,78,Monitoring,{'weight': 0.11564924444207314}
+10,78,Leadership,{'weight': 3.5188890503184203}
+10,78,Responding,{'weight': 1.8966686267480701}
+10,78,Seeking Help,{'weight': 0.6977453944954869}
+10,8,Leadership,{'weight': 1.4389042343976406}
+10,8,Responding,{'weight': 1.7336266643946696}
+10,8,Seeking Help,{'weight': 0.6377656084974227}
+10,8,Morale,{'weight': 0.12619853280440008}
+10,8,Seeking Input,{'weight': 0.046425845724738624}
+10,8,Monitoring,{'weight': 0.01707911418112844}
+85,17,Responding,{'weight': 0.6336913225737218}
+85,17,Morale,{'weight': 0.23312200962361296}
+85,17,Leadership,{'weight': 0.08576079462509835}
+85,17,Seeking Help,{'weight': 0.03154963320110002}
+85,17,Seeking Input,{'weight': 0.011606461431184656}
+85,17,Monitoring,{'weight': 0.00426977854528211}
+106,0,Responding,{'weight': 0.8668133321973348}
+106,0,Seeking Help,{'weight': 0.31888280424871135}
+106,0,Leadership,{'weight': 0.7194521171988202}
+106,0,Morale,{'weight': 0.06309926640220004}
+106,0,Monitoring,{'weight': 0.015876239976466765}
+106,0,Seeking Input,{'weight': 0.015876239976466765}
+5,0,Leadership,{'weight': 14.414072250454419}
+5,0,Responding,{'weight': 19.739208550039887}
+5,0,Seeking Help,{'weight': 9.832369275024314}
+5,0,Morale,{'weight': 4.189191139208778}
+5,0,Seeking Input,{'weight': 0.5813230990120606}
+5,0,Monitoring,{'weight': 0.24383568626054372}
+5,46,Responding,{'weight': 2.1341959773447785}
+5,46,Leadership,{'weight': 0.490404393498908}
+5,46,Seeking Help,{'weight': 0.9841237600235333}
+5,46,Morale,{'weight': 0.3277709092269131}
+5,46,Seeking Input,{'weight': 0.046425845724738624}
+5,46,Monitoring,{'weight': 0.01707911418112844}
+5,74,Leadership,{'weight': 14.452919945491672}
+5,74,Responding,{'weight': 9.425310826584425}
+5,74,Seeking Help,{'weight': 7.4113140982393855}
+5,74,Morale,{'weight': 1.7150853154095427}
+5,74,Seeking Input,{'weight': 0.47097692351168174}
+5,74,Monitoring,{'weight': 1.52439289076329}
+5,23,Leadership,{'weight': 0.6336913225737218}
+5,23,Responding,{'weight': 0.233122009623613}
+5,23,Seeking Help,{'weight': 0.08576079462509835}
+5,23,Morale,{'weight': 0.03154963320110002}
+5,23,Seeking Input,{'weight': 0.011606461431184656}
+5,23,Monitoring,{'weight': 0.00426977854528211}
+5,10,Seeking Help,{'weight': 0.7194521171988202}
+5,10,Responding,{'weight': 0.8668133321973348}
+5,10,Leadership,{'weight': 0.31888280424871135}
+5,10,Morale,{'weight': 0.06309926640220004}
+5,10,Seeking Input,{'weight': 0.023212922862369312}
+5,10,Monitoring,{'weight': 0.00853955709056422}
+5,16,Leadership,{'weight': 0.6336913225737218}
+5,16,Responding,{'weight': 0.233122009623613}
+5,16,Seeking Help,{'weight': 0.08576079462509835}
+5,16,Morale,{'weight': 0.03154963320110002}
+5,16,Seeking Input,{'weight': 0.011606461431184656}
+5,16,Monitoring,{'weight': 0.00426977854528211}
+5,56,Morale,{'weight': 0.7510017503999202}
+5,56,Responding,{'weight': 0.699366028870839}
+5,56,Seeking Help,{'weight': 1.3531434397725421}
+5,56,Seeking Input,{'weight': 0.05476255606346933}
+5,56,Monitoring,{'weight': 0.020146018521748875}
+5,56,Leadership,{'weight': 0.12158020637148048}
+5,61,Responding,{'weight': 0.6336913225737218}
+5,61,Leadership,{'weight': 0.233122009623613}
+5,61,Seeking Help,{'weight': 0.08576079462509835}
+5,61,Morale,{'weight': 0.03154963320110002}
+5,61,Seeking Input,{'weight': 0.011606461431184656}
+5,61,Monitoring,{'weight': 0.00426977854528211}
+5,3,Morale,{'weight': 0.03154963320110002}
+5,3,Responding,{'weight': 0.233122009623613}
+5,3,Seeking Input,{'weight': 0.011606461431184656}
+5,3,Monitoring,{'weight': 0.00426977854528211}
+5,3,Leadership,{'weight': 0.08576079462509835}
+5,3,Seeking Help,{'weight': 0.6336913225737218}
+5,4,Morale,{'weight': 0.03154963320110002}
+5,4,Responding,{'weight': 0.233122009623613}
+5,4,Seeking Input,{'weight': 0.011606461431184656}
+5,4,Monitoring,{'weight': 0.00426977854528211}
+5,4,Leadership,{'weight': 0.08576079462509835}
+5,4,Seeking Help,{'weight': 0.6336913225737218}
+47,20,Responding,{'weight': 4.030864604092847}
+47,20,Leadership,{'weight': 3.9351391106234144}
+47,20,Seeking Help,{'weight': 2.913432387920082}
+47,20,Morale,{'weight': 0.33137257198746695}
+47,20,Seeking Input,{'weight': 0.6564629667529858}
+47,20,Monitoring,{'weight': 0.13272835862320156}
+47,0,Responding,{'weight': 2.9309292622719005}
+47,0,Leadership,{'weight': 2.581995670850873}
+47,0,Seeking Help,{'weight': 2.6561500040447865}
+47,0,Morale,{'weight': 0.31087800557808065}
+47,0,Seeking Input,{'weight': 0.40012803426700394}
+47,0,Monitoring,{'weight': 0.11991902298735525}
+47,46,Responding,{'weight': 3.0898969387015995}
+47,46,Leadership,{'weight': 3.6361994781446185}
+47,46,Seeking Help,{'weight': 1.4171975116943074}
+47,46,Morale,{'weight': 0.46984568200778}
+47,46,Seeking Input,{'weight': 1.1811805718392403}
+47,46,Monitoring,{'weight': 0.20567981761245355}
+47,34,Responding,{'weight': 1.5121111162022414}
+47,34,Leadership,{'weight': 0.9841237600235332}
+47,34,Seeking Help,{'weight': 0.8367625450250186}
+47,34,Morale,{'weight': 0.07897550637866681}
+47,34,Seeking Input,{'weight': 0.48945694210959534}
+47,34,Monitoring,{'weight': 0.09857013026094469}
+47,6,Responding,{'weight': 0.6336913225737218}
+47,6,Seeking Help,{'weight': 0.233122009623613}
+47,6,Seeking Input,{'weight': 0.08576079462509835}
+47,6,Morale,{'weight': 0.03154963320110002}
+47,6,Leadership,{'weight': 0.011606461431184656}
+47,6,Monitoring,{'weight': 0.00426977854528211}
+47,19,Seeking Help,{'weight': 0.9810042796193973}
+47,19,Leadership,{'weight': 2.7994369331196003}
+47,19,Responding,{'weight': 1.029855294550735}
+47,19,Morale,{'weight': 0.3908701756291132}
+47,19,Seeking Input,{'weight': 0.691723629729645}
+47,19,Monitoring,{'weight': 0.10710968735150891}
+19,46,Seeking Help,{'weight': 6.924541958734345}
+19,46,Leadership,{'weight': 4.828545340409282}
+19,46,Responding,{'weight': 3.8385311674651152}
+19,46,Morale,{'weight': 1.1384854537913225}
+19,46,Seeking Input,{'weight': 0.19730984433013915}
+19,46,Monitoring,{'weight': 0.07258623526979589}
+19,20,Seeking Help,{'weight': 12.832333930377922}
+19,20,Leadership,{'weight': 10.58143014746562}
+19,20,Responding,{'weight': 5.060610535933947}
+19,20,Morale,{'weight': 2.7960701587831513}
+19,20,Seeking Input,{'weight': 0.592922313990337}
+19,20,Monitoring,{'weight': 0.13663291344902756}
+19,0,Seeking Help,{'weight': 9.174971770039187}
+19,0,Leadership,{'weight': 8.67628189382075}
+19,0,Responding,{'weight': 3.7033928102377027}
+19,0,Morale,{'weight': 3.1889708771792575}
+19,0,Seeking Input,{'weight': 0.5159468625173269}
+19,0,Monitoring,{'weight': 0.7404357862057745}
+19,34,Leadership,{'weight': 2.9193228008407157}
+19,34,Responding,{'weight': 1.2755312169948456}
+19,34,Seeking Help,{'weight': 3.425738996743904}
+19,34,Morale,{'weight': 0.25239706560880015}
+19,34,Seeking Input,{'weight': 0.09285169144947725}
+19,34,Monitoring,{'weight': 0.03415822836225688}
+19,17,Seeking Help,{'weight': 1.3531434397725421}
+19,17,Leadership,{'weight': 0.9525741268224333}
+19,17,Responding,{'weight': 0.5520048138723244}
+19,17,Morale,{'weight': 0.09464889960330006}
+19,17,Seeking Input,{'weight': 0.03481938429355397}
+19,17,Monitoring,{'weight': 0.012809335635846332}
+19,6,Responding,{'weight': 1.2673826451474437}
+19,6,Seeking Help,{'weight': 0.466244019247226}
+19,6,Leadership,{'weight': 0.1715215892501967}
+19,6,Morale,{'weight': 0.06309926640220004}
+19,6,Seeking Input,{'weight': 0.023212922862369312}
+19,6,Monitoring,{'weight': 0.00853955709056422}
+77,0,Seeking Input,{'weight': 18.903313367621426}
+77,0,Leadership,{'weight': 76.30851243379477}
+77,0,Responding,{'weight': 53.42883524903793}
+77,0,Seeking Help,{'weight': 44.86190004230019}
+77,0,Morale,{'weight': 20.36464864094685}
+77,0,Monitoring,{'weight': 3.1327902662990734}
+77,31,Seeking Input,{'weight': 1.432186122797884}
+77,31,Leadership,{'weight': 9.55828585737158}
+77,31,Responding,{'weight': 6.2129073583335295}
+77,31,Seeking Help,{'weight': 8.941110227284776}
+77,31,Morale,{'weight': 1.7343480276237209}
+77,31,Monitoring,{'weight': 1.1211624065885089}
+77,39,Leadership,{'weight': 0.6336913225737218}
+77,39,Responding,{'weight': 0.233122009623613}
+77,39,Seeking Help,{'weight': 0.08576079462509835}
+77,39,Morale,{'weight': 0.03154963320110002}
+77,39,Seeking Input,{'weight': 0.011606461431184656}
+77,39,Monitoring,{'weight': 0.00426977854528211}
+77,40,Leadership,{'weight': 0.6336913225737218}
+77,40,Responding,{'weight': 0.233122009623613}
+77,40,Seeking Help,{'weight': 0.08576079462509835}
+77,40,Morale,{'weight': 0.03154963320110002}
+77,40,Seeking Input,{'weight': 0.011606461431184656}
+77,40,Monitoring,{'weight': 0.00426977854528211}
+77,28,Leadership,{'weight': 1.2673826451474437}
+77,28,Responding,{'weight': 0.466244019247226}
+77,28,Seeking Help,{'weight': 0.1715215892501967}
+77,28,Morale,{'weight': 0.06309926640220004}
+77,28,Seeking Input,{'weight': 0.023212922862369312}
+77,28,Monitoring,{'weight': 0.00853955709056422}
+77,78,Leadership,{'weight': 6.680364882319017}
+77,78,Responding,{'weight': 3.3085059919497155}
+77,78,Seeking Help,{'weight': 1.597757476611024}
+77,78,Morale,{'weight': 1.9707062387967267}
+77,78,Seeking Input,{'weight': 4.202827364348806}
+77,78,Monitoring,{'weight': 0.23983804597471037}
+77,63,Leadership,{'weight': 6.033711168843394}
+77,63,Responding,{'weight': 2.9033109984364356}
+77,63,Seeking Help,{'weight': 1.6159989556003223}
+77,63,Morale,{'weight': 0.6144359644897963}
+77,63,Seeking Input,{'weight': 0.781305570086668}
+77,63,Monitoring,{'weight': 0.051237342543385335}
+77,3,Leadership,{'weight': 85.61583135695213}
+77,3,Responding,{'weight': 55.0852830157048}
+77,3,Seeking Help,{'weight': 53.44473258624206}
+77,3,Morale,{'weight': 18.110665239447112}
+77,3,Seeking Input,{'weight': 26.603270089244983}
+77,3,Monitoring,{'weight': 4.140217712409135}
+77,8,Leadership,{'weight': 14.8146803653868}
+77,8,Morale,{'weight': 3.6063384350236984}
+77,8,Responding,{'weight': 8.221547394626636}
+77,8,Seeking Help,{'weight': 12.51474519744713}
+77,8,Seeking Input,{'weight': 6.251081655030065}
+77,8,Monitoring,{'weight': 0.5916069524856826}
+77,10,Leadership,{'weight': 8.654094337205313}
+77,10,Responding,{'weight': 2.8889409586190045}
+77,10,Seeking Help,{'weight': 3.4713487429245378}
+77,10,Morale,{'weight': 1.553236668067533}
+77,10,Seeking Input,{'weight': 1.2740322632887175}
+77,10,Monitoring,{'weight': 0.15834702989489416}
+77,17,Leadership,{'weight': 3.953583436364546}
+77,17,Responding,{'weight': 2.056583754567082}
+77,17,Seeking Help,{'weight': 1.9608582610976488}
+77,17,Morale,{'weight': 0.2640035270399848}
+77,17,Seeking Input,{'weight': 0.7265430140231988}
+77,17,Monitoring,{'weight': 0.038428006907538996}
+77,79,Seeking Help,{'weight': 13.02791195734139}
+77,79,Leadership,{'weight': 24.98809335920342}
+77,79,Responding,{'weight': 18.729691884505968}
+77,79,Morale,{'weight': 6.331075486569373}
+77,79,Seeking Input,{'weight': 6.250843115421446}
+77,79,Monitoring,{'weight': 1.6723841969584052}
+77,4,Seeking Help,{'weight': 26.748927027702457}
+77,4,Leadership,{'weight': 52.74914105513224}
+77,4,Responding,{'weight': 29.967087897691417}
+77,4,Morale,{'weight': 10.375939012564393}
+77,4,Seeking Input,{'weight': 15.916685159139691}
+77,4,Monitoring,{'weight': 2.242219847769913}
+77,6,Leadership,{'weight': 0.7194521171988202}
+77,6,Responding,{'weight': 0.466244019247226}
+77,6,Seeking Help,{'weight': 0.7194521171988202}
+77,6,Morale,{'weight': 0.06309926640220004}
+77,6,Seeking Input,{'weight': 0.023212922862369312}
+77,6,Monitoring,{'weight': 0.00853955709056422}
+77,46,Leadership,{'weight': 33.80086761176327}
+77,46,Morale,{'weight': 7.717471001264982}
+77,46,Responding,{'weight': 29.0311992480849}
+77,46,Seeking Help,{'weight': 22.84080974527431}
+77,46,Seeking Input,{'weight': 12.858464349332396}
+77,46,Monitoring,{'weight': 1.7511880442801637}
+77,23,Leadership,{'weight': 1.2673826451474437}
+77,23,Responding,{'weight': 0.466244019247226}
+77,23,Seeking Help,{'weight': 0.1715215892501967}
+77,23,Morale,{'weight': 0.06309926640220004}
+77,23,Seeking Input,{'weight': 0.023212922862369312}
+77,23,Monitoring,{'weight': 0.00853955709056422}
+77,12,Seeking Help,{'weight': 0.6336913225737218}
+77,12,Responding,{'weight': 0.233122009623613}
+77,12,Morale,{'weight': 0.08576079462509835}
+77,12,Seeking Input,{'weight': 0.03154963320110002}
+77,12,Monitoring,{'weight': 0.011606461431184656}
+77,12,Leadership,{'weight': 0.00426977854528211}
+77,5,Responding,{'weight': 0.8983629653984349}
+77,5,Morale,{'weight': 0.27627810425589766}
+77,5,Leadership,{'weight': 0.7237218957441023}
+77,5,Seeking Help,{'weight': 0.7510017503999202}
+77,5,Seeking Input,{'weight': 0.2563349324859823}
+77,5,Monitoring,{'weight': 0.09430035171566258}
+77,69,Leadership,{'weight': 2.777730210416266}
+77,69,Responding,{'weight': 2.352805030592895}
+77,69,Seeking Help,{'weight': 4.937850112946146}
+77,69,Morale,{'weight': 1.1966344820925028}
+77,69,Seeking Input,{'weight': 0.3660628913647545}
+77,69,Monitoring,{'weight': 0.368917272587435}
+63,77,Leadership,{'weight': 7.434084989171921}
+63,77,Responding,{'weight': 5.326338992857608}
+63,77,Seeking Help,{'weight': 3.933180067068415}
+63,77,Morale,{'weight': 1.809714517111581}
+63,77,Seeking Input,{'weight': 1.100942615726684}
+63,77,Monitoring,{'weight': 0.3957388180637892}
+63,0,Leadership,{'weight': 13.66319228840106}
+63,0,Responding,{'weight': 8.733355184874505}
+63,0,Seeking Help,{'weight': 6.861269184540765}
+63,0,Morale,{'weight': 5.478423501178176}
+63,0,Seeking Input,{'weight': 2.1344636104423698}
+63,0,Monitoring,{'weight': 1.129296230563125}
+63,3,Leadership,{'weight': 8.130519676129955}
+63,3,Responding,{'weight': 5.5553867165575195}
+63,3,Seeking Help,{'weight': 2.3194392703948616}
+63,3,Morale,{'weight': 1.4600866144930165}
+63,3,Seeking Input,{'weight': 0.2215227946453366}
+63,3,Monitoring,{'weight': 0.31304492777931137}
+63,4,Seeking Help,{'weight': 11.151674331435682}
+63,4,Leadership,{'weight': 23.12474527072012}
+63,4,Responding,{'weight': 17.933354656328692}
+63,4,Morale,{'weight': 4.423170152049811}
+63,4,Seeking Input,{'weight': 4.987976034880813}
+63,4,Monitoring,{'weight': 1.3790795545848944}
+63,78,Seeking Input,{'weight': 0.6336913225737218}
+63,78,Leadership,{'weight': 0.233122009623613}
+63,78,Responding,{'weight': 0.08576079462509835}
+63,78,Seeking Help,{'weight': 0.03154963320110002}
+63,78,Morale,{'weight': 0.011606461431184656}
+63,78,Monitoring,{'weight': 0.00426977854528211}
+63,17,Seeking Help,{'weight': 0.961462231800635}
+63,17,Responding,{'weight': 0.521954026700008}
+63,17,Leadership,{'weight': 1.2714569310711445}
+63,17,Morale,{'weight': 2.1657456105458786}
+63,17,Seeking Input,{'weight': 0.05803230715592328}
+63,17,Monitoring,{'weight': 0.02134889272641055}
+63,8,Responding,{'weight': 8.88362289481733}
+63,8,Seeking Help,{'weight': 5.050295002273031}
+63,8,Seeking Input,{'weight': 2.1157662521868077}
+63,8,Leadership,{'weight': 10.33977728332601}
+63,8,Morale,{'weight': 2.7442527962742886}
+63,8,Monitoring,{'weight': 0.8662857711225371}
+63,31,Leadership,{'weight': 3.9736695246925278}
+63,31,Responding,{'weight': 2.265545389939013}
+63,31,Seeking Help,{'weight': 1.3813780999479253}
+63,31,Morale,{'weight': 0.25239706560880015}
+63,31,Seeking Input,{'weight': 0.09285169144947725}
+63,31,Monitoring,{'weight': 0.03415822836225688}
+63,10,Leadership,{'weight': 3.498802961990439}
+63,10,Morale,{'weight': 1.0477744210652042}
+63,10,Responding,{'weight': 1.361292011619944}
+63,10,Seeking Help,{'weight': 1.6309203900572236}
+63,10,Seeking Input,{'weight': 0.7118696482513938}
+63,10,Monitoring,{'weight': 0.749340567015795}
+63,72,Responding,{'weight': 1.799301370691787}
+63,72,Seeking Help,{'weight': 1.2098565106977284}
+63,72,Leadership,{'weight': 2.706286879545084}
+63,72,Morale,{'weight': 0.18929779920660011}
+63,72,Seeking Input,{'weight': 0.06963876858710794}
+63,72,Monitoring,{'weight': 0.02561867127169266}
+63,46,Seeking Help,{'weight': 0.6336913225737218}
+63,46,Leadership,{'weight': 0.233122009623613}
+63,46,Responding,{'weight': 0.08576079462509835}
+63,46,Morale,{'weight': 0.03154963320110002}
+63,46,Seeking Input,{'weight': 0.011606461431184656}
+63,46,Monitoring,{'weight': 0.00426977854528211}
+63,79,Leadership,{'weight': 0.6336913225737218}
+63,79,Responding,{'weight': 0.233122009623613}
+63,79,Seeking Help,{'weight': 0.08576079462509835}
+63,79,Morale,{'weight': 0.03154963320110002}
+63,79,Seeking Input,{'weight': 0.011606461431184656}
+63,79,Monitoring,{'weight': 0.00426977854528211}
+79,0,Leadership,{'weight': 20.446654430300683}
+79,0,Responding,{'weight': 12.832462581029143}
+79,0,Seeking Help,{'weight': 7.830017810092731}
+79,0,Morale,{'weight': 1.5860590591371548}
+79,0,Seeking Input,{'weight': 3.4757548027222054}
+79,0,Monitoring,{'weight': 0.8290513167180934}
+79,77,Leadership,{'weight': 22.988069446414187}
+79,77,Responding,{'weight': 14.422802316349005}
+79,77,Seeking Help,{'weight': 8.117773233302993}
+79,77,Morale,{'weight': 3.1585510852886136}
+79,77,Seeking Input,{'weight': 4.3337827917674545}
+79,77,Monitoring,{'weight': 0.9790211268777648}
+79,4,Leadership,{'weight': 24.53939793375282}
+79,4,Responding,{'weight': 13.966522995946113}
+79,4,Seeking Help,{'weight': 7.699284793838415}
+79,4,Morale,{'weight': 2.62302419947217}
+79,4,Seeking Input,{'weight': 1.3329763289771703}
+79,4,Monitoring,{'weight': 0.8387937480133192}
+79,3,Seeking Help,{'weight': 5.6476366466724}
+79,3,Leadership,{'weight': 17.156753173488404}
+79,3,Responding,{'weight': 7.26106406206733}
+79,3,Morale,{'weight': 1.123051241439322}
+79,3,Seeking Input,{'weight': 1.3602489371800803}
+79,3,Monitoring,{'weight': 0.45124593915245664}
+79,78,Leadership,{'weight': 6.017894859060694}
+79,78,Responding,{'weight': 3.475401900636741}
+79,78,Seeking Help,{'weight': 2.9375927621717635}
+79,78,Morale,{'weight': 0.45601968269956794}
+79,78,Seeking Input,{'weight': 0.7699019554073168}
+79,78,Monitoring,{'weight': 0.34318884002391625}
+79,46,Leadership,{'weight': 6.893187818154826}
+79,46,Responding,{'weight': 2.674263274736523}
+79,46,Seeking Help,{'weight': 2.133878696376629}
+79,46,Morale,{'weight': 0.36192217773573887}
+79,46,Seeking Input,{'weight': 1.620839047628185}
+79,46,Monitoring,{'weight': 0.3159089853680983}
+79,17,Responding,{'weight': 2.285631478266994}
+79,17,Seeking Help,{'weight': 0.8950479923727177}
+79,17,Morale,{'weight': 0.27505859383169845}
+79,17,Leadership,{'weight': 3.433128255693322}
+79,17,Seeking Input,{'weight': 0.08124523001829259}
+79,17,Monitoring,{'weight': 0.02988844981697477}
+79,8,Leadership,{'weight': 8.07480966867717}
+79,8,Seeking Help,{'weight': 2.622784243846754}
+79,8,Responding,{'weight': 2.705812907937623}
+79,8,Morale,{'weight': 1.055443015619207}
+79,8,Seeking Input,{'weight': 0.16676023858186728}
+79,8,Monitoring,{'weight': 0.3743899253373787}
+79,45,Leadership,{'weight': 0.6336913225737218}
+79,45,Responding,{'weight': 0.233122009623613}
+79,45,Seeking Help,{'weight': 0.08576079462509835}
+79,45,Morale,{'weight': 0.03154963320110002}
+79,45,Seeking Input,{'weight': 0.011606461431184656}
+79,45,Monitoring,{'weight': 0.00426977854528211}
+79,63,Leadership,{'weight': 5.6331418558932835}
+79,63,Responding,{'weight': 4.399741367283791}
+79,63,Seeking Help,{'weight': 1.0949997344198787}
+79,63,Morale,{'weight': 0.5801679748357134}
+79,63,Seeking Input,{'weight': 0.21343187036812955}
+79,63,Monitoring,{'weight': 0.07851719719920323}
+79,10,Responding,{'weight': 0.9525741268224331}
+79,10,Leadership,{'weight': 1.0999353418209479}
+79,10,Seeking Help,{'weight': 0.8052129118239185}
+79,10,Morale,{'weight': 0.09464889960330006}
+79,10,Seeking Input,{'weight': 0.03481938429355397}
+79,10,Monitoring,{'weight': 0.012809335635846332}
+79,69,Leadership,{'weight': 2.5347652902948874}
+79,69,Responding,{'weight': 0.932488038494452}
+79,69,Seeking Help,{'weight': 0.3430431785003934}
+79,69,Morale,{'weight': 0.12619853280440008}
+79,69,Seeking Input,{'weight': 0.046425845724738624}
+79,69,Monitoring,{'weight': 0.01707911418112844}
+79,31,Leadership,{'weight': 4.121030739691042}
+79,31,Monitoring,{'weight': 0.26301045944058776}
+79,31,Responding,{'weight': 2.118184174940498}
+79,31,Seeking Help,{'weight': 1.179805723525412}
+79,31,Morale,{'weight': 0.2324538938388848}
+79,31,Seeking Input,{'weight': 0.0855150085635747}
+79,72,Leadership,{'weight': 2.7678872999185002}
+79,72,Responding,{'weight': 1.0182488331195505}
+79,72,Seeking Help,{'weight': 0.9767345010741152}
+79,72,Morale,{'weight': 0.1577481660055001}
+79,72,Seeking Input,{'weight': 0.05803230715592328}
+79,72,Monitoring,{'weight': 0.02134889272641055}
+79,98,Seeking Help,{'weight': 0.7194521171988202}
+79,98,Leadership,{'weight': 0.8668133321973348}
+79,98,Responding,{'weight': 0.31888280424871135}
+79,98,Morale,{'weight': 0.06309926640220004}
+79,98,Seeking Input,{'weight': 0.023212922862369312}
+79,98,Monitoring,{'weight': 0.00853955709056422}
+78,0,Responding,{'weight': 2.6902750771408033}
+78,0,Leadership,{'weight': 4.132494284564161}
+78,0,Seeking Help,{'weight': 1.4444773663501254}
+78,0,Morale,{'weight': 0.8777516778437913}
+78,0,Seeking Input,{'weight': 0.7308127925684811}
+78,0,Monitoring,{'weight': 0.12418880153263735}
+78,3,Seeking Help,{'weight': 1.15564534927373}
+78,3,Leadership,{'weight': 2.45307878159349}
+78,3,Responding,{'weight': 1.5045789406947576}
+78,3,Morale,{'weight': 0.16935462743668475}
+78,3,Seeking Input,{'weight': 0.691723629729645}
+78,3,Monitoring,{'weight': 0.02561867127169266}
+78,77,Morale,{'weight': 2.4640171272399467}
+78,77,Leadership,{'weight': 5.015183856737963}
+78,77,Responding,{'weight': 3.3280406856382263}
+78,77,Seeking Help,{'weight': 2.227028749951145}
+78,77,Seeking Input,{'weight': 0.7898451271772324}
+78,77,Monitoring,{'weight': 0.1758844532554862}
+78,4,Morale,{'weight': 0.8888067446355051}
+78,4,Leadership,{'weight': 3.098376565598396}
+78,4,Responding,{'weight': 1.9708229599419838}
+78,4,Seeking Help,{'weight': 1.2729557770999282}
+78,4,Seeking Input,{'weight': 0.7075998697061119}
+78,4,Monitoring,{'weight': 0.061438083018074796}
+78,79,Responding,{'weight': 3.0908443900909126}
+78,79,Leadership,{'weight': 2.7336266643946696}
+78,79,Seeking Help,{'weight': 2.139769109297263}
+78,79,Morale,{'weight': 1.75562007683284}
+78,79,Seeking Input,{'weight': 0.12133442030995684}
+78,79,Monitoring,{'weight': 0.1588053390743578}
+78,63,Responding,{'weight': 0.6336913225737218}
+78,63,Leadership,{'weight': 0.233122009623613}
+78,63,Seeking Help,{'weight': 0.08576079462509835}
+78,63,Morale,{'weight': 0.03154963320110002}
+78,63,Seeking Input,{'weight': 0.011606461431184656}
+78,63,Monitoring,{'weight': 0.00426977854528211}
+78,10,Morale,{'weight': 0.6336913225737218}
+78,10,Leadership,{'weight': 0.233122009623613}
+78,10,Responding,{'weight': 0.08576079462509835}
+78,10,Seeking Help,{'weight': 0.03154963320110002}
+78,10,Seeking Input,{'weight': 0.011606461431184656}
+78,10,Monitoring,{'weight': 0.00426977854528211}
+78,46,Responding,{'weight': 1.5005046547710568}
+78,46,Seeking Help,{'weight': 1.0999353418209479}
+78,46,Monitoring,{'weight': 0.12158020637148048}
+78,46,Leadership,{'weight': 0.12891688925738304}
+78,46,Morale,{'weight': 0.12891688925738304}
+78,46,Seeking Input,{'weight': 0.020146018521748875}
+8,0,Leadership,{'weight': 9.13635015885682}
+8,0,Responding,{'weight': 4.034795973458483}
+8,0,Seeking Help,{'weight': 1.9074064125716343}
+8,0,Morale,{'weight': 0.519118949101768}
+8,0,Seeking Input,{'weight': 0.1710300171271494}
+8,0,Monitoring,{'weight': 0.23129848888414622}
+8,77,Leadership,{'weight': 11.516281988839474}
+8,77,Responding,{'weight': 6.926643427021799}
+8,77,Seeking Help,{'weight': 5.9594474729398454}
+8,77,Morale,{'weight': 0.8545584528826838}
+8,77,Seeking Input,{'weight': 0.5358900342872421}
+8,77,Monitoring,{'weight': 0.20717862402895604}
+8,3,Leadership,{'weight': 24.26752517047002}
+8,3,Responding,{'weight': 9.643919879832545}
+8,3,Seeking Help,{'weight': 6.45618431128922}
+8,3,Morale,{'weight': 1.5326450784141514}
+8,3,Seeking Input,{'weight': 0.48967428176724537}
+8,3,Monitoring,{'weight': 0.6100512782268144}
+8,79,Leadership,{'weight': 7.289487352559653}
+8,79,Responding,{'weight': 2.7358636951099395}
+8,79,Seeking Help,{'weight': 2.35811260102204}
+8,79,Morale,{'weight': 0.39020205984438494}
+8,79,Seeking Input,{'weight': 0.14354731571949797}
+8,79,Monitoring,{'weight': 0.08278697574448537}
+8,78,Leadership,{'weight': 5.703221903163497}
+8,78,Responding,{'weight': 1.9507368716140028}
+8,78,Seeking Help,{'weight': 0.9192083666243998}
+8,78,Morale,{'weight': 0.2839466988099002}
+8,78,Seeking Input,{'weight': 0.1044581528806619}
+8,78,Monitoring,{'weight': 0.038428006907538996}
+8,63,Leadership,{'weight': 1.9053437462664475}
+8,63,Responding,{'weight': 0.7851268234959374}
+8,63,Seeking Help,{'weight': 0.8909737064490169}
+8,63,Morale,{'weight': 0.12619853280440008}
+8,63,Seeking Input,{'weight': 0.267941393917167}
+8,63,Monitoring,{'weight': 0.024415797067030984}
+8,4,Leadership,{'weight': 23.99858374910002}
+8,4,Responding,{'weight': 8.344987601483998}
+8,4,Seeking Help,{'weight': 5.449399023042787}
+8,4,Morale,{'weight': 1.2563669741582537}
+8,4,Seeking Input,{'weight': 0.44224840858967857}
+8,4,Monitoring,{'weight': 0.5084142436252493}
+8,10,Responding,{'weight': 1.0999353418209479}
+8,10,Seeking Help,{'weight': 0.40464359887380963}
+8,10,Leadership,{'weight': 1.3531434397725421}
+8,10,Morale,{'weight': 0.0747057278333847}
+8,10,Seeking Input,{'weight': 0.02748270140765142}
+8,10,Monitoring,{'weight': 0.040089190291664245}
+8,46,Leadership,{'weight': 4.23834116751724}
+8,46,Responding,{'weight': 2.3828558177652113}
+8,46,Seeking Help,{'weight': 2.6487607450953687}
+8,46,Morale,{'weight': 0.4771823648936825}
+8,46,Seeking Input,{'weight': 0.10139124854004147}
+8,46,Monitoring,{'weight': 0.15146865618845523}
+8,31,Responding,{'weight': 2.4370669791892094}
+8,31,Seeking Help,{'weight': 1.7002609041966368}
+8,31,Morale,{'weight': 0.36970749343499854}
+8,31,Seeking Input,{'weight': 0.13600778608176192}
+8,31,Monitoring,{'weight': 0.05003446833872366}
+8,31,Leadership,{'weight': 5.30692236875867}
+8,72,Leadership,{'weight': 1.2673826451474437}
+8,72,Responding,{'weight': 0.466244019247226}
+8,72,Seeking Help,{'weight': 0.1715215892501967}
+8,72,Morale,{'weight': 0.06309926640220004}
+8,72,Seeking Input,{'weight': 0.023212922862369312}
+8,72,Monitoring,{'weight': 0.00853955709056422}
+8,69,Leadership,{'weight': 4.6689612676396655}
+8,69,Responding,{'weight': 1.7176148619903897}
+8,69,Seeking Help,{'weight': 1.2340168849494102}
+8,69,Morale,{'weight': 0.25239706560880015}
+8,69,Seeking Input,{'weight': 0.09285169144947725}
+8,69,Monitoring,{'weight': 0.03415822836225688}
+8,98,Leadership,{'weight': 1.9010739677211657}
+8,98,Responding,{'weight': 0.699366028870839}
+8,98,Seeking Help,{'weight': 0.25728238387529506}
+8,98,Morale,{'weight': 0.09464889960330006}
+8,98,Seeking Input,{'weight': 0.03481938429355397}
+8,98,Monitoring,{'weight': 0.012809335635846332}
+8,17,Leadership,{'weight': 0.6336913225737218}
+8,17,Responding,{'weight': 0.233122009623613}
+8,17,Seeking Help,{'weight': 0.08576079462509835}
+8,17,Morale,{'weight': 0.03154963320110002}
+8,17,Seeking Input,{'weight': 0.011606461431184656}
+8,17,Monitoring,{'weight': 0.00426977854528211}
+8,28,Responding,{'weight': 0.8983629653984349}
+8,28,Leadership,{'weight': 0.9525741268224333}
+8,28,Seeking Help,{'weight': 0.8052129118239185}
+8,28,Morale,{'weight': 0.29622127602581305}
+8,28,Seeking Input,{'weight': 0.03481938429355397}
+8,28,Monitoring,{'weight': 0.012809335635846332}
+3,0,Responding,{'weight': 51.33842850225689}
+3,0,Seeking Input,{'weight': 6.586701355311256}
+3,0,Leadership,{'weight': 88.24089434941205}
+3,0,Seeking Help,{'weight': 42.199068095655115}
+3,0,Morale,{'weight': 12.491950240134187}
+3,0,Monitoring,{'weight': 4.142957457230716}
+3,77,Morale,{'weight': 12.937270758059949}
+3,77,Leadership,{'weight': 91.97538547883177}
+3,77,Responding,{'weight': 61.40969922294505}
+3,77,Seeking Help,{'weight': 45.115849010449274}
+3,77,Seeking Input,{'weight': 9.304000756615249}
+3,77,Monitoring,{'weight': 5.257794773099011}
+3,4,Morale,{'weight': 10.333656525748655}
+3,4,Leadership,{'weight': 105.49746174913311}
+3,4,Responding,{'weight': 48.9108509018602}
+3,4,Seeking Help,{'weight': 34.280686504290166}
+3,4,Seeking Input,{'weight': 5.221688569484584}
+3,4,Monitoring,{'weight': 2.7556557494836245}
+3,46,Leadership,{'weight': 62.19632974189875}
+3,46,Responding,{'weight': 31.754157708037546}
+3,46,Seeking Help,{'weight': 25.916315339319823}
+3,46,Morale,{'weight': 7.591402230569069}
+3,46,Seeking Input,{'weight': 2.96500965284242}
+3,46,Monitoring,{'weight': 3.5767853273325487}
+3,79,Leadership,{'weight': 55.047311373166146}
+3,79,Responding,{'weight': 25.022280240980315}
+3,79,Seeking Help,{'weight': 16.526665885398163}
+3,79,Morale,{'weight': 3.6185101886762987}
+3,79,Seeking Input,{'weight': 2.316995548020905}
+3,79,Monitoring,{'weight': 1.4682367637582967}
+3,8,Leadership,{'weight': 65.2212897166361}
+3,8,Responding,{'weight': 24.259009919050435}
+3,8,Seeking Help,{'weight': 17.70756933100121}
+3,8,Morale,{'weight': 5.773134304725128}
+3,8,Seeking Input,{'weight': 1.9156792401323925}
+3,8,Monitoring,{'weight': 1.1233174884549206}
+3,10,Morale,{'weight': 0.8976948496137069}
+3,10,Leadership,{'weight': 4.304211366435939}
+3,10,Responding,{'weight': 2.1423445491921806}
+3,10,Seeking Help,{'weight': 2.1939802707212612}
+3,10,Seeking Input,{'weight': 0.4117344956981886}
+3,10,Monitoring,{'weight': 0.05003446833872366}
+3,78,Leadership,{'weight': 23.364892426526303}
+3,78,Responding,{'weight': 9.008729711230037}
+3,78,Seeking Help,{'weight': 4.3736240554735195}
+3,78,Morale,{'weight': 1.1905493513030707}
+3,78,Seeking Input,{'weight': 0.43797863004439647}
+3,78,Monitoring,{'weight': 0.6242258254226639}
+3,31,Leadership,{'weight': 37.2963391792301}
+3,31,Responding,{'weight': 23.850085960569675}
+3,31,Seeking Help,{'weight': 13.973610854005031}
+3,31,Morale,{'weight': 3.3512673984051973}
+3,31,Seeking Input,{'weight': 3.7019271606031605}
+3,31,Monitoring,{'weight': 0.8267694471868812}
+3,17,Leadership,{'weight': 3.977743810616228}
+3,17,Responding,{'weight': 2.8149747639164198}
+3,17,Seeking Help,{'weight': 3.0808796912465777}
+3,17,Morale,{'weight': 0.5087319980947825}
+3,17,Seeking Input,{'weight': 0.341849941049557}
+3,17,Monitoring,{'weight': 0.27581979507643406}
+3,101,Leadership,{'weight': 0.8668133321973348}
+3,101,Responding,{'weight': 0.8668133321973348}
+3,101,Seeking Help,{'weight': 0.1715215892501967}
+3,101,Morale,{'weight': 0.06309926640220004}
+3,101,Seeking Input,{'weight': 0.023212922862369312}
+3,101,Monitoring,{'weight': 0.00853955709056422}
+3,1,Leadership,{'weight': 0.6336913225737218}
+3,1,Responding,{'weight': 0.233122009623613}
+3,1,Seeking Help,{'weight': 0.08576079462509835}
+3,1,Morale,{'weight': 0.03154963320110002}
+3,1,Seeking Input,{'weight': 0.011606461431184656}
+3,1,Monitoring,{'weight': 0.00426977854528211}
+3,103,Leadership,{'weight': 3.168456612868609}
+3,103,Responding,{'weight': 1.1656100481180651}
+3,103,Seeking Help,{'weight': 0.42880397312549173}
+3,103,Morale,{'weight': 0.1577481660055001}
+3,103,Seeking Input,{'weight': 0.05803230715592328}
+3,103,Monitoring,{'weight': 0.02134889272641055}
+3,104,Leadership,{'weight': 2.5347652902948874}
+3,104,Responding,{'weight': 0.932488038494452}
+3,104,Seeking Help,{'weight': 0.3430431785003934}
+3,104,Morale,{'weight': 0.12619853280440008}
+3,104,Seeking Input,{'weight': 0.046425845724738624}
+3,104,Monitoring,{'weight': 0.01707911418112844}
+3,105,Leadership,{'weight': 1.9010739677211657}
+3,105,Responding,{'weight': 0.699366028870839}
+3,105,Seeking Help,{'weight': 0.25728238387529506}
+3,105,Morale,{'weight': 0.09464889960330006}
+3,105,Seeking Input,{'weight': 0.03481938429355397}
+3,105,Monitoring,{'weight': 0.012809335635846332}
+3,69,Leadership,{'weight': 23.543803274725917}
+3,69,Responding,{'weight': 8.197626386485483}
+3,69,Seeking Help,{'weight': 5.977386379221497}
+3,69,Morale,{'weight': 1.2290871195024358}
+3,69,Seeking Input,{'weight': 0.745254972861922}
+3,69,Monitoring,{'weight': 0.3068418672027362}
+3,39,Leadership,{'weight': 0.8668133321973348}
+3,39,Responding,{'weight': 0.8668133321973348}
+3,39,Seeking Help,{'weight': 0.1715215892501967}
+3,39,Morale,{'weight': 0.06309926640220004}
+3,39,Seeking Input,{'weight': 0.023212922862369312}
+3,39,Monitoring,{'weight': 0.00853955709056422}
+3,40,Leadership,{'weight': 0.8668133321973348}
+3,40,Responding,{'weight': 0.8668133321973348}
+3,40,Seeking Help,{'weight': 0.1715215892501967}
+3,40,Morale,{'weight': 0.06309926640220004}
+3,40,Seeking Input,{'weight': 0.023212922862369312}
+3,40,Monitoring,{'weight': 0.00853955709056422}
+3,88,Leadership,{'weight': 0.6336913225737218}
+3,88,Responding,{'weight': 0.233122009623613}
+3,88,Seeking Help,{'weight': 0.08576079462509835}
+3,88,Morale,{'weight': 0.03154963320110002}
+3,88,Seeking Input,{'weight': 0.011606461431184656}
+3,88,Monitoring,{'weight': 0.00426977854528211}
+3,81,Seeking Help,{'weight': 0.8052129118239185}
+3,81,Leadership,{'weight': 1.5005046547710568}
+3,81,Monitoring,{'weight': 0.09430035171566258}
+3,81,Responding,{'weight': 0.497793652448326}
+3,81,Morale,{'weight': 0.0747057278333847}
+3,81,Seeking Input,{'weight': 0.02748270140765142}
+3,6,Seeking Input,{'weight': 0.6685107068672758}
+3,6,Seeking Help,{'weight': 1.0383349214475315}
+3,6,Leadership,{'weight': 1.586265449396155}
+3,6,Responding,{'weight': 0.5835544470734244}
+3,6,Morale,{'weight': 0.10625536103448471}
+3,6,Monitoring,{'weight': 0.01707911418112844}
+3,98,Leadership,{'weight': 1.2673826451474437}
+3,98,Responding,{'weight': 0.31888280424871135}
+3,98,Seeking Help,{'weight': 0.31888280424871135}
+3,98,Morale,{'weight': 0.06309926640220004}
+3,98,Seeking Input,{'weight': 0.023212922862369312}
+3,98,Monitoring,{'weight': 0.00853955709056422}
+3,72,Responding,{'weight': 2.636063915716805}
+3,72,Seeking Help,{'weight': 1.3928416448210441}
+3,72,Leadership,{'weight': 5.241052169839971}
+3,72,Morale,{'weight': 0.5712798698575116}
+3,72,Seeking Input,{'weight': 0.11606461431184656}
+3,72,Monitoring,{'weight': 0.04269778545282111}
+3,63,Responding,{'weight': 1.4188181460696592}
+3,63,Seeking Help,{'weight': 1.2714569310711448}
+3,63,Morale,{'weight': 0.19201615565958308}
+3,63,Leadership,{'weight': 1.9641732341233653}
+3,63,Seeking Input,{'weight': 0.05069562427002074}
+3,63,Monitoring,{'weight': 0.1028399088062268}
+3,20,Morale,{'weight': 0.6336913225737218}
+3,20,Leadership,{'weight': 0.233122009623613}
+3,20,Responding,{'weight': 0.08576079462509835}
+3,20,Seeking Help,{'weight': 0.03154963320110002}
+3,20,Seeking Input,{'weight': 0.011606461431184656}
+3,20,Monitoring,{'weight': 0.00426977854528211}
+3,23,Leadership,{'weight': 0.6336913225737218}
+3,23,Responding,{'weight': 0.233122009623613}
+3,23,Seeking Help,{'weight': 0.08576079462509835}
+3,23,Morale,{'weight': 0.03154963320110002}
+3,23,Seeking Input,{'weight': 0.011606461431184656}
+3,23,Monitoring,{'weight': 0.00426977854528211}
+3,102,Leadership,{'weight': 0.9525741268224331}
+3,102,Responding,{'weight': 0.5520048138723244}
+3,102,Seeking Help,{'weight': 1.3531434397725421}
+3,102,Morale,{'weight': 0.09464889960330006}
+3,102,Seeking Input,{'weight': 0.03481938429355397}
+3,102,Monitoring,{'weight': 0.012809335635846332}
+3,34,Leadership,{'weight': 0.6336913225737218}
+3,34,Responding,{'weight': 0.233122009623613}
+3,34,Seeking Help,{'weight': 0.08576079462509835}
+3,34,Morale,{'weight': 0.03154963320110002}
+3,34,Seeking Input,{'weight': 0.011606461431184656}
+3,34,Monitoring,{'weight': 0.00426977854528211}
+3,28,Seeking Help,{'weight': 1.8435478332714506}
+3,28,Leadership,{'weight': 3.234131319165726}
+3,28,Responding,{'weight': 1.5903397353198558}
+3,28,Morale,{'weight': 0.22084743240770013}
+3,28,Seeking Input,{'weight': 0.08124523001829259}
+3,28,Monitoring,{'weight': 0.02988844981697477}
+101,79,Leadership,{'weight': 0.6336913225737218}
+101,79,Responding,{'weight': 0.233122009623613}
+101,79,Seeking Help,{'weight': 0.08576079462509835}
+101,79,Morale,{'weight': 0.03154963320110002}
+101,79,Seeking Input,{'weight': 0.011606461431184656}
+101,79,Monitoring,{'weight': 0.00426977854528211}
+101,3,Leadership,{'weight': 0.6336913225737218}
+101,3,Responding,{'weight': 0.233122009623613}
+101,3,Seeking Help,{'weight': 0.08576079462509835}
+101,3,Morale,{'weight': 0.03154963320110002}
+101,3,Seeking Input,{'weight': 0.011606461431184656}
+101,3,Monitoring,{'weight': 0.00426977854528211}
+101,4,Leadership,{'weight': 0.6336913225737218}
+101,4,Responding,{'weight': 0.233122009623613}
+101,4,Seeking Help,{'weight': 0.08576079462509835}
+101,4,Morale,{'weight': 0.03154963320110002}
+101,4,Seeking Input,{'weight': 0.011606461431184656}
+101,4,Monitoring,{'weight': 0.00426977854528211}
+104,46,Leadership,{'weight': 1.2673826451474437}
+104,46,Responding,{'weight': 0.46624401924722597}
+104,46,Seeking Help,{'weight': 0.1715215892501967}
+104,46,Morale,{'weight': 0.06309926640220004}
+104,46,Seeking Input,{'weight': 0.023212922862369312}
+104,46,Monitoring,{'weight': 0.00853955709056422}
+104,3,Leadership,{'weight': 1.2673826451474437}
+104,3,Responding,{'weight': 0.466244019247226}
+104,3,Seeking Help,{'weight': 0.1715215892501967}
+104,3,Morale,{'weight': 0.06309926640220004}
+104,3,Seeking Input,{'weight': 0.023212922862369312}
+104,3,Monitoring,{'weight': 0.00853955709056422}
+88,46,Leadership,{'weight': 0.6336913225737218}
+88,46,Responding,{'weight': 0.233122009623613}
+88,46,Seeking Help,{'weight': 0.08576079462509835}
+88,46,Morale,{'weight': 0.03154963320110002}
+88,46,Seeking Input,{'weight': 0.011606461431184656}
+88,46,Monitoring,{'weight': 0.00426977854528211}
+88,4,Leadership,{'weight': 0.6336913225737218}
+88,4,Responding,{'weight': 0.233122009623613}
+88,4,Seeking Help,{'weight': 0.08576079462509835}
+88,4,Morale,{'weight': 0.03154963320110002}
+88,4,Seeking Input,{'weight': 0.011606461431184656}
+88,4,Monitoring,{'weight': 0.00426977854528211}
+88,3,Leadership,{'weight': 0.6336913225737218}
+88,3,Responding,{'weight': 0.233122009623613}
+88,3,Seeking Help,{'weight': 0.08576079462509835}
+88,3,Morale,{'weight': 0.03154963320110002}
+88,3,Seeking Input,{'weight': 0.011606461431184656}
+88,3,Monitoring,{'weight': 0.00426977854528211}
+103,4,Leadership,{'weight': 0.6336913225737218}
+103,4,Responding,{'weight': 0.233122009623613}
+103,4,Seeking Help,{'weight': 0.08576079462509835}
+103,4,Morale,{'weight': 0.03154963320110002}
+103,4,Seeking Input,{'weight': 0.011606461431184656}
+103,4,Monitoring,{'weight': 0.00426977854528211}
+103,77,Leadership,{'weight': 0.6336913225737218}
+103,77,Responding,{'weight': 0.233122009623613}
+103,77,Seeking Help,{'weight': 0.08576079462509835}
+103,77,Morale,{'weight': 0.03154963320110002}
+103,77,Seeking Input,{'weight': 0.011606461431184656}
+103,77,Monitoring,{'weight': 0.00426977854528211}
+45,3,Leadership,{'weight': 0.6336913225737218}
+45,3,Seeking Help,{'weight': 0.233122009623613}
+45,3,Responding,{'weight': 0.08576079462509835}
+45,3,Morale,{'weight': 0.03154963320110002}
+45,3,Seeking Input,{'weight': 0.011606461431184656}
+45,3,Monitoring,{'weight': 0.00426977854528211}
+45,46,Leadership,{'weight': 0.6336913225737218}
+45,46,Seeking Help,{'weight': 0.233122009623613}
+45,46,Responding,{'weight': 0.08576079462509835}
+45,46,Morale,{'weight': 0.03154963320110002}
+45,46,Seeking Input,{'weight': 0.011606461431184656}
+45,46,Monitoring,{'weight': 0.00426977854528211}
+81,0,Responding,{'weight': 0.6336913225737218}
+81,0,Seeking Help,{'weight': 0.233122009623613}
+81,0,Leadership,{'weight': 0.08576079462509835}
+81,0,Morale,{'weight': 0.03154963320110002}
+81,0,Seeking Input,{'weight': 0.011606461431184656}
+81,0,Monitoring,{'weight': 0.00426977854528211}
+81,3,Responding,{'weight': 0.6336913225737218}
+81,3,Seeking Help,{'weight': 0.23312200962361296}
+81,3,Leadership,{'weight': 0.08576079462509835}
+81,3,Morale,{'weight': 0.03154963320110002}
+81,3,Seeking Input,{'weight': 0.011606461431184656}
+81,3,Monitoring,{'weight': 0.00426977854528211}

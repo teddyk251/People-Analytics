@@ -1,0 +1,1864 @@
+source,target,relation,weight
+72,31,Model Extraction,{'weight': 29.97544663372151}
+72,31,Atomspace Visualizer,{'weight': 11.6798310793306}
+72,31,GHOST,{'weight': 16.34472228694785}
+72,31,Components Integration,{'weight': 1.2140929674126522}
+72,31,Tools Usage,{'weight': 1.1796780336125923}
+72,31,Avatar development,{'weight': 1.0861285444362687}
+72,31,Chatbot development,{'weight': 2.261161062161622}
+72,31,Android development,{'weight': 0.25893939237686514}
+72,1,Model Extraction,{'weight': 0.6652409557748218}
+72,1,Atomspace Visualizer,{'weight': 0.24472847105479764}
+72,1,GHOST,{'weight': 0.09003057317038046}
+72,11,Model Extraction,{'weight': 4.815661720983704}
+72,11,Atomspace Visualizer,{'weight': 1.6302140121926636}
+72,11,GHOST,{'weight': 3.554124266823632}
+72,29,Model Extraction,{'weight': 4.9703596188681205}
+72,29,GHOST,{'weight': 3.2447284710547977}
+72,29,Atomspace Visualizer,{'weight': 1.7849119100770805}
+72,20,GHOST,{'weight': 1.1546978978844171}
+72,20,Atomspace Visualizer,{'weight': 0.9999999999999999}
+72,20,Model Extraction,{'weight': 0.8453021021155827}
+72,32,GHOST,{'weight': 5.510543057890403}
+72,32,Atomspace Visualizer,{'weight': 3.09858483852145}
+72,32,Model Extraction,{'weight': 7.390872103588143}
+72,0,Model Extraction,{'weight': 11.137589367182278}
+72,0,GHOST,{'weight': 5.317950061119902}
+72,0,Atomspace Visualizer,{'weight': 4.544460571697816}
+72,0,Avatar development,{'weight': 0.6364086465588308}
+72,0,Tools Usage,{'weight': 0.23412165725273665}
+72,0,Chatbot development,{'weight': 0.0861285444362687}
+72,0,Components Integration,{'weight': 0.03168492079612427}
+72,0,Android development,{'weight': 0.011656230956039605}
+72,10,Model Extraction,{'weight': 0.6652409557748218}
+72,10,GHOST,{'weight': 0.24472847105479764}
+72,10,Atomspace Visualizer,{'weight': 0.09003057317038046}
+72,34,Model Extraction,{'weight': 1.9957228673244654}
+72,34,GHOST,{'weight': 0.5794875152799758}
+72,34,Atomspace Visualizer,{'weight': 0.42478961739555854}
+72,28,GHOST,{'weight': 0.8453021021155827}
+72,28,Model Extraction,{'weight': 1.5752103826044412}
+72,28,Atomspace Visualizer,{'weight': 0.5794875152799758}
+72,30,GHOST,{'weight': 2.249005603730332}
+72,30,Model Extraction,{'weight': 5.81138458830817}
+72,30,Atomspace Visualizer,{'weight': 1.9396098079614976}
+72,46,Atomspace Visualizer,{'weight': 3.9860591721986514}
+72,46,Model Extraction,{'weight': 9.20653382457185}
+72,46,GHOST,{'weight': 3.8074070032294984}
+72,62,GHOST,{'weight': 4.305118663093299}
+72,62,Model Extraction,{'weight': 3.8846061783732755}
+72,62,Atomspace Visualizer,{'weight': 0.810275158533424}
+72,6,GHOST,{'weight': 2.4851798094340607}
+72,6,Model Extraction,{'weight': 2.0646673247140366}
+72,6,Atomspace Visualizer,{'weight': 0.4501528658519023}
+72,74,Model Extraction,{'weight': 0.6652409557748218}
+72,74,GHOST,{'weight': 0.24472847105479764}
+72,74,Atomspace Visualizer,{'weight': 0.09003057317038046}
+72,37,Model Extraction,{'weight': 0.6652409557748218}
+72,37,Atomspace Visualizer,{'weight': 0.24472847105479764}
+72,37,GHOST,{'weight': 0.09003057317038046}
+72,13,GHOST,{'weight': 0.6652409557748218}
+72,13,Atomspace Visualizer,{'weight': 0.24472847105479764}
+72,13,Model Extraction,{'weight': 0.09003057317038045}
+72,17,GHOST,{'weight': 0.6652409557748218}
+72,17,Model Extraction,{'weight': 0.24472847105479764}
+72,17,Atomspace Visualizer,{'weight': 0.09003057317038046}
+72,3,Components Integration,{'weight': 1.4798995454615131}
+72,3,Tools Usage,{'weight': 2.0502083374241598}
+72,3,Avatar development,{'weight': 1.8086657354313682}
+72,3,Chatbot development,{'weight': 2.3789745273940146}
+72,3,Android development,{'weight': 0.28225185428894434}
+72,78,Chatbot development,{'weight': 0.6364086465588308}
+72,78,Components Integration,{'weight': 0.23412165725273665}
+72,78,Android development,{'weight': 0.0861285444362687}
+72,78,Tools Usage,{'weight': 0.03168492079612427}
+72,78,Avatar development,{'weight': 0.011656230956039605}
+72,4,Chatbot development,{'weight': 0.6364086465588308}
+72,4,Components Integration,{'weight': 0.23412165725273665}
+72,4,Android development,{'weight': 0.0861285444362687}
+72,4,Tools Usage,{'weight': 0.03168492079612427}
+72,4,Avatar development,{'weight': 0.011656230956039605}
+20,0,Model Extraction,{'weight': 3.5709332499289066}
+20,0,GHOST,{'weight': 1.1589750305599515}
+20,0,Atomspace Visualizer,{'weight': 1.2700917195111412}
+20,0,Topic Analysis,{'weight': 62.496091895508115}
+20,0,Text Preprocessing,{'weight': 97.73862313226331}
+20,0,Prediction Experiments,{'weight': 77.76528497222857}
+20,0,Chatbot development,{'weight': 0.7225371909950995}
+20,0,Android development,{'weight': 0.4682433145054733}
+20,0,Avatar development,{'weight': 0.09778477539230832}
+20,0,Components Integration,{'weight': 0.06336984159224854}
+20,0,Tools Usage,{'weight': 0.6480648775148704}
+20,29,Model Extraction,{'weight': 3.9914457346489307}
+20,29,GHOST,{'weight': 1.1589750305599515}
+20,29,Atomspace Visualizer,{'weight': 0.8495792347911172}
+20,30,Model Extraction,{'weight': 1.3304819115496436}
+20,30,GHOST,{'weight': 0.3347590442251781}
+20,30,Atomspace Visualizer,{'weight': 0.3347590442251781}
+20,31,Model Extraction,{'weight': 0.6652409557748218}
+20,31,Atomspace Visualizer,{'weight': 0.24472847105479764}
+20,31,GHOST,{'weight': 0.09003057317038048}
+20,17,Model Extraction,{'weight': 0.6652409557748218}
+20,17,Atomspace Visualizer,{'weight': 0.24472847105479764}
+20,17,GHOST,{'weight': 0.09003057317038046}
+20,17,Topic Analysis,{'weight': 1.1546978978844171}
+20,17,Text Preprocessing,{'weight': 0.9999999999999999}
+20,17,Prediction Experiments,{'weight': 0.8453021021155827}
+20,32,Model Extraction,{'weight': 1.3304819115496436}
+20,32,Atomspace Visualizer,{'weight': 0.4894569421095953}
+20,32,GHOST,{'weight': 0.18006114634076092}
+20,46,Topic Analysis,{'weight': 37.543300941362425}
+20,46,Prediction Experiments,{'weight': 36.841674265194484}
+20,46,Text Preprocessing,{'weight': 62.61502479344308}
+20,34,Topic Analysis,{'weight': 14.12107993167386}
+20,34,Prediction Experiments,{'weight': 13.724521718038575}
+20,34,Text Preprocessing,{'weight': 22.154398350287536}
+20,19,Topic Analysis,{'weight': 11.908859997054872}
+20,19,Prediction Experiments,{'weight': 17.196870129446033}
+20,19,Text Preprocessing,{'weight': 19.894269873499084}
+20,10,Text Preprocessing,{'weight': 7.922501277259357}
+20,10,Topic Analysis,{'weight': 5.708822164708048}
+20,10,Prediction Experiments,{'weight': 2.3686765580325906}
+20,6,Text Preprocessing,{'weight': 5.240451338379262}
+20,6,Topic Analysis,{'weight': 4.399426368939215}
+20,6,Prediction Experiments,{'weight': 3.3601222926815217}
+20,47,Topic Analysis,{'weight': 4.472647959004321}
+20,47,Text Preprocessing,{'weight': 9.296564397742229}
+20,47,Prediction Experiments,{'weight': 4.230787643253448}
+20,77,Chatbot development,{'weight': 0.6364086465588308}
+20,77,Android development,{'weight': 0.23412165725273665}
+20,77,Avatar development,{'weight': 0.0861285444362687}
+20,77,Components Integration,{'weight': 0.03168492079612427}
+20,77,Tools Usage,{'weight': 0.011656230956039605}
+20,63,Chatbot development,{'weight': 0.6364086465588308}
+20,63,Android development,{'weight': 0.23412165725273665}
+20,63,Avatar development,{'weight': 0.0861285444362687}
+20,63,Components Integration,{'weight': 0.03168492079612427}
+20,63,Tools Usage,{'weight': 0.011656230956039605}
+0,20,Model Extraction,{'weight': 0.7552715289452022}
+0,20,GHOST,{'weight': 0.4894569421095953}
+0,20,Atomspace Visualizer,{'weight': 0.7552715289452022}
+0,20,Topic Analysis,{'weight': 160.22098498695445}
+0,20,Text Preprocessing,{'weight': 108.07079194353157}
+0,20,Prediction Experiments,{'weight': 150.70822306951442}
+0,29,Model Extraction,{'weight': 14.210810957247382}
+0,29,GHOST,{'weight': 9.874942483247457}
+0,29,Atomspace Visualizer,{'weight': 10.91424655950515}
+0,30,Model Extraction,{'weight': 9.09430770584591}
+0,30,GHOST,{'weight': 9.360122292681519}
+0,30,Atomspace Visualizer,{'weight': 12.54557000147256}
+0,17,Model Extraction,{'weight': 7.261537454160069}
+0,17,Atomspace Visualizer,{'weight': 5.27009171951114}
+0,17,GHOST,{'weight': 5.468370826328784}
+0,17,DNN for Multitask Learning,{'weight': 9.627046309291874}
+0,17,Face Analysis Toolkit development,{'weight': 2.4151259222697443}
+0,17,Speech Generation and Modification,{'weight': 4.95782776843838}
+0,17,Tools Usage,{'weight': 9.59387547955385}
+0,17,Android development,{'weight': 10.409297704374893}
+0,17,Chatbot development,{'weight': 13.004443339569512}
+0,17,Components Integration,{'weight': 5.459564688719971}
+0,17,Avatar development,{'weight': 6.532818787781762}
+0,1,Model Extraction,{'weight': 0.7552715289452022}
+0,1,Atomspace Visualizer,{'weight': 0.4894569421095953}
+0,1,GHOST,{'weight': 0.7552715289452022}
+0,1,Chatbot development,{'weight': 0.6364086465588308}
+0,1,Components Integration,{'weight': 0.23412165725273665}
+0,1,Avatar development,{'weight': 0.0861285444362687}
+0,1,Tools Usage,{'weight': 0.03168492079612427}
+0,1,Android development,{'weight': 0.011656230956039605}
+0,32,Model Extraction,{'weight': 15.055003629588223}
+0,32,GHOST,{'weight': 12.686626619152488}
+0,32,Atomspace Visualizer,{'weight': 24.258369751259266}
+0,31,Model Extraction,{'weight': 62.57521038260446}
+0,31,GHOST,{'weight': 48.34964871537787}
+0,31,Atomspace Visualizer,{'weight': 75.07514090201767}
+0,31,DNN for Multitask Learning,{'weight': 0.6652409557748218}
+0,31,Speech Generation and Modification,{'weight': 0.24472847105479764}
+0,31,Face Analysis Toolkit development,{'weight': 0.09003057317038046}
+0,31,Components Integration,{'weight': 19.24308081645838}
+0,31,Tools Usage,{'weight': 16.036584662362486}
+0,31,Avatar development,{'weight': 15.88600506593889}
+0,31,Chatbot development,{'weight': 21.63742468465952}
+0,31,Android development,{'weight': 12.196904770580675}
+0,10,Model Extraction,{'weight': 1.3304819115496436}
+0,10,GHOST,{'weight': 0.3347590442251781}
+0,10,Atomspace Visualizer,{'weight': 0.3347590442251781}
+0,10,DNN for Multitask Learning,{'weight': 0.6652409557748218}
+0,10,Speech Generation and Modification,{'weight': 0.24472847105479764}
+0,10,Face Analysis Toolkit development,{'weight': 0.09003057317038046}
+0,10,Prediction Experiments,{'weight': 6.309395795768831}
+0,10,Text Preprocessing,{'weight': 4.274368852186675}
+0,10,Topic Analysis,{'weight': 7.416235352044488}
+0,10,Chatbot development,{'weight': 21.15137435009872}
+0,10,Avatar development,{'weight': 15.548899358338547}
+0,10,Components Integration,{'weight': 12.078928884121783}
+0,10,Android development,{'weight': 6.7106852731417765}
+0,10,Tools Usage,{'weight': 17.510112134299145}
+0,11,Model Extraction,{'weight': 5.484070379659311}
+0,11,GHOST,{'weight': 9.39942636893921}
+0,11,Atomspace Visualizer,{'weight': 13.116503251401465}
+0,37,Model Extraction,{'weight': 6.226510510577912}
+0,37,GHOST,{'weight': 6.4683708263287825}
+0,37,Atomspace Visualizer,{'weight': 8.3051186630933}
+0,62,Atomspace Visualizer,{'weight': 57.07911848709635}
+0,62,GHOST,{'weight': 31.987767697167122}
+0,62,Model Extraction,{'weight': 29.933113815736498}
+0,25,Atomspace Visualizer,{'weight': 0.6652409557748218}
+0,25,GHOST,{'weight': 0.24472847105479764}
+0,25,Model Extraction,{'weight': 0.09003057317038046}
+0,72,GHOST,{'weight': 4.36012229268152}
+0,72,Model Extraction,{'weight': 6.704545032032512}
+0,72,Atomspace Visualizer,{'weight': 4.935332675285963}
+0,63,Atomspace Visualizer,{'weight': 0.9099694268296195}
+0,63,GHOST,{'weight': 0.9099694268296195}
+0,63,Model Extraction,{'weight': 0.18006114634076092}
+0,63,Tools Usage,{'weight': 14.886076115269061}
+0,63,Avatar development,{'weight': 6.203635842767206}
+0,63,Chatbot development,{'weight': 10.881632775699547}
+0,63,Components Integration,{'weight': 11.10620265012523}
+0,63,Android development,{'weight': 6.922452616138947}
+0,6,Atomspace Visualizer,{'weight': 7.48517980943406}
+0,6,GHOST,{'weight': 5.184338279016294}
+0,6,Model Extraction,{'weight': 7.330481911549639}
+0,6,Prediction Experiments,{'weight': 10.625936879517127}
+0,6,Text Preprocessing,{'weight': 9.562678532174697}
+0,6,Topic Analysis,{'weight': 13.811384588308167}
+0,6,Tools Usage,{'weight': 0.6364086465588308}
+0,6,Avatar development,{'weight': 0.23412165725273665}
+0,6,Components Integration,{'weight': 0.0861285444362687}
+0,6,Chatbot development,{'weight': 0.03168492079612427}
+0,6,Android development,{'weight': 0.011656230956039605}
+0,46,Atomspace Visualizer,{'weight': 2.154697897884417}
+0,46,Model Extraction,{'weight': 1.5794875152799757}
+0,46,GHOST,{'weight': 2.265814586835607}
+0,46,DNN for Multitask Learning,{'weight': 13.59201936570971}
+0,46,Face Analysis Toolkit development,{'weight': 9.454429998527432}
+0,46,Speech Generation and Modification,{'weight': 11.953550635762845}
+0,46,Topic Analysis,{'weight': 71.94152911991408}
+0,46,Text Preprocessing,{'weight': 44.83910565748745}
+0,46,Prediction Experiments,{'weight': 59.21936522259844}
+0,46,Chatbot development,{'weight': 25.547191908808742}
+0,46,Components Integration,{'weight': 19.233457201902347}
+0,46,Tools Usage,{'weight': 17.394533569923542}
+0,46,Android development,{'weight': 15.198853214717541}
+0,46,Avatar development,{'weight': 16.62596410464777}
+0,69,GHOST,{'weight': 2.240451338379263}
+0,69,Atomspace Visualizer,{'weight': 1.3994263689392148}
+0,69,Model Extraction,{'weight': 0.36012229268152185}
+0,69,Android development,{'weight': 5.034460349648939}
+0,69,Chatbot development,{'weight': 3.3626398392971777}
+0,69,Avatar development,{'weight': 2.6888848260933442}
+0,69,Components Integration,{'weight': 4.900853480792447}
+0,69,Tools Usage,{'weight': 3.0131615041680884}
+0,34,Model Extraction,{'weight': 1.2447284710547977}
+0,34,Atomspace Visualizer,{'weight': 2.240451338379263}
+0,34,GHOST,{'weight': 0.5148201905659391}
+0,34,Face Analysis Toolkit development,{'weight': 0.6652409557748218}
+0,34,DNN for Multitask Learning,{'weight': 0.24472847105479764}
+0,34,Speech Generation and Modification,{'weight': 0.09003057317038046}
+0,34,Topic Analysis,{'weight': 54.23728363547846}
+0,34,Text Preprocessing,{'weight': 38.9048824119762}
+0,34,Prediction Experiments,{'weight': 49.85783395254531}
+0,61,Atomspace Visualizer,{'weight': 0.6652409557748218}
+0,61,GHOST,{'weight': 0.24472847105479764}
+0,61,Model Extraction,{'weight': 0.09003057317038046}
+0,61,DNN for Multitask Learning,{'weight': 0.7552715289452022}
+0,61,Speech Generation and Modification,{'weight': 0.4894569421095953}
+0,61,Face Analysis Toolkit development,{'weight': 0.7552715289452022}
+0,73,Atomspace Visualizer,{'weight': 5.081476307819312}
+0,73,Model Extraction,{'weight': 1.9831910168947249}
+0,73,GHOST,{'weight': 2.935332675285963}
+0,33,Atomspace Visualizer,{'weight': 4.37406312048287}
+0,33,GHOST,{'weight': 4.905692294154084}
+0,33,Model Extraction,{'weight': 1.720244585363044}
+0,28,GHOST,{'weight': 2.09003057317038}
+0,28,Atomspace Visualizer,{'weight': 3.8156617209837043}
+0,28,Model Extraction,{'weight': 1.094307705845915}
+0,16,Face Analysis Toolkit development,{'weight': 2.454429998527437}
+0,16,DNN for Multitask Learning,{'weight': 5.219365222598453}
+0,16,Speech Generation and Modification,{'weight': 6.326204778874108}
+0,74,DNN for Multitask Learning,{'weight': 4.493734074785129}
+0,74,Face Analysis Toolkit development,{'weight': 4.49373407478513}
+0,74,Speech Generation and Modification,{'weight': 8.01253185042974}
+0,7,DNN for Multitask Learning,{'weight': 0.6652409557748218}
+0,7,Speech Generation and Modification,{'weight': 0.24472847105479764}
+0,7,Face Analysis Toolkit development,{'weight': 0.09003057317038046}
+0,77,Components Integration,{'weight': 58.268087569014334}
+0,77,Tools Usage,{'weight': 98.39376493335348}
+0,77,Avatar development,{'weight': 57.68132189083204}
+0,77,Chatbot development,{'weight': 85.6953327918511}
+0,77,Android development,{'weight': 41.96149281494934}
+0,4,Tools Usage,{'weight': 65.09839646085763}
+0,4,Chatbot development,{'weight': 63.6049977697625}
+0,4,Avatar development,{'weight': 46.24597364729209}
+0,4,Android development,{'weight': 28.844930613527964}
+0,4,Components Integration,{'weight': 50.205701508559834}
+0,5,DNN for Multitask Learning,{'weight': 19.879219615923}
+0,5,Face Analysis Toolkit development,{'weight': 18.88349674859853}
+0,5,Speech Generation and Modification,{'weight': 29.237283635478462}
+0,5,Tools Usage,{'weight': 1.5069389503703983}
+0,5,Avatar development,{'weight': 0.554371858941742}
+0,5,Chatbot development,{'weight': 0.183913319828577}
+0,5,Android development,{'weight': 0.6797497983109947}
+0,5,Components Integration,{'weight': 0.07502607254828814}
+0,84,DNN for Multitask Learning,{'weight': 3.5752103826044412}
+0,84,Speech Generation and Modification,{'weight': 2.845302102115583}
+0,84,Face Analysis Toolkit development,{'weight': 2.5794875152799754}
+0,93,Speech Generation and Modification,{'weight': 0.6652409557748218}
+0,93,DNN for Multitask Learning,{'weight': 0.24472847105479764}
+0,93,Face Analysis Toolkit development,{'weight': 0.09003057317038046}
+0,56,DNN for Multitask Learning,{'weight': 1.3304819115496436}
+0,56,Face Analysis Toolkit development,{'weight': 0.3347590442251781}
+0,56,Speech Generation and Modification,{'weight': 0.3347590442251781}
+0,48,DNN for Multitask Learning,{'weight': 1.5752103826044412}
+0,48,Speech Generation and Modification,{'weight': 0.42478961739555854}
+0,48,Face Analysis Toolkit development,{'weight': 0.9999999999999999}
+0,45,DNN for Multitask Learning,{'weight': 0.6652409557748218}
+0,45,Speech Generation and Modification,{'weight': 0.24472847105479764}
+0,45,Face Analysis Toolkit development,{'weight': 0.09003057317038046}
+0,8,Components Integration,{'weight': 11.102065477457174}
+0,8,Avatar development,{'weight': 11.22741058371194}
+0,8,Tools Usage,{'weight': 9.271403608080089}
+0,8,Chatbot development,{'weight': 14.032101783979895}
+0,8,Android development,{'weight': 7.367018546770891}
+0,3,Components Integration,{'weight': 40.0853858401225}
+0,3,Android development,{'weight': 32.124829887322754}
+0,3,Tools Usage,{'weight': 44.26801577323827}
+0,3,Avatar development,{'weight': 44.398521289895015}
+0,3,Chatbot development,{'weight': 44.12324720942135}
+0,19,Topic Analysis,{'weight': 21.468071278731927}
+0,19,Text Preprocessing,{'weight': 12.617682161762922}
+0,19,Prediction Experiments,{'weight': 15.91424655950515}
+0,47,Topic Analysis,{'weight': 10.459816560977714}
+0,47,Text Preprocessing,{'weight': 6.23506477592898}
+0,47,Prediction Experiments,{'weight': 10.305118663093294}
+0,79,Components Integration,{'weight': 16.435730050443}
+0,79,Chatbot development,{'weight': 26.48250573925013}
+0,79,Tools Usage,{'weight': 18.684284726054972}
+0,79,Avatar development,{'weight': 15.950841290267762}
+0,79,Android development,{'weight': 9.446638193984093}
+0,78,Chatbot development,{'weight': 5.756587310972786}
+0,78,Components Integration,{'weight': 3.0659563251993784}
+0,78,Tools Usage,{'weight': 2.789998789406527}
+0,78,Android development,{'weight': 1.0601966576635016}
+0,78,Avatar development,{'weight': 4.327260916757806}
+0,102,Chatbot development,{'weight': 0.6364086465588308}
+0,102,Avatar development,{'weight': 0.23412165725273665}
+0,102,Android development,{'weight': 0.0861285444362687}
+0,102,Tools Usage,{'weight': 0.03168492079612427}
+0,102,Components Integration,{'weight': 0.011656230956039605}
+62,0,Atomspace Visualizer,{'weight': 45.997642179277044}
+62,0,GHOST,{'weight': 27.721653562734645}
+62,0,Model Extraction,{'weight': 17.280704257988262}
+62,25,GHOST,{'weight': 1.3304819115496436}
+62,25,Model Extraction,{'weight': 0.3347590442251781}
+62,25,Atomspace Visualizer,{'weight': 0.3347590442251781}
+62,11,GHOST,{'weight': 4.441598600500833}
+62,11,Model Extraction,{'weight': 2.339036176900713}
+62,11,Atomspace Visualizer,{'weight': 4.219365222598453}
+62,32,Atomspace Visualizer,{'weight': 10.403403954017886}
+62,32,Model Extraction,{'weight': 2.8581335001421864}
+62,32,GHOST,{'weight': 4.738462545839927}
+62,31,Atomspace Visualizer,{'weight': 34.20734370674968}
+62,31,Model Extraction,{'weight': 10.821997126785275}
+62,31,GHOST,{'weight': 16.970659166464984}
+62,29,Atomspace Visualizer,{'weight': 1.9957228673244654}
+62,29,Model Extraction,{'weight': 0.5794875152799758}
+62,29,GHOST,{'weight': 0.42478961739555854}
+62,6,GHOST,{'weight': 5.660963823099287}
+62,6,Atomspace Visualizer,{'weight': 4.554124266823631}
+62,6,Model Extraction,{'weight': 2.7849119100770805}
+62,63,GHOST,{'weight': 0.6652409557748218}
+62,63,Atomspace Visualizer,{'weight': 0.24472847105479764}
+62,63,Model Extraction,{'weight': 0.09003057317038046}
+62,72,GHOST,{'weight': 2.5752103826044412}
+62,72,Model Extraction,{'weight': 0.8495792347911171}
+62,72,Atomspace Visualizer,{'weight': 2.575210382604441}
+62,46,Atomspace Visualizer,{'weight': 0.6652409557748218}
+62,46,GHOST,{'weight': 0.24472847105479764}
+62,46,Model Extraction,{'weight': 0.09003057317038046}
+62,30,GHOST,{'weight': 0.6652409557748218}
+62,30,Atomspace Visualizer,{'weight': 0.24472847105479764}
+62,30,Model Extraction,{'weight': 0.09003057317038046}
+62,17,GHOST,{'weight': 0.6652409557748218}
+62,17,Atomspace Visualizer,{'weight': 0.24472847105479764}
+62,17,Model Extraction,{'weight': 0.09003057317038046}
+62,69,Atomspace Visualizer,{'weight': 1.4205124847200241}
+62,69,GHOST,{'weight': 1.1546978978844171}
+62,69,Model Extraction,{'weight': 0.42478961739555854}
+62,61,Atomspace Visualizer,{'weight': 0.6652409557748218}
+62,61,GHOST,{'weight': 0.24472847105479764}
+62,61,Model Extraction,{'weight': 0.09003057317038046}
+62,20,Atomspace Visualizer,{'weight': 1.819938853659239}
+62,20,GHOST,{'weight': 1.0900305731703803}
+62,20,Model Extraction,{'weight': 1.0900305731703803}
+62,33,Atomspace Visualizer,{'weight': 1.5752103826044412}
+62,33,Model Extraction,{'weight': 0.5794875152799758}
+62,33,GHOST,{'weight': 0.8453021021155827}
+31,0,Model Extraction,{'weight': 60.17312664534539}
+31,0,GHOST,{'weight': 24.351057692749464}
+31,0,Atomspace Visualizer,{'weight': 31.475815661905123}
+31,0,Components Integration,{'weight': 7.715382946529493}
+31,0,Avatar development,{'weight': 5.72659600656072}
+31,0,Android development,{'weight': 4.538161592133864}
+31,0,Chatbot development,{'weight': 16.64340613055559}
+31,0,Tools Usage,{'weight': 8.376453324220323}
+31,29,Model Extraction,{'weight': 13.79427605760603}
+31,29,GHOST,{'weight': 4.146443180130211}
+31,29,Atomspace Visualizer,{'weight': 4.059280762263756}
+31,11,Model Extraction,{'weight': 10.158675482963089}
+31,11,GHOST,{'weight': 3.8074070032294984}
+31,11,Atomspace Visualizer,{'weight': 3.033917513807413}
+31,28,Model Extraction,{'weight': 2.7509943962696677}
+31,28,GHOST,{'weight': 1.334759044225178}
+31,28,Atomspace Visualizer,{'weight': 0.9142465595051539}
+31,6,GHOST,{'weight': 1.4247896173955585}
+31,6,Model Extraction,{'weight': 3.5709332499289066}
+31,6,Atomspace Visualizer,{'weight': 1.0042771326755344}
+31,30,GHOST,{'weight': 3.609127896411854}
+31,30,Model Extraction,{'weight': 9.20653382457185}
+31,30,Atomspace Visualizer,{'weight': 4.184338279016296}
+31,72,Model Extraction,{'weight': 29.83328058626683}
+31,72,GHOST,{'weight': 9.565846235075483}
+31,72,Atomspace Visualizer,{'weight': 11.60087317865764}
+31,72,Android development,{'weight': 0.7341934219511391}
+31,72,Avatar development,{'weight': 0.9566588482478362}
+31,72,Chatbot development,{'weight': 0.35193512248512965}
+31,72,Components Integration,{'weight': 0.29749149884498516}
+31,72,Tools Usage,{'weight': 0.65972110847091}
+31,32,Model Extraction,{'weight': 32.07800905732162}
+31,32,GHOST,{'weight': 10.35075814515256}
+31,32,Atomspace Visualizer,{'weight': 15.571232797525763}
+31,20,Model Extraction,{'weight': 2.240451338379263}
+31,20,Atomspace Visualizer,{'weight': 0.514820190565939}
+31,20,GHOST,{'weight': 1.2447284710547977}
+31,46,Model Extraction,{'weight': 9.558101851902302}
+31,46,GHOST,{'weight': 2.3897626738134004}
+31,46,Atomspace Visualizer,{'weight': 3.052135474284296}
+31,46,Components Integration,{'weight': 0.7225371909950995}
+31,46,Avatar development,{'weight': 0.4682433145054733}
+31,46,Tools Usage,{'weight': 0.7225371909950995}
+31,46,Chatbot development,{'weight': 0.06336984159224854}
+31,46,Android development,{'weight': 0.02331246191207921}
+31,34,Model Extraction,{'weight': 2.7509943962696677}
+31,34,GHOST,{'weight': 1.2236423552739881}
+31,34,Atomspace Visualizer,{'weight': 1.0253632484563435}
+31,62,Model Extraction,{'weight': 18.940719237736232}
+31,62,GHOST,{'weight': 8.543351141923061}
+31,62,Atomspace Visualizer,{'weight': 19.515929620340685}
+31,35,Model Extraction,{'weight': 1.5752103826044412}
+31,35,Atomspace Visualizer,{'weight': 0.9999999999999999}
+31,35,GHOST,{'weight': 0.42478961739555854}
+31,74,Model Extraction,{'weight': 2.905692294154085}
+31,74,Atomspace Visualizer,{'weight': 1.4894569421095953}
+31,74,GHOST,{'weight': 0.6048507637363194}
+31,69,Model Extraction,{'weight': 2.085753440494846}
+31,69,GHOST,{'weight': 0.9789138842191906}
+31,69,Atomspace Visualizer,{'weight': 0.9353326752859632}
+31,69,Chatbot development,{'weight': 0.6364086465588308}
+31,69,Components Integration,{'weight': 0.23412165725273665}
+31,69,Android development,{'weight': 0.0861285444362687}
+31,69,Avatar development,{'weight': 0.03168492079612427}
+31,69,Tools Usage,{'weight': 0.011656230956039605}
+31,1,Model Extraction,{'weight': 0.6652409557748218}
+31,1,GHOST,{'weight': 0.24472847105479764}
+31,1,Atomspace Visualizer,{'weight': 0.09003057317038046}
+31,73,Atomspace Visualizer,{'weight': 1.5752103826044412}
+31,73,GHOST,{'weight': 0.42478961739555854}
+31,73,Model Extraction,{'weight': 0.9999999999999999}
+31,17,Model Extraction,{'weight': 0.9999999999999999}
+31,17,GHOST,{'weight': 0.9999999999999999}
+31,17,Atomspace Visualizer,{'weight': 0.9999999999999999}
+31,37,GHOST,{'weight': 1.5794875152799757}
+31,37,Model Extraction,{'weight': 3.1504207652088825}
+31,37,Atomspace Visualizer,{'weight': 1.2700917195111412}
+31,61,Model Extraction,{'weight': 1.9957228673244654}
+31,61,Atomspace Visualizer,{'weight': 0.5794875152799758}
+31,61,GHOST,{'weight': 0.42478961739555854}
+31,16,Model Extraction,{'weight': 0.6652409557748218}
+31,16,Atomspace Visualizer,{'weight': 0.24472847105479764}
+31,16,GHOST,{'weight': 0.09003057317038046}
+31,25,Model Extraction,{'weight': 1.9957228673244654}
+31,25,Atomspace Visualizer,{'weight': 0.7341854131643929}
+31,25,GHOST,{'weight': 0.2700917195111414}
+31,4,Model Extraction,{'weight': 0.6652409557748218}
+31,4,GHOST,{'weight': 0.24472847105479764}
+31,4,Atomspace Visualizer,{'weight': 0.09003057317038046}
+31,4,Chatbot development,{'weight': 13.376596097140409}
+31,4,Tools Usage,{'weight': 8.417481218013254}
+31,4,Android development,{'weight': 3.779105019209718}
+31,4,Avatar development,{'weight': 5.6462534374013655}
+31,4,Components Integration,{'weight': 9.780564228235242}
+31,52,Model Extraction,{'weight': 0.6652409557748218}
+31,52,GHOST,{'weight': 0.24472847105479764}
+31,52,Atomspace Visualizer,{'weight': 0.09003057317038048}
+31,3,Components Integration,{'weight': 9.365259264157867}
+31,3,Chatbot development,{'weight': 11.658294192361296}
+31,3,Avatar development,{'weight': 4.152051928382089}
+31,3,Tools Usage,{'weight': 7.765324583679204}
+31,3,Android development,{'weight': 3.0590700314195374}
+31,10,Tools Usage,{'weight': 0.6364086465588308}
+31,10,Chatbot development,{'weight': 0.23412165725273665}
+31,10,Components Integration,{'weight': 0.0861285444362687}
+31,10,Android development,{'weight': 0.03168492079612427}
+31,10,Avatar development,{'weight': 0.011656230956039605}
+31,77,Components Integration,{'weight': 2.4063787461252732}
+31,77,Avatar development,{'weight': 1.0824016014394628}
+31,77,Android development,{'weight': 1.9670903394119896}
+31,77,Chatbot development,{'weight': 5.634538559524408}
+31,77,Tools Usage,{'weight': 1.9095907534988663}
+31,79,Tools Usage,{'weight': 2.175032517725353}
+31,79,Avatar development,{'weight': 0.5977130106939059}
+31,79,Chatbot development,{'weight': 1.6047237257627067}
+31,79,Components Integration,{'weight': 0.24728316142082554}
+31,79,Android development,{'weight': 0.37524758439720884}
+31,8,Components Integration,{'weight': 1.741060607623135}
+31,8,Avatar development,{'weight': 1.1907805055005727}
+31,8,Chatbot development,{'weight': 0.7658783427472634}
+31,8,Android development,{'weight': 0.10671099334441242}
+31,8,Tools Usage,{'weight': 0.19556955078461663}
+6,62,Atomspace Visualizer,{'weight': 3.2658145868356065}
+6,62,GHOST,{'weight': 3.5752103826044412}
+6,62,Model Extraction,{'weight': 2.1589750305599513}
+6,0,Atomspace Visualizer,{'weight': 0.8453021021155827}
+6,0,GHOST,{'weight': 1.1546978978844171}
+6,0,Model Extraction,{'weight': 0.9999999999999999}
+6,0,Topic Analysis,{'weight': 5.395149236263679}
+6,0,Text Preprocessing,{'weight': 3.8242159863347736}
+6,0,Prediction Experiments,{'weight': 3.780634777401546}
+6,0,Chatbot development,{'weight': 0.6364086465588308}
+6,0,Avatar development,{'weight': 0.23412165725273665}
+6,0,Components Integration,{'weight': 0.0861285444362687}
+6,0,Tools Usage,{'weight': 0.03168492079612427}
+6,0,Android development,{'weight': 0.011656230956039605}
+6,31,GHOST,{'weight': 1.6652409557748218}
+6,31,Model Extraction,{'weight': 0.6695180884503562}
+6,31,Atomspace Visualizer,{'weight': 1.6652409557748218}
+6,30,GHOST,{'weight': 1.3304819115496436}
+6,30,Model Extraction,{'weight': 0.4894569421095953}
+6,30,Atomspace Visualizer,{'weight': 0.18006114634076092}
+6,72,GHOST,{'weight': 0.7552715289452022}
+6,72,Model Extraction,{'weight': 0.4894569421095953}
+6,72,Atomspace Visualizer,{'weight': 0.7552715289452022}
+6,32,GHOST,{'weight': 0.6652409557748218}
+6,32,Model Extraction,{'weight': 0.24472847105479764}
+6,32,Atomspace Visualizer,{'weight': 0.09003057317038046}
+6,29,GHOST,{'weight': 1.4205124847200241}
+6,29,Model Extraction,{'weight': 0.7341854131643929}
+6,29,Atomspace Visualizer,{'weight': 0.8453021021155827}
+6,11,GHOST,{'weight': 0.6652409557748218}
+6,11,Model Extraction,{'weight': 0.24472847105479764}
+6,11,Atomspace Visualizer,{'weight': 0.09003057317038046}
+6,28,GHOST,{'weight': 0.6652409557748218}
+6,28,Model Extraction,{'weight': 0.24472847105479764}
+6,28,Atomspace Visualizer,{'weight': 0.09003057317038046}
+6,46,Topic Analysis,{'weight': 3.974636751543656}
+6,46,Text Preprocessing,{'weight': 2.6695180884503564}
+6,46,Prediction Experiments,{'weight': 3.355845160005987}
+6,34,Topic Analysis,{'weight': 3.240451338379263}
+6,34,Text Preprocessing,{'weight': 1.9789138842191905}
+6,34,Prediction Experiments,{'weight': 1.7806347774015459}
+6,20,Topic Analysis,{'weight': 4.660963823099287}
+6,20,Text Preprocessing,{'weight': 2.9789138842191907}
+6,20,Prediction Experiments,{'weight': 2.3601222926815217}
+6,10,Text Preprocessing,{'weight': 0.6652409557748218}
+6,10,Topic Analysis,{'weight': 0.24472847105479764}
+6,10,Prediction Experiments,{'weight': 0.09003057317038048}
+6,10,Avatar development,{'weight': 0.6364086465588308}
+6,10,Components Integration,{'weight': 0.23412165725273665}
+6,10,Android development,{'weight': 0.0861285444362687}
+6,10,Chatbot development,{'weight': 0.03168492079612427}
+6,10,Tools Usage,{'weight': 0.011656230956039605}
+6,19,Prediction Experiments,{'weight': 0.7552715289452022}
+6,19,Topic Analysis,{'weight': 0.9099694268296195}
+6,19,Text Preprocessing,{'weight': 0.3347590442251781}
+6,77,Avatar development,{'weight': 0.6364086465588308}
+6,77,Components Integration,{'weight': 0.23412165725273665}
+6,77,Android development,{'weight': 0.0861285444362687}
+6,77,Chatbot development,{'weight': 0.03168492079612427}
+6,77,Tools Usage,{'weight': 0.011656230956039605}
+6,4,Avatar development,{'weight': 0.8705303038115675}
+6,4,Android development,{'weight': 0.24577788820877625}
+6,4,Tools Usage,{'weight': 0.11781346523239297}
+6,4,Components Integration,{'weight': 0.11781346523239297}
+6,4,Chatbot development,{'weight': 0.6480648775148704}
+32,34,Atomspace Visualizer,{'weight': 1.4205124847200241}
+32,34,Model Extraction,{'weight': 1.1546978978844171}
+32,34,GHOST,{'weight': 0.42478961739555854}
+32,73,Atomspace Visualizer,{'weight': 0.9099694268296195}
+32,73,Model Extraction,{'weight': 0.9099694268296195}
+32,73,GHOST,{'weight': 0.18006114634076092}
+32,31,Atomspace Visualizer,{'weight': 22.31684063134515}
+32,31,Model Extraction,{'weight': 42.98083319617178}
+32,31,GHOST,{'weight': 20.702326172483026}
+32,0,Atomspace Visualizer,{'weight': 13.025363248456337}
+32,0,Model Extraction,{'weight': 17.55951082927391}
+32,0,GHOST,{'weight': 10.415125922269747}
+32,72,Atomspace Visualizer,{'weight': 3.9999999999999996}
+32,72,Model Extraction,{'weight': 5.88032904569774}
+32,72,GHOST,{'weight': 2.1196709543022587}
+32,20,Atomspace Visualizer,{'weight': 1.4501528658519023}
+32,20,Model Extraction,{'weight': 3.639877707318478}
+32,20,GHOST,{'weight': 2.909969426829619}
+32,62,Atomspace Visualizer,{'weight': 4.060390192038502}
+32,62,Model Extraction,{'weight': 3.2193652225984537}
+32,62,GHOST,{'weight': 0.7202445853630437}
+32,61,GHOST,{'weight': 0.9353326752859631}
+32,61,Model Extraction,{'weight': 1.3994263689392148}
+32,61,Atomspace Visualizer,{'weight': 1.6652409557748218}
+32,30,GHOST,{'weight': 2.5105430578904047}
+32,30,Model Extraction,{'weight': 3.39514923626368}
+32,30,Atomspace Visualizer,{'weight': 1.0943077058459147}
+32,22,Model Extraction,{'weight': 3.5709332499289066}
+32,22,Atomspace Visualizer,{'weight': 1.1589750305599515}
+32,22,GHOST,{'weight': 1.2700917195111414}
+32,17,Model Extraction,{'weight': 1.819938853659239}
+32,17,Atomspace Visualizer,{'weight': 1.6652409557748218}
+32,17,GHOST,{'weight': 0.514820190565939}
+32,16,Model Extraction,{'weight': 0.6652409557748218}
+32,16,Atomspace Visualizer,{'weight': 0.24472847105479764}
+32,16,GHOST,{'weight': 0.09003057317038046}
+32,29,Model Extraction,{'weight': 3.085753440494846}
+32,29,GHOST,{'weight': 1.249005603730332}
+32,29,Atomspace Visualizer,{'weight': 2.665240955774822}
+32,25,Model Extraction,{'weight': 1.3304819115496436}
+32,25,GHOST,{'weight': 0.4894569421095953}
+32,25,Atomspace Visualizer,{'weight': 0.18006114634076092}
+32,46,Model Extraction,{'weight': 2.9957228673244654}
+32,46,GHOST,{'weight': 1.4247896173955583}
+32,46,Atomspace Visualizer,{'weight': 1.5794875152799757}
+32,35,Model Extraction,{'weight': 2.240451338379263}
+32,35,GHOST,{'weight': 1.2447284710547974}
+32,35,Atomspace Visualizer,{'weight': 0.514820190565939}
+32,74,Model Extraction,{'weight': 0.6652409557748218}
+32,74,Atomspace Visualizer,{'weight': 0.24472847105479764}
+32,74,GHOST,{'weight': 0.09003057317038046}
+32,11,GHOST,{'weight': 1.7552715289452023}
+32,11,Atomspace Visualizer,{'weight': 1.334759044225178}
+32,11,Model Extraction,{'weight': 1.9099694268296195}
+32,6,GHOST,{'weight': 0.7552715289452022}
+32,6,Atomspace Visualizer,{'weight': 0.4894569421095953}
+32,6,Model Extraction,{'weight': 0.7552715289452022}
+32,28,Model Extraction,{'weight': 1.6652409557748218}
+32,28,GHOST,{'weight': 1.2447284710547974}
+32,28,Atomspace Visualizer,{'weight': 1.0900305731703803}
+32,37,Model Extraction,{'weight': 2.4851798094340607}
+32,37,GHOST,{'weight': 2.0646673247140366}
+32,37,Atomspace Visualizer,{'weight': 0.4501528658519023}
+32,1,GHOST,{'weight': 0.9099694268296195}
+32,1,Atomspace Visualizer,{'weight': 0.9099694268296195}
+32,1,Model Extraction,{'weight': 0.18006114634076092}
+17,0,Model Extraction,{'weight': 1.819938853659239}
+17,0,GHOST,{'weight': 0.6695180884503562}
+17,0,Atomspace Visualizer,{'weight': 1.5105430578904044}
+17,0,Face Analysis Toolkit development,{'weight': 6.999999999999997}
+17,0,DNN for Multitask Learning,{'weight': 8.72563114781332}
+17,0,Speech Generation and Modification,{'weight': 5.274368852186674}
+17,0,Avatar development,{'weight': 3.5191489403944956}
+17,0,Components Integration,{'weight': 3.2467294023527655}
+17,0,Tools Usage,{'weight': 3.2483643718159065}
+17,0,Chatbot development,{'weight': 3.7425658808351834}
+17,0,Android development,{'weight': 3.2431914046016455}
+17,32,Model Extraction,{'weight': 1.819938853659239}
+17,32,GHOST,{'weight': 1.2447284710547977}
+17,32,Atomspace Visualizer,{'weight': 0.9353326752859631}
+17,31,Model Extraction,{'weight': 1.819938853659239}
+17,31,GHOST,{'weight': 0.6695180884503562}
+17,31,Atomspace Visualizer,{'weight': 1.5105430578904044}
+17,72,Model Extraction,{'weight': 1.5752103826044412}
+17,72,GHOST,{'weight': 0.5794875152799758}
+17,72,Atomspace Visualizer,{'weight': 0.8453021021155827}
+17,72,Avatar development,{'weight': 0.6364086465588308}
+17,72,Chatbot development,{'weight': 0.23412165725273665}
+17,72,Components Integration,{'weight': 0.0861285444362687}
+17,72,Android development,{'weight': 0.03168492079612427}
+17,72,Tools Usage,{'weight': 0.011656230956039605}
+17,29,Model Extraction,{'weight': 1.5752103826044412}
+17,29,GHOST,{'weight': 1.1546978978844171}
+17,29,Atomspace Visualizer,{'weight': 0.2700917195111414}
+17,37,Model Extraction,{'weight': 0.9099694268296195}
+17,37,GHOST,{'weight': 0.3347590442251781}
+17,37,Atomspace Visualizer,{'weight': 0.7552715289452022}
+17,61,Atomspace Visualizer,{'weight': 0.6652409557748218}
+17,61,Model Extraction,{'weight': 0.24472847105479764}
+17,61,GHOST,{'weight': 0.09003057317038046}
+17,61,Face Analysis Toolkit development,{'weight': 0.6652409557748218}
+17,61,DNN for Multitask Learning,{'weight': 0.24472847105479764}
+17,61,Speech Generation and Modification,{'weight': 0.09003057317038046}
+17,30,Atomspace Visualizer,{'weight': 0.6652409557748218}
+17,30,Model Extraction,{'weight': 0.24472847105479764}
+17,30,GHOST,{'weight': 0.09003057317038048}
+17,12,GHOST,{'weight': 0.6652409557748218}
+17,12,Model Extraction,{'weight': 0.24472847105479764}
+17,12,Atomspace Visualizer,{'weight': 0.09003057317038046}
+17,69,GHOST,{'weight': 0.6652409557748218}
+17,69,Model Extraction,{'weight': 0.24472847105479764}
+17,69,Atomspace Visualizer,{'weight': 0.09003057317038046}
+17,63,GHOST,{'weight': 0.6652409557748218}
+17,63,Model Extraction,{'weight': 0.24472847105479764}
+17,63,Atomspace Visualizer,{'weight': 0.09003057317038046}
+17,63,Chatbot development,{'weight': 1.9208821706325319}
+17,63,Tools Usage,{'weight': 0.41803497708131365}
+17,63,Components Integration,{'weight': 0.5860567797378662}
+17,63,Avatar development,{'weight': 0.30914772980102484}
+17,63,Android development,{'weight': 0.7658783427472633}
+17,46,GHOST,{'weight': 0.6652409557748218}
+17,46,Model Extraction,{'weight': 0.24472847105479764}
+17,46,Atomspace Visualizer,{'weight': 0.09003057317038046}
+17,46,Face Analysis Toolkit development,{'weight': 6.09003057317038}
+17,46,DNN for Multitask Learning,{'weight': 8.811384588308167}
+17,46,Speech Generation and Modification,{'weight': 4.098584838521449}
+17,46,Text Preprocessing,{'weight': 0.9999999999999999}
+17,46,Prediction Experiments,{'weight': 0.5794875152799758}
+17,46,Topic Analysis,{'weight': 1.4205124847200241}
+17,46,Avatar development,{'weight': 0.6364086465588308}
+17,46,Chatbot development,{'weight': 0.23412165725273665}
+17,46,Components Integration,{'weight': 0.0861285444362687}
+17,46,Android development,{'weight': 0.03168492079612427}
+17,46,Tools Usage,{'weight': 0.011656230956039605}
+17,20,Text Preprocessing,{'weight': 1.6652409557748218}
+17,20,Prediction Experiments,{'weight': 0.6695180884503562}
+17,20,Topic Analysis,{'weight': 1.6652409557748218}
+17,5,Face Analysis Toolkit development,{'weight': 4.575210382604441}
+17,5,DNN for Multitask Learning,{'weight': 4.729908280488858}
+17,5,Speech Generation and Modification,{'weight': 2.6948813369067}
+17,19,Face Analysis Toolkit development,{'weight': 0.6652409557748218}
+17,19,DNN for Multitask Learning,{'weight': 0.24472847105479764}
+17,19,Speech Generation and Modification,{'weight': 0.09003057317038046}
+17,19,Text Preprocessing,{'weight': 0.6652409557748218}
+17,19,Topic Analysis,{'weight': 0.24472847105479764}
+17,19,Prediction Experiments,{'weight': 0.09003057317038048}
+17,85,Face Analysis Toolkit development,{'weight': 0.9099694268296195}
+17,85,DNN for Multitask Learning,{'weight': 0.9099694268296195}
+17,85,Speech Generation and Modification,{'weight': 0.18006114634076092}
+17,3,Avatar development,{'weight': 3.3039484548457265}
+17,3,Components Integration,{'weight': 1.0474329085713439}
+17,3,Tools Usage,{'weight': 1.7431196399032434}
+17,3,Chatbot development,{'weight': 2.4249021627533094}
+17,3,Android development,{'weight': 1.4805968339263769}
+17,8,Avatar development,{'weight': 1.593067494806667}
+17,8,Components Integration,{'weight': 0.5316131560977219}
+17,8,Tools Usage,{'weight': 0.7658783427472634}
+17,8,Chatbot development,{'weight': 0.4380636669213983}
+17,8,Android development,{'weight': 0.6713773394269497}
+17,79,Avatar development,{'weight': 0.9683150792038758}
+17,79,Components Integration,{'weight': 0.38362004328125393}
+17,79,Tools Usage,{'weight': 0.9683150792038757}
+17,79,Chatbot development,{'weight': 0.9883437690439604}
+17,79,Android development,{'weight': 0.6914060292670343}
+17,10,Android development,{'weight': 1.284473524073701}
+17,10,Avatar development,{'weight': 0.554371858941742}
+17,10,Chatbot development,{'weight': 0.7341934219511391}
+17,10,Components Integration,{'weight': 0.3519351224851296}
+17,10,Tools Usage,{'weight': 0.07502607254828814}
+17,4,Avatar development,{'weight': 0.6797497983109947}
+17,4,Components Integration,{'weight': 0.4063787461252741}
+17,4,Chatbot development,{'weight': 0.9566588482478362}
+17,4,Android development,{'weight': 0.07502607254828814}
+17,4,Tools Usage,{'weight': 0.882186534767607}
+17,77,Avatar development,{'weight': 2.0777560855522235}
+17,77,Components Integration,{'weight': 1.6410541624460697}
+17,77,Chatbot development,{'weight': 2.999446240931941}
+17,77,Android development,{'weight': 2.485685520738427}
+17,77,Tools Usage,{'weight': 2.796057990331338}
+17,101,Avatar development,{'weight': 1.2728172931176616}
+17,101,Components Integration,{'weight': 0.24577788820877625}
+17,101,Chatbot development,{'weight': 0.32025020168900536}
+17,101,Tools Usage,{'weight': 0.06336984159224854}
+17,101,Android development,{'weight': 0.09778477539230832}
+46,32,GHOST,{'weight': 0.6652409557748218}
+46,32,Model Extraction,{'weight': 0.24472847105479764}
+46,32,Atomspace Visualizer,{'weight': 0.09003057317038046}
+46,29,GHOST,{'weight': 0.7552715289452022}
+46,29,Model Extraction,{'weight': 0.9099694268296195}
+46,29,Atomspace Visualizer,{'weight': 0.3347590442251781}
+46,31,GHOST,{'weight': 0.6652409557748218}
+46,31,Model Extraction,{'weight': 0.24472847105479764}
+46,31,Atomspace Visualizer,{'weight': 0.09003057317038046}
+46,31,Components Integration,{'weight': 1.9022152246076918}
+46,31,Avatar development,{'weight': 1.8477716009675473}
+46,31,Tools Usage,{'weight': 0.6880768413461594}
+46,31,Chatbot development,{'weight': 2.526967640210483}
+46,31,Android development,{'weight': 1.0349686928681188}
+46,30,Model Extraction,{'weight': 0.6652409557748218}
+46,30,GHOST,{'weight': 0.24472847105479764}
+46,30,Atomspace Visualizer,{'weight': 0.09003057317038048}
+46,0,Speech Generation and Modification,{'weight': 4.660963823099286}
+46,0,Face Analysis Toolkit development,{'weight': 1.828493119010308}
+46,0,DNN for Multitask Learning,{'weight': 3.5105430578904047}
+46,0,Topic Analysis,{'weight': 46.928697721887474}
+46,0,Text Preprocessing,{'weight': 25.177492538633686}
+46,0,Prediction Experiments,{'weight': 19.893809739478783}
+46,0,Android development,{'weight': 14.271201323623293}
+46,0,Avatar development,{'weight': 15.881235128762686}
+46,0,Tools Usage,{'weight': 8.097433192641972}
+46,0,Chatbot development,{'weight': 14.991373423575899}
+46,0,Components Integration,{'weight': 11.758756931396139}
+46,16,Speech Generation and Modification,{'weight': 1.3304819115496436}
+46,16,Face Analysis Toolkit development,{'weight': 0.3347590442251781}
+46,16,DNN for Multitask Learning,{'weight': 0.3347590442251781}
+46,74,Speech Generation and Modification,{'weight': 1.819938853659239}
+46,74,Face Analysis Toolkit development,{'weight': 1.0900305731703803}
+46,74,DNN for Multitask Learning,{'weight': 1.0900305731703803}
+46,69,Android development,{'weight': 2.9092259396764923}
+46,69,Avatar development,{'weight': 2.7294043766670955}
+46,69,Components Integration,{'weight': 1.3118777428049602}
+46,69,Tools Usage,{'weight': 0.5447746602658108}
+46,69,Chatbot development,{'weight': 0.5047172805856415}
+46,17,DNN for Multitask Learning,{'weight': 1.6652409557748218}
+46,17,Speech Generation and Modification,{'weight': 1.2447284710547974}
+46,17,Face Analysis Toolkit development,{'weight': 1.0900305731703803}
+46,17,Topic Analysis,{'weight': 0.9099694268296195}
+46,17,Prediction Experiments,{'weight': 0.9099694268296195}
+46,17,Text Preprocessing,{'weight': 0.18006114634076092}
+46,17,Chatbot development,{'weight': 0.8705303038115675}
+46,17,Avatar development,{'weight': 0.26580657804886093}
+46,17,Tools Usage,{'weight': 0.1722570888725374}
+46,17,Components Integration,{'weight': 0.6680935673549551}
+46,17,Android development,{'weight': 0.02331246191207921}
+46,4,Android development,{'weight': 6.491256134889543}
+46,4,Avatar development,{'weight': 11.010848354347926}
+46,4,Tools Usage,{'weight': 5.5335160762466264}
+46,4,Chatbot development,{'weight': 9.800449388678524}
+46,4,Components Integration,{'weight': 9.16393004583737}
+46,1,Android development,{'weight': 1.2728172931176616}
+46,1,Components Integration,{'weight': 0.32025020168900536}
+46,1,Tools Usage,{'weight': 0.09778477539230832}
+46,1,Chatbot development,{'weight': 0.06336984159224854}
+46,1,Avatar development,{'weight': 0.24577788820877625}
+46,34,Topic Analysis,{'weight': 29.906502176331955}
+46,34,Text Preprocessing,{'weight': 12.824515533931626}
+46,34,Prediction Experiments,{'weight': 13.268982289736394}
+46,5,DNN for Multitask Learning,{'weight': 1.5105430578904044}
+46,5,Speech Generation and Modification,{'weight': 0.9789138842191906}
+46,5,Face Analysis Toolkit development,{'weight': 1.5105430578904047}
+46,5,Prediction Experiments,{'weight': 0.7552715289452022}
+46,5,Topic Analysis,{'weight': 0.4894569421095953}
+46,5,Text Preprocessing,{'weight': 0.7552715289452022}
+46,5,Tools Usage,{'weight': 0.6364086465588308}
+46,5,Android development,{'weight': 0.23412165725273665}
+46,5,Avatar development,{'weight': 0.0861285444362687}
+46,5,Chatbot development,{'weight': 0.03168492079612427}
+46,5,Components Integration,{'weight': 0.011656230956039605}
+46,6,DNN for Multitask Learning,{'weight': 1.3304819115496436}
+46,6,Speech Generation and Modification,{'weight': 0.3347590442251781}
+46,6,Face Analysis Toolkit development,{'weight': 0.3347590442251781}
+46,6,Topic Analysis,{'weight': 7.5455700014725595}
+46,6,Text Preprocessing,{'weight': 4.403703501614748}
+46,6,Prediction Experiments,{'weight': 4.050726496912687}
+46,33,Speech Generation and Modification,{'weight': 1.3304819115496436}
+46,33,Face Analysis Toolkit development,{'weight': 0.3347590442251781}
+46,33,DNN for Multitask Learning,{'weight': 0.3347590442251781}
+46,106,DNN for Multitask Learning,{'weight': 1.3304819115496436}
+46,106,Speech Generation and Modification,{'weight': 0.4894569421095953}
+46,106,Face Analysis Toolkit development,{'weight': 0.18006114634076092}
+46,106,Avatar development,{'weight': 1.2728172931176616}
+46,106,Android development,{'weight': 0.26580657804886093}
+46,106,Chatbot development,{'weight': 0.32025020168900536}
+46,106,Components Integration,{'weight': 0.11781346523239297}
+46,106,Tools Usage,{'weight': 0.02331246191207921}
+46,20,Topic Analysis,{'weight': 58.39249186794384}
+46,20,Text Preprocessing,{'weight': 26.906291389347807}
+46,20,Prediction Experiments,{'weight': 23.70121674270829}
+46,20,Android development,{'weight': 0.6364086465588308}
+46,20,Avatar development,{'weight': 0.23412165725273665}
+46,20,Chatbot development,{'weight': 0.0861285444362687}
+46,20,Components Integration,{'weight': 0.03168492079612427}
+46,20,Tools Usage,{'weight': 0.011656230956039605}
+46,19,Topic Analysis,{'weight': 20.095117588023797}
+46,19,Text Preprocessing,{'weight': 9.296863945339092}
+46,19,Prediction Experiments,{'weight': 4.608018466637107}
+46,47,Topic Analysis,{'weight': 9.786021339851823}
+46,47,Prediction Experiments,{'weight': 4.145034202758603}
+46,47,Text Preprocessing,{'weight': 6.068944457389569}
+46,63,Topic Analysis,{'weight': 0.6652409557748218}
+46,63,Prediction Experiments,{'weight': 0.24472847105479764}
+46,63,Text Preprocessing,{'weight': 0.09003057317038046}
+46,63,Tools Usage,{'weight': 1.2728172931176616}
+46,63,Avatar development,{'weight': 0.4682433145054733}
+46,63,Components Integration,{'weight': 0.11781346523239297}
+46,63,Android development,{'weight': 0.043341151752163874}
+46,63,Chatbot development,{'weight': 0.09778477539230832}
+46,10,Topic Analysis,{'weight': 1.3304819115496436}
+46,10,Text Preprocessing,{'weight': 0.3347590442251781}
+46,10,Prediction Experiments,{'weight': 0.3347590442251781}
+46,10,Components Integration,{'weight': 0.7542221117912238}
+46,10,Avatar development,{'weight': 0.4999282353015976}
+46,10,Android development,{'weight': 0.7341934219511391}
+46,10,Tools Usage,{'weight': 0.9022152246076918}
+46,10,Chatbot development,{'weight': 0.10944100634834791}
+46,77,Android development,{'weight': 14.74001815364232}
+46,77,Avatar development,{'weight': 21.576179155780817}
+46,77,Tools Usage,{'weight': 13.08297514287511}
+46,77,Chatbot development,{'weight': 24.178635039433182}
+46,77,Components Integration,{'weight': 20.422192508268516}
+46,8,Components Integration,{'weight': 5.526967640210482}
+46,8,Chatbot development,{'weight': 6.188721473220465}
+46,8,Avatar development,{'weight': 6.662894292399657}
+46,8,Tools Usage,{'weight': 1.8703676663069189}
+46,8,Android development,{'weight': 2.7510489278624752}
+46,3,Android development,{'weight': 11.452176468955328}
+46,3,Components Integration,{'weight': 17.67232885357093}
+46,3,Chatbot development,{'weight': 22.51667978658218}
+46,3,Avatar development,{'weight': 24.832028996293502}
+46,3,Tools Usage,{'weight': 12.52678589459799}
+46,79,Avatar development,{'weight': 4.753114593655105}
+46,79,Components Integration,{'weight': 0.9722896143672878}
+46,79,Android development,{'weight': 1.4804078886806915}
+46,79,Chatbot development,{'weight': 7.504515104267916}
+46,79,Tools Usage,{'weight': 2.2896727990289993}
+46,78,Tools Usage,{'weight': 1.1411259271444723}
+46,78,Chatbot development,{'weight': 4.923103840417289}
+46,78,Avatar development,{'weight': 1.862965829674708}
+46,78,Components Integration,{'weight': 0.5564308912218504}
+46,78,Android development,{'weight': 0.5163735115416811}
+46,12,Chatbot development,{'weight': 0.6680935673549551}
+46,12,Tools Usage,{'weight': 0.8705303038115675}
+46,12,Avatar development,{'weight': 0.1722570888725374}
+46,12,Components Integration,{'weight': 0.043341151752163874}
+46,12,Android development,{'weight': 0.24577788820877625}
+46,104,Tools Usage,{'weight': 0.65972110847091}
+46,104,Avatar development,{'weight': 1.1046519610643042}
+46,104,Chatbot development,{'weight': 0.20394200966866166}
+46,104,Components Integration,{'weight': 0.35193512248512965}
+46,104,Android development,{'weight': 0.6797497983109947}
+46,88,Android development,{'weight': 0.6364086465588308}
+46,88,Avatar development,{'weight': 0.23412165725273665}
+46,88,Components Integration,{'weight': 0.0861285444362687}
+46,88,Chatbot development,{'weight': 0.03168492079612427}
+46,88,Tools Usage,{'weight': 0.011656230956039605}
+46,103,Android development,{'weight': 0.9566588482478362}
+46,103,Avatar development,{'weight': 1.5069389503703983}
+46,103,Components Integration,{'weight': 0.20394200966866166}
+46,103,Chatbot development,{'weight': 0.2974914988449852}
+46,103,Tools Usage,{'weight': 0.034968692868118816}
+46,105,Android development,{'weight': 0.6364086465588308}
+46,105,Avatar development,{'weight': 0.23412165725273665}
+46,105,Components Integration,{'weight': 0.0861285444362687}
+46,105,Chatbot development,{'weight': 0.03168492079612427}
+46,105,Tools Usage,{'weight': 0.011656230956039605}
+46,81,Avatar development,{'weight': 0.6364086465588308}
+46,81,Chatbot development,{'weight': 0.23412165725273665}
+46,81,Components Integration,{'weight': 0.0861285444362687}
+46,81,Android development,{'weight': 0.03168492079612427}
+46,81,Tools Usage,{'weight': 0.011656230956039605}
+61,32,Atomspace Visualizer,{'weight': 1.3304819115496436}
+61,32,Model Extraction,{'weight': 0.4894569421095953}
+61,32,GHOST,{'weight': 0.18006114634076092}
+61,31,Atomspace Visualizer,{'weight': 1.3304819115496436}
+61,31,Model Extraction,{'weight': 0.4894569421095953}
+61,31,GHOST,{'weight': 0.18006114634076092}
+61,0,Atomspace Visualizer,{'weight': 0.6652409557748218}
+61,0,Model Extraction,{'weight': 0.24472847105479764}
+61,0,GHOST,{'weight': 0.09003057317038046}
+61,11,Atomspace Visualizer,{'weight': 0.6652409557748218}
+61,11,Model Extraction,{'weight': 0.24472847105479764}
+61,11,GHOST,{'weight': 0.09003057317038046}
+61,52,Atomspace Visualizer,{'weight': 0.6652409557748218}
+61,52,Model Extraction,{'weight': 0.24472847105479764}
+61,52,GHOST,{'weight': 0.09003057317038046}
+11,0,Atomspace Visualizer,{'weight': 2.240451338379263}
+11,0,GHOST,{'weight': 1.3994263689392148}
+11,0,Model Extraction,{'weight': 0.36012229268152185}
+11,32,Atomspace Visualizer,{'weight': 0.7552715289452022}
+11,32,GHOST,{'weight': 0.9099694268296195}
+11,32,Model Extraction,{'weight': 0.3347590442251781}
+11,17,Atomspace Visualizer,{'weight': 0.6652409557748218}
+11,17,GHOST,{'weight': 0.24472847105479764}
+11,17,Model Extraction,{'weight': 0.09003057317038046}
+11,62,Atomspace Visualizer,{'weight': 0.9099694268296195}
+11,62,GHOST,{'weight': 0.9099694268296195}
+11,62,Model Extraction,{'weight': 0.18006114634076092}
+11,33,GHOST,{'weight': 0.6652409557748218}
+11,33,Atomspace Visualizer,{'weight': 0.24472847105479764}
+11,33,Model Extraction,{'weight': 0.09003057317038046}
+11,30,GHOST,{'weight': 0.6652409557748218}
+11,30,Atomspace Visualizer,{'weight': 0.24472847105479764}
+11,30,Model Extraction,{'weight': 0.09003057317038046}
+11,6,GHOST,{'weight': 0.6652409557748218}
+11,6,Model Extraction,{'weight': 0.24472847105479764}
+11,6,Atomspace Visualizer,{'weight': 0.09003057317038046}
+11,1,GHOST,{'weight': 0.6652409557748218}
+11,1,Model Extraction,{'weight': 0.24472847105479764}
+11,1,Atomspace Visualizer,{'weight': 0.09003057317038046}
+11,31,GHOST,{'weight': 0.6652409557748218}
+11,31,Model Extraction,{'weight': 0.24472847105479764}
+11,31,Atomspace Visualizer,{'weight': 0.09003057317038046}
+33,62,Atomspace Visualizer,{'weight': 0.6652409557748218}
+33,62,GHOST,{'weight': 0.24472847105479764}
+33,62,Model Extraction,{'weight': 0.09003057317038048}
+33,0,Atomspace Visualizer,{'weight': 0.9099694268296195}
+33,0,GHOST,{'weight': 0.3347590442251781}
+33,0,Model Extraction,{'weight': 0.7552715289452022}
+33,11,Atomspace Visualizer,{'weight': 1.1546978978844171}
+33,11,GHOST,{'weight': 0.9999999999999999}
+33,11,Model Extraction,{'weight': 0.8453021021155827}
+33,30,Model Extraction,{'weight': 0.7552715289452022}
+33,30,Atomspace Visualizer,{'weight': 0.4894569421095953}
+33,30,GHOST,{'weight': 0.7552715289452022}
+33,35,GHOST,{'weight': 0.6652409557748218}
+33,35,Atomspace Visualizer,{'weight': 0.24472847105479764}
+33,35,Model Extraction,{'weight': 0.09003057317038046}
+69,0,Avatar development,{'weight': 2.1907805055005722}
+69,0,Components Integration,{'weight': 3.4937774462023095}
+69,0,Android development,{'weight': 1.5978565400907108}
+69,0,Chatbot development,{'weight': 0.5764595810619351}
+69,0,Tools Usage,{'weight': 1.1411259271444723}
+69,46,Android development,{'weight': 3.6090044278275712}
+69,46,Components Integration,{'weight': 2.9359328699428877}
+69,46,Avatar development,{'weight': 2.417481218013254}
+69,46,Tools Usage,{'weight': 1.5179242006026106}
+69,46,Chatbot development,{'weight': 0.5196572836136755}
+69,4,Avatar development,{'weight': 3.0138779007407965}
+69,4,Tools Usage,{'weight': 0.4069325051933332}
+69,4,Chatbot development,{'weight': 0.2044957687367207}
+69,4,Android development,{'weight': 1.0861285444362685}
+69,4,Components Integration,{'weight': 1.2885652808928811}
+69,31,Android development,{'weight': 1.9092259396764923}
+69,31,Chatbot development,{'weight': 0.25743411916481584}
+69,31,Avatar development,{'weight': 0.406378746125274}
+69,31,Tools Usage,{'weight': 0.09505476238837281}
+69,31,Components Integration,{'weight': 0.33190643264504494}
+69,77,Android development,{'weight': 3.834753626196263}
+69,77,Chatbot development,{'weight': 0.677528128526238}
+69,77,Avatar development,{'weight': 5.013324141672737}
+69,77,Tools Usage,{'weight': 1.4158587231454374}
+69,77,Components Integration,{'weight': 2.0585353804593245}
+69,3,Android development,{'weight': 2.461519658230282}
+69,3,Chatbot development,{'weight': 0.9977783302152434}
+69,3,Avatar development,{'weight': 4.654378304118807}
+69,3,Tools Usage,{'weight': 2.7087047061031835}
+69,3,Components Integration,{'weight': 4.177619001332484}
+69,8,Avatar development,{'weight': 0.6364086465588308}
+69,8,Components Integration,{'weight': 0.23412165725273665}
+69,8,Tools Usage,{'weight': 0.0861285444362687}
+69,8,Chatbot development,{'weight': 0.03168492079612427}
+69,8,Android development,{'weight': 0.011656230956039605}
+74,46,Face Analysis Toolkit development,{'weight': 1.9957228673244654}
+74,46,Speech Generation and Modification,{'weight': 0.42478961739555854}
+74,46,DNN for Multitask Learning,{'weight': 0.5794875152799758}
+74,0,Speech Generation and Modification,{'weight': 5.660963823099285}
+74,0,DNN for Multitask Learning,{'weight': 1.943886940637032}
+74,0,Face Analysis Toolkit development,{'weight': 5.39514923626368}
+74,5,Face Analysis Toolkit development,{'weight': 6.549847134148096}
+74,5,Speech Generation and Modification,{'weight': 6.97035961886812}
+74,5,DNN for Multitask Learning,{'weight': 2.479793246983781}
+74,10,Speech Generation and Modification,{'weight': 0.6652409557748218}
+74,10,Face Analysis Toolkit development,{'weight': 0.24472847105479764}
+74,10,DNN for Multitask Learning,{'weight': 0.09003057317038046}
+74,34,Face Analysis Toolkit development,{'weight': 1.3304819115496436}
+74,34,DNN for Multitask Learning,{'weight': 0.4894569421095953}
+74,34,Speech Generation and Modification,{'weight': 0.18006114634076092}
+4,46,Avatar development,{'weight': 12.462952451375696}
+4,46,Chatbot development,{'weight': 11.624915053107438}
+4,46,Tools Usage,{'weight': 5.114621281334875}
+4,46,Components Integration,{'weight': 3.598104132257314}
+4,46,Android development,{'weight': 6.19940708192467}
+4,69,Avatar development,{'weight': 11.150853424145168}
+4,69,Chatbot development,{'weight': 2.9837760081854854}
+4,69,Components Integration,{'weight': 2.4945663228416497}
+4,69,Android development,{'weight': 1.0560594849954414}
+4,69,Tools Usage,{'weight': 2.3147447598322537}
+4,0,Android development,{'weight': 12.726635329095657}
+4,0,Avatar development,{'weight': 37.869161468502156}
+4,0,Tools Usage,{'weight': 35.82901970028073}
+4,0,Chatbot development,{'weight': 33.75279519568159}
+4,0,Components Integration,{'weight': 25.822388306439727}
+4,31,Avatar development,{'weight': 16.433027029470743}
+4,31,Tools Usage,{'weight': 14.982988490096536}
+4,31,Android development,{'weight': 4.301830739691692}
+4,31,Components Integration,{'weight': 11.439216600906393}
+4,31,Chatbot development,{'weight': 11.842937139834621}
+4,10,Avatar development,{'weight': 19.691269133382733}
+4,10,Components Integration,{'weight': 20.044787778043275}
+4,10,Android development,{'weight': 11.693432120293583}
+4,10,Tools Usage,{'weight': 16.920992866914847}
+4,10,Chatbot development,{'weight': 9.649518101365516}
+4,6,Avatar development,{'weight': 1.9133176964956724}
+4,6,Components Integration,{'weight': 1.0116562309560395}
+4,6,Android development,{'weight': 0.9063069814268716}
+4,6,Tools Usage,{'weight': 1.9842520122247804}
+4,6,Chatbot development,{'weight': 0.18446707889663605}
+4,8,Avatar development,{'weight': 40.450213687427194}
+4,8,Chatbot development,{'weight': 34.46357736791298}
+4,8,Tools Usage,{'weight': 15.6993624895831}
+4,8,Android development,{'weight': 7.372556893928196}
+4,8,Components Integration,{'weight': 11.014289561148521}
+4,63,Avatar development,{'weight': 18.078309952759344}
+4,63,Chatbot development,{'weight': 13.10362208981787}
+4,63,Tools Usage,{'weight': 30.32593799123191}
+4,63,Android development,{'weight': 7.873742918414314}
+4,63,Components Integration,{'weight': 12.618387047776524}
+4,79,Avatar development,{'weight': 34.24300113675855}
+4,79,Chatbot development,{'weight': 38.2668225439635}
+4,79,Tools Usage,{'weight': 16.019403881441857}
+4,79,Android development,{'weight': 7.571709858312813}
+4,79,Components Integration,{'weight': 10.899062579523259}
+4,3,Avatar development,{'weight': 40.22189123652339}
+4,3,Chatbot development,{'weight': 35.500097506318724}
+4,3,Tools Usage,{'weight': 28.572211820250573}
+4,3,Android development,{'weight': 13.89276804474902}
+4,3,Components Integration,{'weight': 21.813031392158166}
+4,77,Chatbot development,{'weight': 21.843145193188132}
+4,77,Tools Usage,{'weight': 20.99687886543263}
+4,77,Avatar development,{'weight': 23.14450716442674}
+4,77,Android development,{'weight': 7.121807648702212}
+4,77,Components Integration,{'weight': 13.89366112825023}
+4,78,Avatar development,{'weight': 16.78834278716447}
+4,78,Tools Usage,{'weight': 8.886259183478947}
+4,78,Chatbot development,{'weight': 26.621116232117668}
+4,78,Android development,{'weight': 2.300306358371802}
+4,78,Components Integration,{'weight': 6.403975438867096}
+4,17,Components Integration,{'weight': 0.7664321018153225}
+4,17,Android development,{'weight': 1.0633698415922486}
+4,17,Tools Usage,{'weight': 1.5971592516258468}
+4,17,Avatar development,{'weight': 1.9450026172917967}
+4,17,Chatbot development,{'weight': 1.6280361876747858}
+4,45,Chatbot development,{'weight': 0.65972110847091}
+4,45,Tools Usage,{'weight': 1.5069389503703983}
+4,45,Components Integration,{'weight': 0.20394200966866166}
+4,45,Android development,{'weight': 0.14949838602851723}
+4,45,Avatar development,{'weight': 0.4798995454615129}
+4,20,Tools Usage,{'weight': 1.995354484112761}
+4,20,Components Integration,{'weight': 0.5860567797378663}
+4,20,Android development,{'weight': 0.4180349770813137}
+4,20,Chatbot development,{'weight': 0.08668230350432775}
+4,20,Avatar development,{'weight': 0.9138714555637313}
+4,12,Chatbot development,{'weight': 0.6364086465588308}
+4,12,Avatar development,{'weight': 0.23412165725273665}
+4,12,Tools Usage,{'weight': 0.0861285444362687}
+4,12,Android development,{'weight': 0.03168492079612427}
+4,12,Components Integration,{'weight': 0.011656230956039605}
+4,88,Chatbot development,{'weight': 0.9022152246076918}
+4,88,Tools Usage,{'weight': 0.4063787461252741}
+4,88,Avatar development,{'weight': 0.9566588482478362}
+4,88,Components Integration,{'weight': 0.05499738270820348}
+4,88,Android development,{'weight': 0.6797497983109947}
+4,81,Chatbot development,{'weight': 0.6364086465588308}
+4,81,Avatar development,{'weight': 0.23412165725273665}
+4,81,Tools Usage,{'weight': 0.0861285444362687}
+4,81,Components Integration,{'weight': 0.03168492079612427}
+4,81,Android development,{'weight': 0.011656230956039605}
+4,72,Avatar development,{'weight': 4.5726739911442085}
+4,72,Components Integration,{'weight': 1.0866823035043276}
+4,72,Tools Usage,{'weight': 1.4189864912253038}
+4,72,Android development,{'weight': 0.6099230007180045}
+4,72,Chatbot development,{'weight': 1.3117342134081555}
+4,98,Avatar development,{'weight': 1.9092259396764923}
+4,98,Chatbot development,{'weight': 0.7023649717582099}
+4,98,Tools Usage,{'weight': 0.2583856333088061}
+4,98,Android development,{'weight': 0.05499738270820348}
+4,98,Components Integration,{'weight': 0.07502607254828814}
+28,0,Speech Generation and Modification,{'weight': 1.3304819115496436}
+28,0,DNN for Multitask Learning,{'weight': 0.4894569421095952}
+28,0,Face Analysis Toolkit development,{'weight': 0.18006114634076092}
+34,0,Text Preprocessing,{'weight': 13.913947011908288}
+34,0,Prediction Experiments,{'weight': 6.78918904275261}
+34,0,Topic Analysis,{'weight': 7.296863945339088}
+34,20,Topic Analysis,{'weight': 6.786320887448684}
+34,20,Text Preprocessing,{'weight': 15.70424548443565}
+34,20,Prediction Experiments,{'weight': 4.509433628115658}
+34,46,Text Preprocessing,{'weight': 13.48915739451273}
+34,46,Prediction Experiments,{'weight': 4.948164073312563}
+34,46,Topic Analysis,{'weight': 6.562678532174695}
+34,17,Topic Analysis,{'weight': 0.6652409557748218}
+34,17,Prediction Experiments,{'weight': 0.24472847105479764}
+34,17,Text Preprocessing,{'weight': 0.09003057317038048}
+34,47,Prediction Experiments,{'weight': 0.9353326752859631}
+34,47,Topic Analysis,{'weight': 0.9789138842191906}
+34,47,Text Preprocessing,{'weight': 2.085753440494846}
+34,6,Prediction Experiments,{'weight': 1.0900305731703803}
+34,6,Topic Analysis,{'weight': 0.8242159863347733}
+34,6,Text Preprocessing,{'weight': 2.085753440494846}
+34,19,Text Preprocessing,{'weight': 2.905692294154085}
+34,19,Topic Analysis,{'weight': 1.068944457389571}
+34,19,Prediction Experiments,{'weight': 1.0253632484563435}
+10,46,Topic Analysis,{'weight': 1.3304819115496436}
+10,46,Prediction Experiments,{'weight': 0.4894569421095953}
+10,46,Text Preprocessing,{'weight': 0.18006114634076092}
+10,46,Android development,{'weight': 1.139620653932423}
+10,46,Avatar development,{'weight': 1.858874072855528}
+10,46,Components Integration,{'weight': 1.1606008579164977}
+10,46,Chatbot development,{'weight': 0.2245244585768054}
+10,46,Tools Usage,{'weight': 1.6163799567187462}
+10,31,Tools Usage,{'weight': 0.7225371909950995}
+10,31,Components Integration,{'weight': 0.4682433145054733}
+10,31,Avatar development,{'weight': 0.09778477539230832}
+10,31,Android development,{'weight': 0.06336984159224854}
+10,31,Chatbot development,{'weight': 0.6480648775148704}
+10,0,Topic Analysis,{'weight': 5.236174205703728}
+10,0,Prediction Experiments,{'weight': 2.4037035016147494}
+10,0,Text Preprocessing,{'weight': 2.3601222926815217}
+10,0,Components Integration,{'weight': 5.0427873926841045}
+10,0,Avatar development,{'weight': 8.200012890354131}
+10,0,Tools Usage,{'weight': 4.162106131128546}
+10,0,Android development,{'weight': 4.148403342487721}
+10,0,Chatbot development,{'weight': 2.4466902433454947}
+10,17,Components Integration,{'weight': 0.711434719107119}
+10,17,Android development,{'weight': 0.49155577641755255}
+10,17,Avatar development,{'weight': 1.042787392684105}
+10,17,Chatbot development,{'weight': 0.8403506562274925}
+10,17,Tools Usage,{'weight': 0.9138714555637313}
+10,20,Topic Analysis,{'weight': 9.717076882462255}
+10,20,Text Preprocessing,{'weight': 3.544460571697817}
+10,20,Prediction Experiments,{'weight': 4.738462545839926}
+10,20,Components Integration,{'weight': 0.6364086465588308}
+10,20,Avatar development,{'weight': 0.23412165725273665}
+10,20,Tools Usage,{'weight': 0.0861285444362687}
+10,20,Android development,{'weight': 0.03168492079612427}
+10,20,Chatbot development,{'weight': 0.011656230956039605}
+10,19,Topic Analysis,{'weight': 2.4851798094340607}
+10,19,Text Preprocessing,{'weight': 0.6048507637363194}
+10,19,Prediction Experiments,{'weight': 1.9099694268296195}
+10,63,Components Integration,{'weight': 6.171892275050163}
+10,63,Avatar development,{'weight': 6.049100819288042}
+10,63,Tools Usage,{'weight': 5.592370206341803}
+10,63,Android development,{'weight': 2.9927350592520723}
+10,63,Chatbot development,{'weight': 1.1939016400679188}
+10,3,Components Integration,{'weight': 1.8277429111274626}
+10,3,Avatar development,{'weight': 2.5814112638506272}
+10,3,Tools Usage,{'weight': 2.0311311617280654}
+10,3,Android development,{'weight': 0.6527103934021095}
+10,3,Chatbot development,{'weight': 0.9070042698917355}
+10,77,Components Integration,{'weight': 4.686760513379794}
+10,77,Avatar development,{'weight': 4.2017394479917485}
+10,77,Tools Usage,{'weight': 3.7686083557511987}
+10,77,Android development,{'weight': 2.966138825267998}
+10,77,Chatbot development,{'weight': 2.376752857609258}
+10,4,Components Integration,{'weight': 24.868217153991374}
+10,4,Android development,{'weight': 15.117493357046158}
+10,4,Avatar development,{'weight': 34.67787311371703}
+10,4,Chatbot development,{'weight': 9.718876094552403}
+10,4,Tools Usage,{'weight': 20.61754028069296}
+10,6,Components Integration,{'weight': 0.7225371909950995}
+10,6,Avatar development,{'weight': 0.24577788820877625}
+10,6,Tools Usage,{'weight': 0.7225371909950995}
+10,6,Chatbot development,{'weight': 0.06336984159224854}
+10,6,Android development,{'weight': 0.24577788820877625}
+10,79,Tools Usage,{'weight': 1.5185951813264378}
+10,79,Components Integration,{'weight': 0.9683150792038758}
+10,79,Chatbot development,{'weight': 0.6405004033780107}
+10,79,Avatar development,{'weight': 0.7859070325873481}
+10,79,Android development,{'weight': 0.08668230350432775}
+10,78,Components Integration,{'weight': 2.8891972498364074}
+10,78,Chatbot development,{'weight': 0.8560986440027121}
+10,78,Tools Usage,{'weight': 1.734193421951139}
+10,78,Android development,{'weight': 1.0406111387482284}
+10,78,Avatar development,{'weight': 1.479899545461513}
+10,8,Avatar development,{'weight': 2.545634586235323}
+10,8,Android development,{'weight': 0.49155577641755255}
+10,8,Tools Usage,{'weight': 0.6405004033780106}
+10,8,Components Integration,{'weight': 0.1811833068246415}
+10,8,Chatbot development,{'weight': 0.1411259271444722}
+85,17,Speech Generation and Modification,{'weight': 0.6652409557748218}
+85,17,DNN for Multitask Learning,{'weight': 0.24472847105479764}
+85,17,Face Analysis Toolkit development,{'weight': 0.09003057317038048}
+106,0,Speech Generation and Modification,{'weight': 1.3304819115496436}
+106,0,DNN for Multitask Learning,{'weight': 0.4894569421095953}
+106,0,Face Analysis Toolkit development,{'weight': 0.18006114634076092}
+5,0,Face Analysis Toolkit development,{'weight': 6.609127896411849}
+5,0,DNN for Multitask Learning,{'weight': 7.073221590065101}
+5,0,Speech Generation and Modification,{'weight': 12.317650513523036}
+5,46,Speech Generation and Modification,{'weight': 0.6652409557748218}
+5,46,DNN for Multitask Learning,{'weight': 0.24472847105479764}
+5,46,Face Analysis Toolkit development,{'weight': 0.09003057317038046}
+5,74,Speech Generation and Modification,{'weight': 17.459517013380854}
+5,74,DNN for Multitask Learning,{'weight': 6.506565472811727}
+5,74,Face Analysis Toolkit development,{'weight': 8.033917513807406}
+5,23,Speech Generation and Modification,{'weight': 0.6652409557748218}
+5,23,DNN for Multitask Learning,{'weight': 0.24472847105479764}
+5,23,Face Analysis Toolkit development,{'weight': 0.09003057317038046}
+5,10,Speech Generation and Modification,{'weight': 0.6652409557748218}
+5,10,DNN for Multitask Learning,{'weight': 0.24472847105479764}
+5,10,Face Analysis Toolkit development,{'weight': 0.09003057317038046}
+5,3,Avatar development,{'weight': 0.6364086465588308}
+5,3,Tools Usage,{'weight': 0.23412165725273665}
+5,3,Chatbot development,{'weight': 0.0861285444362687}
+5,3,Android development,{'weight': 0.03168492079612427}
+5,3,Components Integration,{'weight': 0.011656230956039605}
+5,4,Avatar development,{'weight': 0.6364086465588308}
+5,4,Tools Usage,{'weight': 0.23412165725273665}
+5,4,Chatbot development,{'weight': 0.0861285444362687}
+5,4,Android development,{'weight': 0.03168492079612427}
+5,4,Components Integration,{'weight': 0.011656230956039605}
+47,20,Topic Analysis,{'weight': 5.305118663093299}
+47,20,Prediction Experiments,{'weight': 3.270091719511141}
+47,20,Text Preprocessing,{'weight': 3.4247896173955583}
+47,0,Topic Analysis,{'weight': 4.570933249928906}
+47,0,Prediction Experiments,{'weight': 2.8453021021155824}
+47,0,Text Preprocessing,{'weight': 1.5837646479555103}
+47,46,Topic Analysis,{'weight': 4.815661720983703}
+47,46,Prediction Experiments,{'weight': 1.7849119100770803}
+47,46,Text Preprocessing,{'weight': 3.399426368939215}
+47,34,Topic Analysis,{'weight': 2.240451338379263}
+47,34,Prediction Experiments,{'weight': 0.514820190565939}
+47,34,Text Preprocessing,{'weight': 1.2447284710547974}
+47,6,Prediction Experiments,{'weight': 0.6652409557748218}
+47,6,Topic Analysis,{'weight': 0.24472847105479764}
+47,6,Text Preprocessing,{'weight': 0.09003057317038046}
+47,19,Topic Analysis,{'weight': 3.1504207652088825}
+47,19,Text Preprocessing,{'weight': 1.5794875152799757}
+47,19,Prediction Experiments,{'weight': 1.2700917195111412}
+19,46,Text Preprocessing,{'weight': 9.738162998243062}
+19,46,Topic Analysis,{'weight': 4.271500696882749}
+19,46,Prediction Experiments,{'weight': 2.9903363048741856}
+19,20,Text Preprocessing,{'weight': 20.02617313063422}
+19,20,Topic Analysis,{'weight': 6.284332094909347}
+19,20,Prediction Experiments,{'weight': 5.689494774456417}
+19,0,Text Preprocessing,{'weight': 14.729608732891995}
+19,0,Topic Analysis,{'weight': 6.3868945185094725}
+19,0,Prediction Experiments,{'weight': 4.883496748598528}
+19,34,Text Preprocessing,{'weight': 5.321927646198574}
+19,34,Topic Analysis,{'weight': 1.4937340747851298}
+19,34,Prediction Experiments,{'weight': 1.184338279016295}
+19,17,Text Preprocessing,{'weight': 1.5752103826044412}
+19,17,Topic Analysis,{'weight': 0.5794875152799758}
+19,17,Prediction Experiments,{'weight': 0.8453021021155827}
+19,6,Prediction Experiments,{'weight': 0.7552715289452022}
+19,6,Topic Analysis,{'weight': 0.4894569421095953}
+19,6,Text Preprocessing,{'weight': 0.7552715289452022}
+77,0,Components Integration,{'weight': 41.1028807699766}
+77,0,Chatbot development,{'weight': 47.669669504101655}
+77,0,Tools Usage,{'weight': 56.2473285050837}
+77,0,Avatar development,{'weight': 44.89662561048776}
+77,0,Android development,{'weight': 25.083495610350283}
+77,31,Components Integration,{'weight': 5.544364430594555}
+77,31,Chatbot development,{'weight': 5.192983067177485}
+77,31,Tools Usage,{'weight': 6.592115980662676}
+77,31,Avatar development,{'weight': 5.793184447930597}
+77,31,Android development,{'weight': 5.877352073634684}
+77,39,Avatar development,{'weight': 0.6364086465588308}
+77,39,Tools Usage,{'weight': 0.23412165725273665}
+77,39,Android development,{'weight': 0.0861285444362687}
+77,39,Components Integration,{'weight': 0.03168492079612427}
+77,39,Chatbot development,{'weight': 0.011656230956039605}
+77,40,Avatar development,{'weight': 0.6364086465588308}
+77,40,Tools Usage,{'weight': 0.23412165725273665}
+77,40,Android development,{'weight': 0.0861285444362687}
+77,40,Components Integration,{'weight': 0.03168492079612427}
+77,40,Chatbot development,{'weight': 0.011656230956039605}
+77,28,Avatar development,{'weight': 0.6680935673549551}
+77,28,Tools Usage,{'weight': 0.4682433145054733}
+77,28,Android development,{'weight': 0.09778477539230832}
+77,28,Components Integration,{'weight': 0.6680935673549551}
+77,28,Chatbot development,{'weight': 0.09778477539230832}
+77,78,Avatar development,{'weight': 3.6679500379581502}
+77,78,Chatbot development,{'weight': 7.336349772214558}
+77,78,Components Integration,{'weight': 3.130421210332422}
+77,78,Tools Usage,{'weight': 2.6501239097949782}
+77,78,Android development,{'weight': 1.2151550696998898}
+77,63,Avatar development,{'weight': 2.668093567354954}
+77,63,Chatbot development,{'weight': 5.107017160245865}
+77,63,Components Integration,{'weight': 1.462184113580663}
+77,63,Tools Usage,{'weight': 1.3841738023493129}
+77,63,Android development,{'weight': 1.3785313564692032}
+77,3,Avatar development,{'weight': 49.66320651666206}
+77,3,Chatbot development,{'weight': 53.77493496716327}
+77,3,Components Integration,{'weight': 50.59489287620497}
+77,3,Tools Usage,{'weight': 45.5225698246289}
+77,3,Android development,{'weight': 24.444395815340812}
+77,8,Components Integration,{'weight': 9.840748411303423}
+77,8,Avatar development,{'weight': 14.196774534131013}
+77,8,Chatbot development,{'weight': 9.204879690666939}
+77,8,Android development,{'weight': 4.97705224377122}
+77,8,Tools Usage,{'weight': 7.780545120127401}
+77,10,Avatar development,{'weight': 4.969312009196745}
+77,10,Tools Usage,{'weight': 2.3958300333053524}
+77,10,Components Integration,{'weight': 3.828694425271452}
+77,10,Chatbot development,{'weight': 4.7838480003072394}
+77,10,Android development,{'weight': 2.022315531919208}
+77,17,Avatar development,{'weight': 1.2257491983686915}
+77,17,Tools Usage,{'weight': 1.4882720043455582}
+77,17,Components Integration,{'weight': 2.69513297226384}
+77,17,Chatbot development,{'weight': 1.1922857787126222}
+77,17,Android development,{'weight': 0.39856004630928804}
+77,79,Avatar development,{'weight': 15.141425568672476}
+77,79,Chatbot development,{'weight': 19.659629628435482}
+77,79,Tools Usage,{'weight': 16.990011679760656}
+77,79,Components Integration,{'weight': 12.793979849943387}
+77,79,Android development,{'weight': 6.414953273187968}
+77,4,Avatar development,{'weight': 26.94781693662001}
+77,4,Chatbot development,{'weight': 31.836760151133316}
+77,4,Tools Usage,{'weight': 29.653349034946007}
+77,4,Components Integration,{'weight': 24.813690006425727}
+77,4,Android development,{'weight': 14.74838387087476}
+77,6,Avatar development,{'weight': 1.2728172931176616}
+77,6,Components Integration,{'weight': 0.26580657804886093}
+77,6,Chatbot development,{'weight': 0.32025020168900536}
+77,6,Tools Usage,{'weight': 0.11781346523239297}
+77,6,Android development,{'weight': 0.02331246191207921}
+77,46,Avatar development,{'weight': 23.242793757664774}
+77,46,Chatbot development,{'weight': 25.235834983818282}
+77,46,Tools Usage,{'weight': 21.688122257195012}
+77,46,Android development,{'weight': 15.43567194372066}
+77,46,Components Integration,{'weight': 21.397577057601183}
+77,23,Components Integration,{'weight': 0.7225371909950995}
+77,23,Tools Usage,{'weight': 0.24577788820877625}
+77,23,Chatbot development,{'weight': 0.7225371909950995}
+77,23,Avatar development,{'weight': 0.06336984159224854}
+77,23,Android development,{'weight': 0.24577788820877625}
+77,12,Tools Usage,{'weight': 0.6364086465588308}
+77,12,Components Integration,{'weight': 0.23412165725273665}
+77,12,Chatbot development,{'weight': 0.0861285444362687}
+77,12,Avatar development,{'weight': 0.03168492079612427}
+77,12,Android development,{'weight': 0.011656230956039605}
+77,5,Components Integration,{'weight': 1.3045022139137858}
+77,5,Chatbot development,{'weight': 0.331906432645045}
+77,5,Android development,{'weight': 0.7542221117912238}
+77,5,Tools Usage,{'weight': 0.35193512248512965}
+77,5,Avatar development,{'weight': 0.25743411916481584}
+77,69,Components Integration,{'weight': 3.4408390957742143}
+77,69,Android development,{'weight': 3.147439353748408}
+77,69,Avatar development,{'weight': 3.401733230238035}
+77,69,Chatbot development,{'weight': 0.6658718975701984}
+77,69,Tools Usage,{'weight': 1.3441164226691438}
+63,77,Tools Usage,{'weight': 8.14984996877885}
+63,77,Avatar development,{'weight': 4.405824987057215}
+63,77,Chatbot development,{'weight': 2.2746873801520846}
+63,77,Android development,{'weight': 2.3112067620811323}
+63,77,Components Integration,{'weight': 2.858430901930716}
+63,0,Tools Usage,{'weight': 10.10782514499305}
+63,0,Avatar development,{'weight': 11.359916459805763}
+63,0,Chatbot development,{'weight': 6.321357719825121}
+63,0,Android development,{'weight': 4.735809283306434}
+63,0,Components Integration,{'weight': 5.475091392069626}
+63,3,Tools Usage,{'weight': 5.716386401895811}
+63,3,Avatar development,{'weight': 4.678498750778072}
+63,3,Chatbot development,{'weight': 3.264028079188915}
+63,3,Android development,{'weight': 1.2860893854289974}
+63,3,Components Integration,{'weight': 3.054997382708203}
+63,4,Chatbot development,{'weight': 9.710574793137605}
+63,4,Components Integration,{'weight': 12.17306507361972}
+63,4,Tools Usage,{'weight': 14.589373493063416}
+63,4,Avatar development,{'weight': 17.18356761411404}
+63,4,Android development,{'weight': 9.343419026065213}
+63,78,Chatbot development,{'weight': 0.6364086465588308}
+63,78,Avatar development,{'weight': 0.23412165725273665}
+63,78,Tools Usage,{'weight': 0.0861285444362687}
+63,78,Components Integration,{'weight': 0.03168492079612427}
+63,78,Android development,{'weight': 0.011656230956039605}
+63,17,Android development,{'weight': 1.327814675825865}
+63,17,Components Integration,{'weight': 0.3752475843972089}
+63,17,Avatar development,{'weight': 1.0744723134802292}
+63,17,Tools Usage,{'weight': 1.7727455284192593}
+63,17,Chatbot development,{'weight': 0.44971989787743794}
+63,8,Android development,{'weight': 4.211063312880707}
+63,8,Avatar development,{'weight': 9.424921270861152}
+63,8,Components Integration,{'weight': 4.865024861954814}
+63,8,Chatbot development,{'weight': 3.6673771707822453}
+63,8,Tools Usage,{'weight': 7.8316133835210735}
+63,31,Chatbot development,{'weight': 1.0950547623883728}
+63,31,Tools Usage,{'weight': 2.2335678981846776}
+63,31,Avatar development,{'weight': 2.5069389503703983}
+63,31,Android development,{'weight': 0.22780823064879996}
+63,31,Components Integration,{'weight': 1.9366301584077514}
+63,10,Tools Usage,{'weight': 2.7728890578160637}
+63,10,Avatar development,{'weight': 2.8890537204396027}
+63,10,Chatbot development,{'weight': 1.4180349770813137}
+63,10,Components Integration,{'weight': 0.6108745148619948}
+63,10,Android development,{'weight': 1.3091477298010248}
+63,72,Components Integration,{'weight': 1.6908522701989752}
+63,72,Avatar development,{'weight': 1.7844017593752988}
+63,72,Tools Usage,{'weight': 1.9133176964956724}
+63,72,Chatbot development,{'weight': 0.4269611950334178}
+63,72,Android development,{'weight': 0.18446707889663605}
+63,46,Android development,{'weight': 0.6364086465588308}
+63,46,Avatar development,{'weight': 0.23412165725273665}
+63,46,Components Integration,{'weight': 0.0861285444362687}
+63,46,Tools Usage,{'weight': 0.03168492079612427}
+63,46,Chatbot development,{'weight': 0.011656230956039605}
+63,79,Components Integration,{'weight': 0.6364086465588308}
+63,79,Chatbot development,{'weight': 0.23412165725273665}
+63,79,Avatar development,{'weight': 0.0861285444362687}
+63,79,Tools Usage,{'weight': 0.03168492079612427}
+63,79,Android development,{'weight': 0.011656230956039605}
+79,0,Chatbot development,{'weight': 16.971429616211697}
+79,0,Tools Usage,{'weight': 8.410796452213496}
+79,0,Components Integration,{'weight': 7.048396897310655}
+79,0,Avatar development,{'weight': 8.468308594938915}
+79,0,Android development,{'weight': 6.101068439325227}
+79,77,Chatbot development,{'weight': 19.045348170623857}
+79,77,Tools Usage,{'weight': 5.909011360949516}
+79,77,Components Integration,{'weight': 8.86543509162607}
+79,77,Avatar development,{'weight': 12.411043370120353}
+79,77,Android development,{'weight': 7.7691620066801805}
+79,4,Avatar development,{'weight': 13.284844971408596}
+79,4,Chatbot development,{'weight': 18.46547376268845}
+79,4,Tools Usage,{'weight': 7.17914405691212}
+79,4,Components Integration,{'weight': 7.419097079368549}
+79,4,Android development,{'weight': 4.651440129622267}
+79,3,Chatbot development,{'weight': 8.930590065590781}
+79,3,Tools Usage,{'weight': 3.8071802445869056}
+79,3,Avatar development,{'weight': 10.390793395854702}
+79,3,Android development,{'weight': 5.145106987681331}
+79,3,Components Integration,{'weight': 4.726329306286271}
+79,78,Chatbot development,{'weight': 5.575260474751339}
+79,78,Tools Usage,{'weight': 1.9669468100151848}
+79,78,Avatar development,{'weight': 3.5221331790775587}
+79,78,Components Integration,{'weight': 1.333965464925153}
+79,78,Android development,{'weight': 1.6016940712307641}
+79,46,Chatbot development,{'weight': 5.427267361934872}
+79,46,Tools Usage,{'weight': 2.094911232991568}
+79,46,Avatar development,{'weight': 4.1468855946803505}
+79,46,Components Integration,{'weight': 0.7636566729625067}
+79,46,Android development,{'weight': 1.5672791374307045}
+79,17,Components Integration,{'weight': 1.9450026172917967}
+79,17,Chatbot development,{'weight': 2.8975697087204524}
+79,17,Avatar development,{'weight': 0.9924355258631403}
+79,17,Tools Usage,{'weight': 1.0433411517521638}
+79,17,Android development,{'weight': 0.12165099637244654}
+79,8,Chatbot development,{'weight': 6.781977913272817}
+79,8,Avatar development,{'weight': 5.629560568994679}
+79,8,Components Integration,{'weight': 0.8842001511988352}
+79,8,Tools Usage,{'weight': 1.1714425787519054}
+79,8,Android development,{'weight': 0.5328187877817645}
+79,45,Tools Usage,{'weight': 0.6364086465588308}
+79,45,Avatar development,{'weight': 0.23412165725273665}
+79,45,Components Integration,{'weight': 0.0861285444362687}
+79,45,Chatbot development,{'weight': 0.03168492079612427}
+79,45,Android development,{'weight': 0.011656230956039605}
+79,63,Chatbot development,{'weight': 5.82531906502498}
+79,63,Tools Usage,{'weight': 2.3402788915290897}
+79,63,Avatar development,{'weight': 1.7499414097263586}
+79,63,Components Integration,{'weight': 0.8683086340268107}
+79,63,Android development,{'weight': 1.2161519996927603}
+79,10,Chatbot development,{'weight': 1.3589458375539303}
+79,10,Components Integration,{'weight': 0.9566588482478362}
+79,10,Avatar development,{'weight': 0.554371858941742}
+79,10,Android development,{'weight': 0.05499738270820348}
+79,10,Tools Usage,{'weight': 0.07502607254828814}
+79,69,Chatbot development,{'weight': 1.338773618317041}
+79,69,Tools Usage,{'weight': 0.38362004328125393}
+79,69,Avatar development,{'weight': 1.995354484112761}
+79,69,Components Integration,{'weight': 0.16115461698455685}
+79,69,Android development,{'weight': 0.12109723730438751}
+79,31,Avatar development,{'weight': 3.5139496654391986}
+79,31,Chatbot development,{'weight': 2.877397489483563}
+79,31,Android development,{'weight': 0.5591609042257859}
+79,31,Tools Usage,{'weight': 0.2678656103289693}
+79,31,Components Integration,{'weight': 0.7816263305224829}
+79,72,Avatar development,{'weight': 3.182043232794154}
+79,72,Chatbot development,{'weight': 0.9681715498070709}
+79,72,Android development,{'weight': 0.28169809522088535}
+79,72,Tools Usage,{'weight': 0.19283953778068114}
+79,72,Components Integration,{'weight': 0.37524758439720884}
+79,98,Avatar development,{'weight': 1.2728172931176616}
+79,98,Chatbot development,{'weight': 0.4682433145054733}
+79,98,Android development,{'weight': 0.09778477539230832}
+79,98,Tools Usage,{'weight': 0.11781346523239297}
+79,98,Components Integration,{'weight': 0.043341151752163874}
+78,0,Tools Usage,{'weight': 1.3952762742372935}
+78,0,Components Integration,{'weight': 1.34437064834827}
+78,0,Android development,{'weight': 0.5080010526576361}
+78,0,Avatar development,{'weight': 2.1680218026565528}
+78,0,Chatbot development,{'weight': 4.584330222100248}
+78,3,Chatbot development,{'weight': 3.8184518793529847}
+78,3,Avatar development,{'weight': 0.3524888815531887}
+78,3,Components Integration,{'weight': 0.812757492250548}
+78,3,Tools Usage,{'weight': 0.8518633577867272}
+78,3,Android development,{'weight': 0.1644383890565514}
+78,77,Chatbot development,{'weight': 6.950143245326174}
+78,77,Components Integration,{'weight': 1.3375034626762743}
+78,77,Avatar development,{'weight': 2.8603793460675773}
+78,77,Tools Usage,{'weight': 2.386206526888384}
+78,77,Android development,{'weight': 0.46576741904159036}
+78,4,Chatbot development,{'weight': 4.4865454467079395}
+78,4,Components Integration,{'weight': 0.9850145811230855}
+78,4,Avatar development,{'weight': 0.8926180259317604}
+78,4,Tools Usage,{'weight': 1.522543408748813}
+78,4,Android development,{'weight': 0.11327853748840147}
+78,79,Avatar development,{'weight': 1.6695988405670044}
+78,79,Chatbot development,{'weight': 5.009232384853558}
+78,79,Tools Usage,{'weight': 2.170608286263683}
+78,79,Components Integration,{'weight': 0.6970030592982634}
+78,79,Android development,{'weight': 0.45355742901749163}
+78,63,Avatar development,{'weight': 0.6364086465588308}
+78,63,Chatbot development,{'weight': 0.23412165725273665}
+78,63,Tools Usage,{'weight': 0.0861285444362687}
+78,63,Components Integration,{'weight': 0.03168492079612427}
+78,63,Android development,{'weight': 0.011656230956039605}
+78,10,Tools Usage,{'weight': 0.6364086465588308}
+78,10,Chatbot development,{'weight': 0.23412165725273665}
+78,10,Avatar development,{'weight': 0.0861285444362687}
+78,10,Android development,{'weight': 0.03168492079612427}
+78,10,Components Integration,{'weight': 0.011656230956039605}
+78,46,Chatbot development,{'weight': 1.9092259396764923}
+78,46,Tools Usage,{'weight': 0.7023649717582099}
+78,46,Avatar development,{'weight': 0.14949838602851723}
+78,46,Components Integration,{'weight': 0.20394200966866166}
+78,46,Android development,{'weight': 0.034968692868118816}
+8,0,Components Integration,{'weight': 1.638467678838939}
+8,0,Tools Usage,{'weight': 2.011512701559235}
+8,0,Android development,{'weight': 0.6802581415301735}
+8,0,Avatar development,{'weight': 5.529332839392044}
+8,0,Chatbot development,{'weight': 2.1404286386796083}
+8,77,Components Integration,{'weight': 5.697719455870971}
+8,77,Tools Usage,{'weight': 3.2597473771240484}
+8,77,Android development,{'weight': 1.8921748550069488}
+8,77,Avatar development,{'weight': 8.20852887863498}
+8,77,Chatbot development,{'weight': 2.941829433363049}
+8,3,Chatbot development,{'weight': 6.1885779438236606}
+8,3,Tools Usage,{'weight': 2.2025283246310896}
+8,3,Components Integration,{'weight': 2.561219936505892}
+8,3,Avatar development,{'weight': 11.884903316699504}
+8,3,Android development,{'weight': 1.1627704783398531}
+8,79,Chatbot development,{'weight': 3.7638193104671545}
+8,79,Tools Usage,{'weight': 0.9944945581432487}
+8,79,Avatar development,{'weight': 5.965891233101393}
+8,79,Components Integration,{'weight': 1.4102162772653273}
+8,79,Android development,{'weight': 0.8655786210228753}
+8,78,Chatbot development,{'weight': 3.1659627703764444}
+8,78,Tools Usage,{'weight': 0.5908458250219102}
+8,78,Avatar development,{'weight': 4.372823738294727}
+8,78,Components Integration,{'weight': 0.4819585777416213}
+8,78,Android development,{'weight': 0.3884090885652978}
+8,63,Chatbot development,{'weight': 0.7458496529071788}
+8,63,Tools Usage,{'weight': 1.1363368818604285}
+8,63,Avatar development,{'weight': 1.445074381990199}
+8,63,Components Integration,{'weight': 0.5115844662576372}
+8,63,Android development,{'weight': 0.16115461698455685}
+8,4,Chatbot development,{'weight': 6.043171314614322}
+8,4,Tools Usage,{'weight': 2.421455753176666}
+8,4,Avatar development,{'weight': 12.564099355942439}
+8,4,Components Integration,{'weight': 1.807551583782729}
+8,4,Android development,{'weight': 1.1637219924838436}
+8,10,Components Integration,{'weight': 0.6480648775148704}
+8,10,Avatar development,{'weight': 0.4682433145054733}
+8,10,Android development,{'weight': 0.11781346523239297}
+8,10,Tools Usage,{'weight': 0.11781346523239297}
+8,10,Chatbot development,{'weight': 0.6480648775148704}
+8,46,Tools Usage,{'weight': 1.0359202070121092}
+8,46,Avatar development,{'weight': 3.111662676133105}
+8,46,Components Integration,{'weight': 1.6997784881510796}
+8,46,Chatbot development,{'weight': 1.5543718589417421}
+8,46,Android development,{'weight': 0.5982667697619649}
+8,31,Chatbot development,{'weight': 2.1590955847044486}
+8,31,Avatar development,{'weight': 4.286695193858458}
+8,31,Tools Usage,{'weight': 0.5992182839059552}
+8,31,Components Integration,{'weight': 0.7071540170422539}
+8,31,Android development,{'weight': 0.24783692048888462}
+8,72,Avatar development,{'weight': 1.2728172931176616}
+8,72,Components Integration,{'weight': 0.26580657804886093}
+8,72,Chatbot development,{'weight': 0.32025020168900536}
+8,72,Android development,{'weight': 0.043341151752163874}
+8,72,Tools Usage,{'weight': 0.09778477539230832}
+8,69,Avatar development,{'weight': 4.4548605259118155}
+8,69,Components Integration,{'weight': 0.49306104962960184}
+8,69,Chatbot development,{'weight': 1.3428653751362207}
+8,69,Android development,{'weight': 0.27059562333290477}
+8,69,Tools Usage,{'weight': 0.4386174259894574}
+8,98,Avatar development,{'weight': 1.9092259396764923}
+8,98,Components Integration,{'weight': 0.27746280900490056}
+8,98,Chatbot development,{'weight': 0.554371858941742}
+8,98,Android development,{'weight': 0.07502607254828814}
+8,98,Tools Usage,{'weight': 0.183913319828577}
+8,17,Avatar development,{'weight': 0.6364086465588308}
+8,17,Chatbot development,{'weight': 0.23412165725273665}
+8,17,Components Integration,{'weight': 0.0861285444362687}
+8,17,Tools Usage,{'weight': 0.03168492079612427}
+8,17,Android development,{'weight': 0.011656230956039605}
+3,0,Tools Usage,{'weight': 18.039179884478333}
+3,0,Avatar development,{'weight': 59.451712254940716}
+3,0,Chatbot development,{'weight': 48.119114745594736}
+3,0,Components Integration,{'weight': 23.855656147337598}
+3,0,Android development,{'weight': 15.534336967648658}
+3,77,Android development,{'weight': 22.64053961777383}
+3,77,Tools Usage,{'weight': 20.977855133881402}
+3,77,Components Integration,{'weight': 36.10815185073877}
+3,77,Chatbot development,{'weight': 54.03028902126904}
+3,77,Avatar development,{'weight': 61.24316437633693}
+3,4,Android development,{'weight': 14.867162081323201}
+3,4,Tools Usage,{'weight': 16.688867148721968}
+3,4,Components Integration,{'weight': 19.983920968318714}
+3,4,Chatbot development,{'weight': 45.04930042259705}
+3,4,Avatar development,{'weight': 66.41074937903913}
+3,46,Android development,{'weight': 14.071189081606825}
+3,46,Components Integration,{'weight': 13.294827332395162}
+3,46,Avatar development,{'weight': 41.485052684044206}
+3,46,Tools Usage,{'weight': 11.346847866409547}
+3,46,Chatbot development,{'weight': 39.80208303554426}
+3,79,Chatbot development,{'weight': 32.35807075584128}
+3,79,Avatar development,{'weight': 41.37331752784446}
+3,79,Tools Usage,{'weight': 6.960823759393395}
+3,79,Android development,{'weight': 6.560249962591698}
+3,79,Components Integration,{'weight': 10.747537994329104}
+3,8,Chatbot development,{'weight': 30.614664057144424}
+3,8,Avatar development,{'weight': 41.65528281727444}
+3,8,Tools Usage,{'weight': 5.125333954256831}
+3,8,Android development,{'weight': 5.866967320916793}
+3,8,Components Integration,{'weight': 6.73775185040749}
+3,10,Chatbot development,{'weight': 1.71088096003906}
+3,10,Avatar development,{'weight': 2.40915417497809}
+3,10,Components Integration,{'weight': 1.0861285444362687}
+3,10,Tools Usage,{'weight': 0.6293979314900302}
+3,10,Android development,{'weight': 0.16443838905655137}
+3,78,Avatar development,{'weight': 14.760319528931717}
+3,78,Chatbot development,{'weight': 16.115173609666464}
+3,78,Components Integration,{'weight': 2.860868581178912}
+3,78,Tools Usage,{'weight': 2.7076696680336996}
+3,78,Android development,{'weight': 1.5559686121891951}
+3,31,Avatar development,{'weight': 26.872107228427453}
+3,31,Chatbot development,{'weight': 20.63037382870398}
+3,31,Components Integration,{'weight': 12.898215055962984}
+3,31,Tools Usage,{'weight': 9.320576907434766}
+3,31,Android development,{'weight': 4.278726979470785}
+3,17,Avatar development,{'weight': 3.71789167510786}
+3,17,Components Integration,{'weight': 2.858874072855528}
+3,17,Chatbot development,{'weight': 2.733496133486275}
+3,17,Android development,{'weight': 1.0555511417762624}
+3,17,Tools Usage,{'weight': 0.634186976774074}
+3,101,Avatar development,{'weight': 0.7225371909950995}
+3,101,Components Integration,{'weight': 0.4682433145054733}
+3,101,Chatbot development,{'weight': 0.11781346523239297}
+3,101,Android development,{'weight': 0.043341151752163874}
+3,101,Tools Usage,{'weight': 0.6480648775148704}
+3,1,Avatar development,{'weight': 0.6364086465588308}
+3,1,Chatbot development,{'weight': 0.23412165725273665}
+3,1,Components Integration,{'weight': 0.0861285444362687}
+3,1,Android development,{'weight': 0.03168492079612427}
+3,1,Tools Usage,{'weight': 0.011656230956039605}
+3,103,Avatar development,{'weight': 2.3774692541819658}
+3,103,Chatbot development,{'weight': 1.9751822648758717}
+3,103,Components Integration,{'weight': 0.22725447158074089}
+3,103,Android development,{'weight': 0.24728316142082551}
+3,103,Tools Usage,{'weight': 0.17281084794059645}
+3,104,Avatar development,{'weight': 2.143347596929229}
+3,104,Chatbot development,{'weight': 1.338773618317041}
+3,104,Components Integration,{'weight': 0.2155982406247013}
+3,104,Android development,{'weight': 0.21559824062470126}
+3,104,Tools Usage,{'weight': 0.08668230350432775}
+3,105,Avatar development,{'weight': 1.5069389503703983}
+3,105,Chatbot development,{'weight': 1.1046519610643042}
+3,105,Android development,{'weight': 0.183913319828577}
+3,105,Components Integration,{'weight': 0.12946969618843257}
+3,105,Tools Usage,{'weight': 0.07502607254828814}
+3,69,Avatar development,{'weight': 20.658287486662704}
+3,69,Chatbot development,{'weight': 6.466118507857324}
+3,69,Components Integration,{'weight': 5.9135528140669535}
+3,69,Tools Usage,{'weight': 2.828896601589176}
+3,69,Android development,{'weight': 3.1331445898238357}
+3,39,Avatar development,{'weight': 0.6364086465588308}
+3,39,Chatbot development,{'weight': 0.23412165725273665}
+3,39,Components Integration,{'weight': 0.0861285444362687}
+3,39,Android development,{'weight': 0.03168492079612427}
+3,39,Tools Usage,{'weight': 0.011656230956039605}
+3,40,Avatar development,{'weight': 0.6364086465588308}
+3,40,Chatbot development,{'weight': 0.23412165725273665}
+3,40,Components Integration,{'weight': 0.0861285444362687}
+3,40,Android development,{'weight': 0.03168492079612427}
+3,40,Tools Usage,{'weight': 0.011656230956039605}
+3,88,Chatbot development,{'weight': 0.6364086465588308}
+3,88,Avatar development,{'weight': 0.23412165725273665}
+3,88,Android development,{'weight': 0.0861285444362687}
+3,88,Tools Usage,{'weight': 0.03168492079612427}
+3,88,Components Integration,{'weight': 0.011656230956039605}
+3,81,Avatar development,{'weight': 1.9092259396764923}
+3,81,Chatbot development,{'weight': 0.4999282353015976}
+3,81,Android development,{'weight': 0.4063787461252741}
+3,81,Components Integration,{'weight': 0.14949838602851723}
+3,81,Tools Usage,{'weight': 0.034968692868118816}
+3,6,Chatbot development,{'weight': 0.6680935673549551}
+3,6,Avatar development,{'weight': 0.4682433145054733}
+3,6,Components Integration,{'weight': 0.1722570888725374}
+3,6,Tools Usage,{'weight': 0.043341151752163874}
+3,6,Android development,{'weight': 0.6480648775148704}
+3,98,Avatar development,{'weight': 1.2728172931176616}
+3,98,Android development,{'weight': 0.24577788820877625}
+3,98,Chatbot development,{'weight': 0.32025020168900536}
+3,98,Tools Usage,{'weight': 0.11781346523239297}
+3,98,Components Integration,{'weight': 0.043341151752163874}
+3,72,Tools Usage,{'weight': 1.6695988405670044}
+3,72,Components Integration,{'weight': 1.1419339118916576}
+3,72,Chatbot development,{'weight': 2.0025864836071308}
+3,72,Avatar development,{'weight': 4.732323334916716}
+3,72,Android development,{'weight': 0.45355742901749163}
+3,63,Tools Usage,{'weight': 0.7458496529071788}
+3,63,Components Integration,{'weight': 0.43806366692139836}
+3,63,Chatbot development,{'weight': 0.38362004328125393}
+3,63,Avatar development,{'weight': 1.9409108604726166}
+3,63,Android development,{'weight': 0.4915557764175525}
+3,20,Tools Usage,{'weight': 0.6364086465588308}
+3,20,Chatbot development,{'weight': 0.23412165725273665}
+3,20,Avatar development,{'weight': 0.0861285444362687}
+3,20,Components Integration,{'weight': 0.03168492079612427}
+3,20,Android development,{'weight': 0.011656230956039605}
+3,23,Avatar development,{'weight': 0.6364086465588308}
+3,23,Tools Usage,{'weight': 0.23412165725273665}
+3,23,Chatbot development,{'weight': 0.0861285444362687}
+3,23,Components Integration,{'weight': 0.03168492079612427}
+3,23,Android development,{'weight': 0.011656230956039605}
+3,102,Android development,{'weight': 0.6797497983109947}
+3,102,Chatbot development,{'weight': 0.9022152246076918}
+3,102,Avatar development,{'weight': 0.331906432645045}
+3,102,Components Integration,{'weight': 0.9022152246076918}
+3,102,Tools Usage,{'weight': 0.183913319828577}
+101,79,Avatar development,{'weight': 0.6364086465588308}
+101,79,Android development,{'weight': 0.23412165725273665}
+101,79,Components Integration,{'weight': 0.0861285444362687}
+101,79,Chatbot development,{'weight': 0.03168492079612427}
+101,79,Tools Usage,{'weight': 0.011656230956039605}
+101,3,Avatar development,{'weight': 0.6364086465588308}
+101,3,Android development,{'weight': 0.23412165725273665}
+101,3,Components Integration,{'weight': 0.0861285444362687}
+101,3,Chatbot development,{'weight': 0.03168492079612427}
+101,3,Tools Usage,{'weight': 0.011656230956039605}
+101,4,Avatar development,{'weight': 0.6364086465588308}
+101,4,Android development,{'weight': 0.23412165725273665}
+101,4,Components Integration,{'weight': 0.0861285444362687}
+101,4,Chatbot development,{'weight': 0.03168492079612427}
+101,4,Tools Usage,{'weight': 0.011656230956039605}
+104,46,Android development,{'weight': 0.8705303038115675}
+104,46,Components Integration,{'weight': 0.8705303038115675}
+104,46,Tools Usage,{'weight': 0.1722570888725374}
+104,46,Chatbot development,{'weight': 0.06336984159224854}
+104,46,Avatar development,{'weight': 0.02331246191207921}
+104,3,Android development,{'weight': 0.8705303038115675}
+104,3,Components Integration,{'weight': 0.8705303038115675}
+104,3,Tools Usage,{'weight': 0.1722570888725374}
+104,3,Chatbot development,{'weight': 0.06336984159224854}
+104,3,Avatar development,{'weight': 0.02331246191207921}
+88,46,Avatar development,{'weight': 0.6364086465588308}
+88,46,Components Integration,{'weight': 0.23412165725273665}
+88,46,Tools Usage,{'weight': 0.0861285444362687}
+88,46,Chatbot development,{'weight': 0.03168492079612427}
+88,46,Android development,{'weight': 0.011656230956039605}
+88,4,Avatar development,{'weight': 0.6364086465588308}
+88,4,Components Integration,{'weight': 0.23412165725273665}
+88,4,Tools Usage,{'weight': 0.0861285444362687}
+88,4,Chatbot development,{'weight': 0.03168492079612427}
+88,4,Android development,{'weight': 0.011656230956039605}
+88,3,Avatar development,{'weight': 0.6364086465588308}
+88,3,Components Integration,{'weight': 0.23412165725273665}
+88,3,Tools Usage,{'weight': 0.0861285444362687}
+88,3,Chatbot development,{'weight': 0.03168492079612427}
+88,3,Android development,{'weight': 0.011656230956039605}
+103,4,Android development,{'weight': 0.6364086465588308}
+103,4,Avatar development,{'weight': 0.23412165725273665}
+103,4,Chatbot development,{'weight': 0.0861285444362687}
+103,4,Tools Usage,{'weight': 0.03168492079612427}
+103,4,Components Integration,{'weight': 0.011656230956039605}
+103,77,Android development,{'weight': 0.6364086465588308}
+103,77,Avatar development,{'weight': 0.23412165725273665}
+103,77,Chatbot development,{'weight': 0.0861285444362687}
+103,77,Tools Usage,{'weight': 0.03168492079612427}
+103,77,Components Integration,{'weight': 0.011656230956039605}
+45,3,Components Integration,{'weight': 0.6364086465588308}
+45,3,Chatbot development,{'weight': 0.23412165725273665}
+45,3,Tools Usage,{'weight': 0.0861285444362687}
+45,3,Avatar development,{'weight': 0.03168492079612427}
+45,3,Android development,{'weight': 0.011656230956039605}
+45,46,Components Integration,{'weight': 0.6364086465588308}
+45,46,Chatbot development,{'weight': 0.23412165725273665}
+45,46,Tools Usage,{'weight': 0.0861285444362687}
+45,46,Avatar development,{'weight': 0.03168492079612427}
+45,46,Android development,{'weight': 0.011656230956039605}
+81,0,Avatar development,{'weight': 0.6364086465588308}
+81,0,Components Integration,{'weight': 0.23412165725273665}
+81,0,Chatbot development,{'weight': 0.0861285444362687}
+81,0,Tools Usage,{'weight': 0.03168492079612427}
+81,0,Android development,{'weight': 0.011656230956039605}
+81,3,Avatar development,{'weight': 0.6364086465588308}
+81,3,Components Integration,{'weight': 0.23412165725273665}
+81,3,Chatbot development,{'weight': 0.0861285444362687}
+81,3,Tools Usage,{'weight': 0.03168492079612427}
+81,3,Android development,{'weight': 0.011656230956039605}

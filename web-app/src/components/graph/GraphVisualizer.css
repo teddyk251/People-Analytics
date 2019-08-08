@@ -1,0 +1,16 @@
+.GraphVisualizer{
+    display:flex;
+    height: 800px;
+    width: 1600px;
+    
+    
+    
+}
+
+.Graph2DVisualizer{
+    background-color: white;
+    display: block;
+    float:left;
+    padding-left: 20px;
+    
+}
