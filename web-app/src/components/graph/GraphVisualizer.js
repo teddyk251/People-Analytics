@@ -9,7 +9,7 @@ class GraphVisualizer extends React.Component {
         this.state = {
             edges: props.edges,
             nodes: props.nodes,
-            showNodeScoreDiagram:props.showNodeScoreDiagram
+            showNodeScoreDiagram:props.showNodeScoreDiagram,
         }
         console.log("graph_name", props.graph_name)
     }
@@ -21,11 +21,12 @@ class GraphVisualizer extends React.Component {
             network.setOptions({ physics: false });
         });
         let $this = this;
-        network.on('click', function (properties) {
+        network.on('select', function (properties) {
+            network.setOptions({interaction:{multiselect:true}})
             let node_ids = properties.nodes;
             $this.state.showNodeScoreDiagram(node_ids);
             if (node_ids.length > 0) {
-                
+               
             }
 
         });

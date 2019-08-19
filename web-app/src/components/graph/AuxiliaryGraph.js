@@ -42,6 +42,7 @@ class AuxiliaryGraph extends React.Component {
             
             const network = new vis.Network(this.refs.aux_container, data, {});
             if (this.state.selected_node_index != null) {
+                
 
                 const current_node_data = this.state.nodes.get(this.state.selected_node_index);
                 if (current_node_data != null) {
@@ -58,6 +59,7 @@ class AuxiliaryGraph extends React.Component {
                 }
                 
             }
+            
             network.on("stabilizationIterationsDone", function () {
                 network.setOptions({ physics: false });
             });
@@ -71,7 +73,7 @@ class AuxiliaryGraph extends React.Component {
         
         return <div>
             {(this.state.start_date != null && this.state.end_date)
-                ? <h6>{Moment(this.state.start_date).format('DD MMM YYYY')} -  {Moment(this.state.end_date).format('DD MMM YYYY')}</h6>
+                ? <h6>{Moment(this.state.end_date).format('DD MMM YYYY')}</h6>
                 :<h6>Snapshot Graph</h6>
             }
         
